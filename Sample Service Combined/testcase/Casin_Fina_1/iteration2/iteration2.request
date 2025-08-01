@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="iteration2"
+         namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+         prefix="ns0">
+   <Parameter>
+      <inputParam arrayType="inputData" namespace="urn:Services.SOAPDateTranslator.Classes"
+                  nil="true"
+                  prefix="ns1"
+                  type="Base Types.Array">
+         <item namespace="urn:Services.SOAPDateTranslator.Classes" nil="true" prefix="ns4"
+               type="inputData">
+            <id nil="true" type="Base Types.Integer"/>
+            <name nil="true" type="Base Types.String"/>
+            <age nil="true" type="Base Types.String"/>
+            <address nil="true" type="Base Types.String"/>
+            <birthdate nil="true" type="Base Types.String"/>
+            <company nil="true" type="Base Types.String"/>
+            <salary nil="true" type="Base Types.Float"/>
+            <years_hired nil="true" type="Base Types.Integer"/>
+            <language nil="true" type="Base Types.String"/>
+         </item>
+      </inputParam>
+   </Parameter>
+</Request>

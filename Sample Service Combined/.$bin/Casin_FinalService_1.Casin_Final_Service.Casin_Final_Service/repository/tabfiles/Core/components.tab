@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Backend_Components xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Component>
+      <Name>urn:Services.NumberTranslator.NumberTranslator.NumberTranslatorPortType.operation1</Name>
+      <Type>FLOW_GENERIC</Type>
+      <Operation isStatic="true">operation1</Operation>
+      <XmiID>_1914154550|_18_0_7_57601ee_1695396729177_836157_13825</XmiID>
+   </Component>
+   <Component>
+      <Name>urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters</Name>
+      <Type>FLOW_GENERIC</Type>
+      <Operation isStatic="true">allParameters</Operation>
+      <XmiID>1625088479|_18_0_7_57601ee_1695845740872_363152_13842</XmiID>
+   </Component>
+   <Component>
+      <Name>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration</Name>
+      <Type>FLOW_GENERIC</Type>
+      <Operation isStatic="true">iteration</Operation>
+      <XmiID>1625088479|_18_0_7_57601ee_1695857225962_486459_16060</XmiID>
+   </Component>
+   <Component>
+      <Name>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2</Name>
+      <Type>FLOW_GENERIC</Type>
+      <Operation isStatic="true">iteration2</Operation>
+      <XmiID>1625088479|_18_0_7_57601ee_1695919411053_440718_14728</XmiID>
+   </Component>
+   <Component>
+      <Name>parse_file...1625088479|_18_0_7_57601ee_1695848477951_20769_14922</Name>
+      <Type>FLAT_FILE_PARSE</Type>
+   </Component>
+   <Component>
+      <Name>sql_insert...1625088479|_18_0_7_57601ee_1695921772814_19580_15316</Name>
+      <Type>SQL_QUERY</Type>
+   </Component>
+   <Component>
+      <Name>Date_Translator...1625088479|_18_0_7_57601ee_1738197917721_919651_15004</Name>
+      <Type>SOAP_HANDLE_URL</Type>
+   </Component>
+   <Component>
+      <Name>ADOP_log...f1625088479h699628973.0_1</Name>
+      <Type>LOG_LOG</Type>
+   </Component>
+   <Component>
+      <Name>ADOP_log...f1625088479h1274074929.0_1</Name>
+      <Type>LOG_LOG</Type>
+   </Component>
+</Backend_Components>

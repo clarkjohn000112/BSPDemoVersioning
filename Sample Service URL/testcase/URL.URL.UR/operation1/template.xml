@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testcase operation="operation1" porttype="FTPUrlService" service="URLService">
+   <System>
+      <location>http://localhost:12937/URLService/FTPUrlService</location>
+      <documentStyle>rpc</documentStyle>
+      <soapAction/>
+      <namespaces>
+         <SOAPNamespace>http://schemas.xmlsoap.org/wsdl/soap/</SOAPNamespace>
+         <SOAPNamespacePrefix>soap</SOAPNamespacePrefix>
+         <EnvelopeNamespace>http://schemas.xmlsoap.org/soap/envelope/</EnvelopeNamespace>
+         <EnvelopeNamespacePrefix>env</EnvelopeNamespacePrefix>
+         <EncodingNamespace>http://schemas.xmlsoap.org/soap/encoding/</EncodingNamespace>
+         <EncodingNamespacePrefix>soapenc</EncodingNamespacePrefix>
+      </namespaces>
+      <control>http://localhost:21111</control>
+   </System>
+   <Request name="operation1" namespace="urn:Services.FTPService.FTPUrl.FTPUrlService"
+            prefix="ns3">
+      <Parameter>
+         <inputParam namespace="urn:Services.FTPService.Classes" nil="true" prefix="ns2"
+                     type="URLParam">
+            <user nil="true" type="Base Types.String"/>
+            <path nil="true" type="Base Types.String"/>
+            <password nil="true" type="Base Types.String"/>
+            <port nil="true" type="Base Types.String"/>
+            <host nil="true" type="Base Types.String"/>
+            <method nil="true" type="Base Types.String"/>
+            <fileName nil="true" type="Base Types.String"/>
+            <protocol nil="true" type="Base Types.String"/>
+            <uploadFile nil="true" type="Base Types.String"/>
+         </inputParam>
+      </Parameter>
+   </Request>
+</Testcase>

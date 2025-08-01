@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mappings xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Mapping id="im@_2086274486h-560734859">
+      <Set source="0" target="2"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+   </Mapping>
+   <Mapping id="om@_2086274486h-661772948">
+      <Set source="0" target="3"/>
+   </Mapping>
+   <Mapping id="im@_2086274486h-1011848234">
+      <Set source="0" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="3" target="0"/>
+   </Mapping>
+   <Mapping id="om@_2086274486h-1011848234">
+      <Set source="4" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="5" target="1"
+           targetDataItem="urn:Services.NameOfService1.SQLAdapter.Setting"/>
+      <Set source="2" target="2"/>
+   </Mapping>
+   <Mapping id="im@_2086274486h1049056155">
+      <Set source="0" target="1"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="9" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+   </Mapping>
+   <Mapping id="om@_2086274486h1049056155">
+      <Set source="8" target="2"/>
+      <Set source="9" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+   </Mapping>
+   <Mapping id="im@_2086274486h-488225824">
+      <Set source="8" target="0"/>
+   </Mapping>
+   <Mapping id="om@_2086274486h-488225824">
+      <Set source="0" target="6"/>
+   </Mapping>
+   <Mapping id="im@_2086274486h-284836289">
+      <Set source="0" target="2"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="6" target="1"/>
+      <Set source="10" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+   </Mapping>
+   <Mapping id="om@_2086274486h-284836289">
+      <Set source="1" target="2"/>
+      <Set source="7" target="1"
+           targetDataItem="urn:Services.NameOfService1.SQLAdapter.Settings"/>
+      <Set source="10" target="0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+   </Mapping>
+   <Mapping id="om_2086274486h1205944935">
+      <Set source="2" target="0"/>
+      <Set source="1" target="1"/>
+   </Mapping>
+   <Mapping id="sm_2086274486h-1011848234">
+      <Set source="create...f_2086274486h-1327786813.0_1" statement="1" target="4"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="create...f_2086274486h-1327786813.1_1" statement="2" target="5"
+           targetDataItem="urn:Services.NameOfService1.SQLAdapter.Setting"/>
+      <Set source="filterFirst...f_2086274486h-1327786813.2_1" statement="3" target="4"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="4.3" statement="4" target="2"/>
+   </Mapping>
+   <Mapping id="sm_2086274486h1049056155">
+      <Set source="create...f_2086274486h-307521328.0_1" statement="1" target="9"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="value...f_2086274486h-307521328.1_1" statement="2" target="9.0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="9.0" statement="3" target="0.0"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="concat...f_2086274486h-307521328.2_1" statement="4" target="8"/>
+   </Mapping>
+   <Mapping id="sm_2086274486h-284836289">
+      <Set source="create...f_2086274486h565686020.0_1" statement="1" target="7"
+           targetDataItem="urn:Services.NameOfService1.SQLAdapter.Settings"/>
+      <Set source="create...f_2086274486h565686020.1_1" statement="2" target="10"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="filterFirst...f_2086274486h565686020.2_1" statement="3" target="10"
+           targetDataItem="urn:Services.NameOfService1.Classes.employee"/>
+      <Set source="10.2" statement="4" target="1"/>
+      <Call source="log...f_2086274486h565686020.4_1" statement="5"/>
+      <Call source="log...f_2086274486h565686020.8_1" statement="6"/>
+   </Mapping>
+</Mappings>

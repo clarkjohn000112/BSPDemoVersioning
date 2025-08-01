@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_Parser xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Message>
+      <Name>urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1</Name>
+      <NoRootElement>true</NoRootElement>
+      <DataItem>imsg_2086274486h1205944935</DataItem>
+   </Message>
+</XML_Parser>

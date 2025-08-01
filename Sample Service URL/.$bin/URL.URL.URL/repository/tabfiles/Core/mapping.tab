@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mappings xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Mapping id="im@547668728h-1829688815">
+      <Set source="0" target="1" targetDataItem="urn:Services.FTPService.Classes.URLParam"/>
+      <Set source="8" target="2"/>
+      <Set source="13" target="0"/>
+   </Mapping>
+   <Mapping id="om@547668728h-1829688815">
+      <Set source="2" target="7"/>
+      <Set source="3" target="5"/>
+      <Set source="5" target="6"/>
+      <Set source="10" target="4"/>
+      <Set source="6" target="1"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="7" target="2"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="11" target="3"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.Authentication"/>
+      <Set source="13" target="0"/>
+   </Mapping>
+   <Mapping id="im@547668728h1864967379">
+      <Set source="4" target="0"/>
+   </Mapping>
+   <Mapping id="om@547668728h1864967379">
+      <Set source="1" target="0"/>
+   </Mapping>
+   <Mapping id="im@547668728h1141204004">
+      <Set source="6" target="1"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="7" target="0"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+   </Mapping>
+   <Mapping id="om@547668728h1141204004">
+      <Set source="9" target="0"/>
+   </Mapping>
+   <Mapping id="im@547668728h-700697341">
+      <Set source="3" target="3"/>
+      <Set source="9" target="2"/>
+      <Set source="5" target="1"/>
+      <Set source="2" target="0"/>
+      <Set source="10" target="12"/>
+      <Set source="11" target="4"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.Authentication"/>
+   </Mapping>
+   <Mapping id="om@547668728h-700697341">
+      <Set source="0" target="4"/>
+   </Mapping>
+   <Mapping id="im@547668728h769088144">
+      <Set source="12" target="0"/>
+   </Mapping>
+   <Mapping id="om@547668728h769088144">
+      <Set source="1" target="8"/>
+   </Mapping>
+   <Mapping id="im@547668728h1566621206">
+      <Set source="0" target="0" targetDataItem="urn:Services.FTPService.Classes.URLParam"/>
+   </Mapping>
+   <Mapping id="om@547668728h1566621206">
+      <Set source="12" target="0"/>
+   </Mapping>
+   <Mapping id="om547668728h-2119115971">
+      <Set source="1" target="0"/>
+   </Mapping>
+   <Mapping id="sm547668728h-1829688815">
+      <Set source="create...f547668728h-1668408751.0_1" statement="1" target="6"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="create...f547668728h-1668408751.1_1" statement="2" target="7"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="create...f547668728h-1668408751.2_1" statement="3" target="11"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.Authentication"/>
+      <Set source="0.2" statement="4" target="11.1"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.Authentication"/>
+      <Set source="0.0" statement="5" target="11.0"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.Authentication"/>
+      <Set source="value...f547668728h-1668408751.3_1" statement="6" target="10"/>
+      <Set source="0.5" statement="7" target="3"/>
+      <Set source="classToJSON...f547668728h-1668408751.4_1" statement="8" target="13"/>
+      <Set guard="compareEq...f547668728h-1668408751.5_1" source="8" statement="9"
+           target="5"/>
+      <Set source="concat...f547668728h-1668408751.7_1" statement="10" target="2"/>
+      <Set source="value...f547668728h-1668408751.11_1" statement="11" target="6.0"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="value...f547668728h-1668408751.12_1" statement="12" target="6.1"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="value...f547668728h-1668408751.13_1" statement="13" target="7.0"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+      <Set source="value...f547668728h-1668408751.14_1" statement="14" target="7.1"
+           targetDataItem="urn:Base_Components.Add_Ons.URL.HeaderField"/>
+   </Mapping>
+   <Mapping id="sm547668728h1864967379">
+      <Set source="transcodeToString...f547668728h-350134269.0_1" statement="1" target="1"/>
+   </Mapping>
+   <Mapping id="sm547668728h1141204004">
+      <Set source="create...f547668728h2015002593.0_1" statement="1" target="9"/>
+      <Append source="7" statement="2" target="9"/>
+      <Append source="6" statement="3" target="9"/>
+   </Mapping>
+   <Mapping id="sm547668728h1566621206">
+      <Set source="0.8" statement="1" target="12"/>
+   </Mapping>
+</Mappings>

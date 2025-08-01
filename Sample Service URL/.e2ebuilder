@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <generic>
+      <ch.e2e.builder.base.wsdl.import.max.nesting.level type="java.lang.Integer">8</ch.e2e.builder.base.wsdl.import.max.nesting.level>
+      <author type="java.lang.String">Clark</author>
+      <name type="java.lang.String">Sample Service URL</name>
+      <description type="java.lang.String"/>
+      <repository type="java.io.File">repository</repository>
+   </generic>
+   <compiler prefix="ch.e2e.builder.compiler.">
+      <wsdl.import.url type="java.lang.String">http://</wsdl.import.url>
+      <uml type="java.io.File">uml</uml>
+      <optimize.java.script type="java.lang.Boolean">false</optimize.java.script>
+   </compiler>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InspectionList xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Model id="547668728|ROOT_MODEL_XMI.ID" name="URL">
+      <Package name="Services">
+         <Package name="FTPService">
+            <Package name="FTPUrl">
+               <Class name="FTPUrlService">
+                  <Activity name="getFile">
+                     <Action id="concat_url...547668728|_18_0_7_57601ee_1738125845734_405994_13926"
+                             name="concat url"
+                             traceName="transformerFlow"/>
+                     <Action id="transcode_blob_to_string...547668728|_18_0_7_57601ee_1738125845734_422298_13930"
+                             name="transcode blob to string"
+                             traceName="transformerFlow"/>
+                     <Action id="header...547668728|_18_0_7_57601ee_1738125845734_766288_13933"
+                             name="header"
+                             traceName="transformerFlow"/>
+                     <Action alias="URLAlias"
+                             id="FTP_Adapter...547668728|_18_0_7_57601ee_1738125845735_33289_13936"
+                             name="FTP Adapter"
+                             traceName="URLAdapter"/>
+                     <Action id="FTP_Upload...547668728|_18_0_7_57601ee_1753840135870_499550_13924"
+                             name="FTP Upload"
+                             traceName="FileSystemAdapter"/>
+                     <Action id="Init...547668728|_18_0_7_57601ee_1753840332365_429119_13982" name="Init"
+                             traceName="transformerFlow"/>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167" name="URL"/>
+</InspectionList>

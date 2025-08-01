@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flows xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Flow id="urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1">
+      <Start nextId="Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328"/>
+      <Final id="End..._2086274486|_18_0_7_57601ee_1695422810263_285498_14324"/>
+      <Call id="Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+            inputMap="im@_2086274486h-560734859"
+            nextId="Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+            subComponent="Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328"/>
+      <Call id="Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+            nextId="Get_from_employee..._2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+            outputMap="om@_2086274486h-661772948"
+            subComponent="Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329"/>
+      <Script id="Get_from_employee..._2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+              inputMap="im@_2086274486h-1011848234"
+              map="sm_2086274486h-1011848234"
+              nextId="Select_Employee_ID..._2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+              outputMap="om@_2086274486h-1011848234"/>
+      <Script id="Select_Employee_ID..._2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+              inputMap="im@_2086274486h1049056155"
+              map="sm_2086274486h1049056155"
+              nextId="Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+              outputMap="om@_2086274486h1049056155"/>
+      <Call id="Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+            inputMap="im@_2086274486h-488225824"
+            nextId="Get_Address_from_Employee..._2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+            outputMap="om@_2086274486h-488225824"
+            subComponent="Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335"/>
+      <Script id="Get_Address_from_Employee..._2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+              inputMap="im@_2086274486h-284836289"
+              map="sm_2086274486h-284836289"
+              nextId="End..._2086274486|_18_0_7_57601ee_1695422810263_285498_14324"
+              outputMap="om@_2086274486h-284836289"/>
+   </Flow>
+</Flows>

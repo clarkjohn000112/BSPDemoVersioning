@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flows xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Flow id="urn:Services.NumberTranslator.NumberTranslator.NumberTranslatorPortType.operation1">
+      <Start nextId="..._1914154550|_18_0_7_57601ee_1695853188928_585435_13888"/>
+      <Script id="English..._1914154550|_18_0_7_57601ee_1695408314296_139161_14202"
+              inputMap="im@_1914154550h965632572"
+              map="sm_1914154550h965632572"
+              nextId="End..._1914154550|_18_0_7_57601ee_1695408606594_272961_14311"
+              outputMap="om@_1914154550h965632572"/>
+      <Final id="End..._1914154550|_18_0_7_57601ee_1695408606594_272961_14311"/>
+      <Final id="End_1..._1914154550|_18_0_7_57601ee_1695853229728_692886_13908"/>
+      <Final id="End_2..._1914154550|_18_0_7_57601ee_1695853237962_900658_13917"/>
+      <Script id="Tagalog..._1914154550|_18_0_7_57601ee_1695853320443_872617_13939"
+              inputMap="im@_1914154550h704962700"
+              map="sm_1914154550h704962700"
+              nextId="End_1..._1914154550|_18_0_7_57601ee_1695853229728_692886_13908"
+              outputMap="om@_1914154550h704962700"/>
+      <Script id="invalid_langauge..._1914154550|_18_0_7_57601ee_1695853371883_12731_13970"
+              inputMap="im@_1914154550h1717563503"
+              map="sm_1914154550h1717563503"
+              nextId="End_2..._1914154550|_18_0_7_57601ee_1695853237962_900658_13917"
+              outputMap="om@_1914154550h1717563503"/>
+      <Decision id="..._1914154550|_18_0_7_57601ee_1695853188928_585435_13888">
+         <Condition expression="compareEq...f_1914154550h-867757597.0_1"
+                    nextId="English..._1914154550|_18_0_7_57601ee_1695408314296_139161_14202"/>
+         <Default nextId="..._1914154550|_18_0_7_57601ee_1695853216290_758804_13898"/>
+      </Decision>
+      <Decision id="..._1914154550|_18_0_7_57601ee_1695853216290_758804_13898">
+         <Condition expression="compareEq...f_1914154550h460112103.0_1"
+                    nextId="Tagalog..._1914154550|_18_0_7_57601ee_1695853320443_872617_13939"/>
+         <Default nextId="invalid_langauge..._1914154550|_18_0_7_57601ee_1695853371883_12731_13970"/>
+      </Decision>
+   </Flow>
+   <Flow id="urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters">
+      <Start nextId="parse_file...1625088479|_18_0_7_57601ee_1695848477951_20769_14922"/>
+      <Final id="End...1625088479|_18_0_7_57601ee_1695845740872_799850_13809"/>
+      <Call id="parse_file...1625088479|_18_0_7_57601ee_1695848477951_20769_14922"
+            inputMap="im@1625088479h2114013742"
+            nextId="set_array...1625088479|_18_0_7_57601ee_1695849369568_831394_14992"
+            outputMap="om@1625088479h2114013742"
+            subComponent="parse_file...1625088479|_18_0_7_57601ee_1695848477951_20769_14922"/>
+      <Script id="set_array...1625088479|_18_0_7_57601ee_1695849369568_831394_14992"
+              inputMap="im@1625088479h1647482176"
+              map="sm1625088479h1647482176"
+              nextId="log...1625088479|_18_0_7_57601ee_1709268538474_845984_14688"
+              outputMap="om@1625088479h1647482176"/>
+      <Call id="calling...1625088479|_18_0_7_57601ee_1695857572268_351428_16319"
+            inputMap="im@1625088479h-1191504286"
+            nextId="sql_iteration...1625088479|_18_0_7_57601ee_1695914479590_165783_14184"
+            outputMap="om@1625088479h-1191504286"
+            subComponent="urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration"/>
+      <Call id="calling...1625088479|_18_0_7_57601ee_1695921153196_480238_15100"
+            inputMap="im@1625088479h-1233491456"
+            nextId="log_array...1625088479|_18_0_7_57601ee_1695921494167_860106_15256"
+            outputMap="om@1625088479h-1233491456"
+            subComponent="urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2"/>
+      <Script id="log_array...1625088479|_18_0_7_57601ee_1695921494167_860106_15256"
+              inputMap="im@1625088479h-2006757454"
+              map="sm1625088479h-2006757454"
+              nextId="insert_record...1625088479|_18_0_7_57601ee_1695921670278_577497_15283"/>
+      <Script id="response...1625088479|_18_0_7_57601ee_1695926101149_786501_15765"
+              map="sm1625088479h-334400754"
+              nextId="End...1625088479|_18_0_7_57601ee_1695845740872_799850_13809"
+              outputMap="om@1625088479h-334400754"/>
+      <Script id="log...1625088479|_18_0_7_57601ee_1709268538474_845984_14688"
+              inputMap="im@1625088479h-777969807"
+              map="sm1625088479h-777969807"
+              nextId="flatfile_to_array...1625088479|_18_0_7_57601ee_1695849981475_761457_15217"/>
+      <Iteration appendMap="am@1625088479h-242546763" arrayAccessor="2.0"
+                 id="flatfile_to_array...1625088479|_18_0_7_57601ee_1695849981475_761457_15217"
+                 inputMap="im@1625088479h-1727818205"
+                 nextId="salary_iteration...1625088479|_18_0_7_57601ee_1695857911222_28253_16390"
+                 outputMap="om@1625088479h-1727818205"
+                 outputTraceMap="tm@1625088479h-242546763"
+                 variableIndex="3">
+         <Initialization>
+            <Array>5</Array>
+         </Initialization>
+         <ExpansionNodes>
+            <Input>inData</Input>
+            <Output>outData</Output>
+         </ExpansionNodes>
+         <Script id="convert_flatfile_to_array...1625088479|_18_0_7_57601ee_1695850154794_469087_15237"
+                 map="sm1625088479h-1727818205"/>
+      </Iteration>
+      <Iteration appendMap="am@1625088479h1711140225" arrayAccessor="5"
+                 id="salary_iteration...1625088479|_18_0_7_57601ee_1695857911222_28253_16390"
+                 inputMap="im@1625088479h2057640496"
+                 nextId="calling...1625088479|_18_0_7_57601ee_1695857572268_351428_16319"
+                 outputMap="om@1625088479h2057640496"
+                 outputTraceMap="tm@1625088479h1711140225"
+                 variableIndex="7">
+         <Initialization>
+            <Array>9</Array>
+         </Initialization>
+         <ExpansionNodes>
+            <Input>inData</Input>
+            <Output>outData</Output>
+         </ExpansionNodes>
+         <Script id="adjust_salary...1625088479|_18_0_7_57601ee_1695857920052_443176_16410"
+                 map="sm1625088479h2057640496"/>
+      </Iteration>
+      <Iteration appendMap="am@1625088479h335998849" arrayAccessor="6"
+                 id="sql_iteration...1625088479|_18_0_7_57601ee_1695914479590_165783_14184"
+                 inputMap="im@1625088479h1510293899"
+                 nextId="calling...1625088479|_18_0_7_57601ee_1695921153196_480238_15100"
+                 outputMap="om@1625088479h1510293899"
+                 outputTraceMap="tm@1625088479h335998849"
+                 variableIndex="10">
+         <Initialization>
+            <Array>12</Array>
+         </Initialization>
+         <ExpansionNodes>
+            <Input>inData</Input>
+            <Output>outData</Output>
+         </ExpansionNodes>
+         <Script id="create_new_input_array...1625088479|_18_0_7_57601ee_1695918519317_323354_14483"
+                 map="sm1625088479h1510293899"/>
+      </Iteration>
+      <Iteration arrayAccessor="13"
+                 id="insert_record...1625088479|_18_0_7_57601ee_1695921670278_577497_15283"
+                 inputMap="im@1625088479h450961655"
+                 nextId="response...1625088479|_18_0_7_57601ee_1695926101149_786501_15765"
+                 variableIndex="14">
+         <ExpansionNodes>
+            <Input>inData</Input>
+         </ExpansionNodes>
+         <Call subComponent="sql_insert...1625088479|_18_0_7_57601ee_1695921772814_19580_15316"/>
+      </Iteration>
+   </Flow>
+   <Flow id="urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration">
+      <Start nextId="soap...1625088479|_18_0_7_57601ee_1695857263234_522902_16117"/>
+      <Final id="End...1625088479|_18_0_7_57601ee_1695857247808_944353_16102"/>
+      <Iteration appendMap="am@1625088479h385280864" arrayAccessor="0"
+                 id="soap...1625088479|_18_0_7_57601ee_1695857263234_522902_16117"
+                 inputMap="im@1625088479h-715237661"
+                 nextId="End...1625088479|_18_0_7_57601ee_1695857247808_944353_16102"
+                 outputMap="om@1625088479h-715237661"
+                 outputTraceMap="tm@1625088479h385280864"
+                 variableIndex="1">
+         <Initialization>
+            <Array>3</Array>
+         </Initialization>
+         <ExpansionNodes>
+            <Input>inData...input</Input>
+            <Output>outData...output</Output>
+         </ExpansionNodes>
+         <Call subComponent="urn:Services.NumberTranslator.NumberTranslator.NumberTranslatorPortType.operation1"/>
+      </Iteration>
+   </Flow>
+   <Flow id="urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2">
+      <Start nextId="birthdate_translator...1625088479|_18_0_7_57601ee_1695919541385_726606_14796"/>
+      <Final id="End...1625088479|_18_0_7_57601ee_1695919529303_534201_14786"/>
+      <Iteration appendMap="am@1625088479h-1311232870" arrayAccessor="0"
+                 id="birthdate_translator...1625088479|_18_0_7_57601ee_1695919541385_726606_14796"
+                 inputMap="im@1625088479h-2080141141"
+                 nextId="End...1625088479|_18_0_7_57601ee_1695919529303_534201_14786"
+                 outputMap="om@1625088479h-2080141141"
+                 outputTraceMap="tm@1625088479h-1311232870"
+                 variableIndex="1">
+         <Initialization>
+            <Array>3</Array>
+         </Initialization>
+         <ExpansionNodes>
+            <Input>inData...input</Input>
+            <Output>outData...output</Output>
+         </ExpansionNodes>
+         <Call subComponent="Date_Translator...1625088479|_18_0_7_57601ee_1738197917721_919651_15004"/>
+      </Iteration>
+   </Flow>
+</Flows>

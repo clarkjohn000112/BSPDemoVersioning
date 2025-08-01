@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="_367167231" name="send email"
+             original="send_email...110185198|_18_0_7_57601ee_1695658670600_307528_14148"
+             package="Services.SMTPService.SMTPService.SMTPExercise"
+             type="SMTPAdapter"/>
+   <UniqueId id="591208160" name="select all from table"
+             original="select_all_from_table...110185198|_18_0_7_57601ee_1695673702657_751106_13886"
+             package="Services.SMTPService.SMTPService.SMTPExercise"
+             type="SQLAdapter"/>
+</UniqueIds>

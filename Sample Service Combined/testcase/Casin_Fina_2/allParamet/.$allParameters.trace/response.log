@@ -1,0 +1,67 @@
+Server: E2E-Bridge/2019.3
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/xml; charset=utf-8
+Content-Length: 2060
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:bridge="http://e2e.ch/bridge/error"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		    <SOAP-ENV:Fault>
+			      <faultcode>bridge:External/SQLSM/6</faultcode>
+			      <faultstring>Error Message: 11 "[DBNETLIB][ConnectionRead (recv()).]General network error. Check your network documentation.". SQL Statement: "SELECT address,
+	age,
+	birthdate,
+	company,
+	id,
+	language,
+	name,
+	salary,
+	years_hired
+FROM final_tbl_exercise
+
+"</faultstring>
+			      <detail>
+				        <message>
+					          <category>External</category>
+					          <domain>SQLSM</domain>
+					          <code>6</code>
+					          <description>Error Message: 11 "[DBNETLIB][ConnectionRead (recv()).]General network error. Check your network documentation.". SQL Statement: "SELECT address,
+	age,
+	birthdate,
+	company,
+	id,
+	language,
+	name,
+	salary,
+	years_hired
+FROM final_tbl_exercise
+
+"</description>
+					          <details>logs/error/error-2023-09-28_17-44-28_UTC-1.xml</details>
+					          <callstack>
+						            <call>allParameters</call>
+						            <call>urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters</call>
+						            <call>output_SQL</call>
+					          </callstack>
+				        </message>
+				        <message>
+					          <category>External</category>
+					          <domain>SQLSM</domain>
+					          <code>5</code>
+					          <description>Can not rollback the transaction: 11 "[DBNETLIB][ConnectionWrite (send()).]General network error. Check your network documentation."</description>
+				        </message>
+				        <message>
+					          <category>External</category>
+					          <domain>SQLSM</domain>
+					          <code>5</code>
+					          <description>Can not rollback the transaction: -2147418113 "08S01 Connection failure"</description>
+				        </message>
+			      </detail>
+		    </SOAP-ENV:Fault>
+	  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

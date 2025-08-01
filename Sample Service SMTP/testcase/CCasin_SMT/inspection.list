@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InspectionList xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Model id="722895999|ROOT_MODEL_XMI.ID" name="CCasin_SMTP">
+      <Package name="Services">
+         <Package name="SMTPService">
+            <Package name="SMTPService">
+               <Class name="SMTPExercise">
+                  <Activity name="SMTPService">
+                     <Action id="set_email_values...722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                             name="set email values"
+                             traceName="transformerFlow"/>
+                     <Action alias="SMTPAlias"
+                             id="send_email...722895999|_18_0_7_57601ee_1695658670600_307528_14148"
+                             name="send email"
+                             traceName="SMTPAdapter"/>
+                     <Action id="log_error...722895999|_18_0_7_57601ee_1695658670600_556738_14150"
+                             name="log error"
+                             traceName="transformerFlow"/>
+                     <Action id="log_successful...722895999|_18_0_7_57601ee_1695658670600_230803_14152"
+                             name="log successful"
+                             traceName="transformerFlow"/>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167" name="CCasin_SMTP"/>
+</InspectionList>

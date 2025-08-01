@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="_1636720094"
+         libraryImport="yes"
+         xmi:version="2.5"
+         xmifile.id="_1636720094">
+   <xmi:Documentation exporter="MagicDraw UML" exporterVersion="18.0"/>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              type="_1636720094|uml:Model"
+              xmi:id="_1636720094|LIBRARY_IMPORT_BuilderUML_1528515417">
+      <ownedMember name="BuilderUML" visibility="public"
+                   xmi:id="_1636720094|BuilderUML_Package_2042041376"
+                   xmi:type="uml:Package">
+         <ownedMember name="Services" visibility="public"
+                      xmi:id="_1636720094|BuilderUML_Package_637431903"
+                      xmi:type="uml:Package">
+            <ownedMember name="NameOfService1" visibility="public"
+                         xmi:id="_1636720094|BuilderUML_Package_858912010"
+                         xmi:type="uml:Package">
+               <ownedMember name="NameOfPortType1" visibility="public"
+                            xmi:id="_1636720094|BuilderUML_Package_-1419254861"
+                            xmi:type="uml:Package">
+                  <ownedMember isAbstract="false" name="NameOfPortType1" visibility="public"
+                               xmi:id="_1636720094|BuilderUML_Class_-1745799506"
+                               xmi:type="uml:Class">
+                     <ebp:umlNamespace value="urn:Services.NameOfService1.NameOfPortType1"/>
+                     <ebp:E2EClassProxy base_Class="_1636720094|BuilderUML_Class_-1745799506"
+                                        namespace="urn:Services.NameOfService1.NameOfPortType1"
+                                        xmi:id="_1636720094|-1275095242_typelink"/>
+                     <ebp:E2ESOAPPortType base_Class="_1636720094|BuilderUML_Class_-1745799506"
+                                          xmi:id="_1636720094|1732278121_typelink"/>
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedOperation isStatic="true" name="operation1" visibility="public"
+                                     xmi:id="_1636720094|BuilderUML_Operation_1406090782"
+                                     xmi:type="uml:Operation">
+                        <ownedComment body="[Add documentation here]"/>
+                        <ownedParameter direction="in" name="inParam"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1636720094|BuilderUML_Parameter_1924696680"
+                                        xmi:type="uml:Parameter"/>
+                        <ownedParameter direction="out" name="outParam"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1636720094|BuilderUML_Parameter_40032735"
+                                        xmi:type="uml:Parameter"/>
+                     </ownedOperation>
+                  </ownedMember>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember name="Component View" visibility="public"
+                      xmi:id="_1636720094|BuilderUML_Package_-229657783"
+                      xmi:type="uml:Package">
+            <ownedMember name="Libraries" visibility="public"
+                         xmi:id="_1636720094|BuilderUML_Package_-274894813"
+                         xmi:type="uml:Package">
+               <ownedMember name="BuilderUML" visibility="public"
+                            xmi:id="_1636720094|BuilderUML_Artifact_767134233"
+                            xmi:type="uml:Artifact">
+                  <ebp:E2ELibraryProxyDeployment base_Artifact="_1636720094|BuilderUML_Artifact_767134233"
+                                                 buildID="1754026706209"
+                                                 nodeType="E2EBridgeServerInstance"
+                                                 xmi:id="_1636720094|1354444018_typelink"/>
+                  <ownedComment body="Please insert documentation here."/>
+                  <manifestation utilizedElement="_1636720094|BuilderUML_Component_767134233"
+                                 visibility="public"
+                                 xmi:id="_1636720094|manifestation_BuilderUML_Artifact_767134233"
+                                 xmi:type="uml:Manifestation">
+                     <supplier xmi:idref="_1636720094|BuilderUML_Component_767134233"/>
+                     <client xmi:idref="_1636720094|BuilderUML_Artifact_767134233"/>
+                  </manifestation>
+               </ownedMember>
+               <ownedMember name="BuilderUML" visibility="public"
+                            xmi:id="_1636720094|BuilderUML_Component_767134233"
+                            xmi:type="uml:Component">
+                  <ebp:E2ELibraryProxy base_Component="_1636720094|BuilderUML_Component_767134233" version="1.0"
+                                       xmi:id="_1636720094|-1539162359_typelink"/>
+                  <ownedComment body="Please enter documentation here"/>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+   </uml:Model>
+</xmi:XMI>

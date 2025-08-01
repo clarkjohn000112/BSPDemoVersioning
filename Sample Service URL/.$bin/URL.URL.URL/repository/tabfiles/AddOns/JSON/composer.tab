@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Functions xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <ClassToJSON>
+      <Name>classToJSON...f547668728h-1668408751.4_1</Name>
+      <DataItem>urn:Services.FTPService.Classes.URLParam</DataItem>
+      <Accessor>0</Accessor>
+   </ClassToJSON>
+</Functions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="450961655" name="sql insert"
+             original="sql_insert...1625088479|_18_0_7_57601ee_1695921772814_19580_15316"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="SQLAdapter"/>
+   <UniqueId id="_2080141141" name="Date Translator"
+             original="Date_Translator...1625088479|_18_0_7_57601ee_1738197917721_919651_15004"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="SOAPAdapter"/>
+   <UniqueId id="2114013742" name="parse file"
+             original="parse_file...1625088479|_18_0_7_57601ee_1695848477951_20769_14922"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="FlatFileAdapter"/>
+</UniqueIds>

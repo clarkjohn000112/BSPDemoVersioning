@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="iteration"
+         namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+         prefix="ns0">
+   <Parameter>
+      <inputParam arrayType="inputClass" namespace="urn:Services.NumberTranslator.Classes"
+                  nil="true"
+                  prefix="ns1"
+                  type="Base Types.Array"/>
+   </Parameter>
+</Request>

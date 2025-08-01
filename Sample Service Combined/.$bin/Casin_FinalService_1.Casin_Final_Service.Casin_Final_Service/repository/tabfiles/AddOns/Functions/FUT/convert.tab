@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Functions xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Function>
+      <ID>convertToInteger...f_1914154550h545687314.34_1</ID>
+      <Source>0.0</Source>
+   </Function>
+   <Function>
+      <ID>convertToString...f_1914154550h545687314.69_1</ID>
+      <Source>43</Source>
+   </Function>
+   <Function>
+      <ID>convertToInteger...f_1914154550h-337208014.34_1</ID>
+      <Source>0.0</Source>
+   </Function>
+   <Function>
+      <ID>convertToString...f_1914154550h-337208014.69_1</ID>
+      <Source>82</Source>
+   </Function>
+   <Function>
+      <ID>convertToInteger...f1625088479h-279778059.2_1</ID>
+      <Source>7.6</Source>
+   </Function>
+   <Function>
+      <ID>convertToFloat...f1625088479h-279778059.24_1</ID>
+      <Source>17</Source>
+   </Function>
+</Functions>

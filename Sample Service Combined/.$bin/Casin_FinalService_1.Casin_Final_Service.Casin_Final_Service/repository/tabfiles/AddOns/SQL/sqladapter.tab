@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQLAdapter xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <SQLAdapter Name="sql_insert...1625088479|_18_0_7_57601ee_1695921772814_19580_15316">
+      <Adapter>sql_insert...1625088479|_18_0_7_57601ee_1695921772814_19580_15316</Adapter>
+      <ConnName>SQLAlias</ConnName>
+      <ItemName/>
+      <SingleItem/>
+      <Codepage>utf-8</Codepage>
+      <Prefetch>1</Prefetch>
+      <Template>INSERT INTO tbl_final (address,&#xD;
+	age,&#xD;
+	birthdate,&#xD;
+	company,&#xD;
+	id,&#xD;
+	language,&#xD;
+	name,&#xD;
+	salary,&#xD;
+	years_hired)&#xD;
+VALUES (:$::2.3:/$:,&#xD;
+	:$::2.2:/$:,&#xD;
+	:$::2.4:/$:,&#xD;
+	:$::2.5:/$:,&#xD;
+	:$::2.0:/$:,&#xD;
+	:$::2.8:/$:,&#xD;
+	:$::2.1:/$:,&#xD;
+	:$::2.6:/$:,&#xD;
+	:$::2.7:/$:)&#xD;
+</Template>
+   </SQLAdapter>
+</SQLAdapter>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><AsynchronousTrace controlPort="${global_e2e_configuration_controller_Port}" host="localhost">
+   <Service>
+      <Name>URLService</Name>
+      <Stereotype>E2ESOAPService</Stereotype>
+      <Class>
+         <Name>FTPUrlService</Name>
+         <Stereotype>E2ESOAPPortType</Stereotype>
+         <Operation>
+            <Name>operation1</Name>
+            <Namespace>urn:Services.FTPService.FTPUrl.FTPUrlService</Namespace>
+            <Type>urn:Services.FTPService.FTPUrl.FTPUrlService.operation1</Type>
+         </Operation>
+      </Class>
+   </Service>
+</AsynchronousTrace>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AsynchronousTrace>
+   <Service>
+      <Name>Casin_Final_ServiceService</Name>
+      <Stereotype>E2ESOAPService</Stereotype>
+      <Class>
+         <Name>FinalService</Name>
+         <Stereotype>E2ESOAPPortType</Stereotype>
+         <Operation>
+            <Name>allParameters</Name>
+            <Namespace>urn:Services.FinalExercise.FinalExerciseService.FinalService</Namespace>
+            <Type>urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters</Type>
+         </Operation>
+         <Operation>
+            <Name>iteration</Name>
+            <Namespace>urn:Services.FinalExercise.FinalExerciseService.FinalService</Namespace>
+            <Type>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration</Type>
+         </Operation>
+         <Operation>
+            <Name>iteration2</Name>
+            <Namespace>urn:Services.FinalExercise.FinalExerciseService.FinalService</Namespace>
+            <Type>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2</Type>
+         </Operation>
+      </Class>
+   </Service>
+</AsynchronousTrace>

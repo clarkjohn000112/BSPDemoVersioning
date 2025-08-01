@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InspectionList xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Model id="_2086274486|ROOT_MODEL_XMI.ID" name="sqlAdapter">
+      <Package name="Services">
+         <Package name="NameOfService1">
+            <Package name="SQLAdapter">
+               <Class name="SQLScheduler">
+                  <Activity name="SQLAdapter">
+                     <Action alias="SQLAlias"
+                             id="Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+                             name="Insert Record"
+                             traceName="SQLAdapter"/>
+                     <Action alias="SQLAlias"
+                             id="Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+                             name="Select All"
+                             traceName="SQLAdapter"/>
+                     <Action id="Get_from_employee..._2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                             name="Get from employee"
+                             traceName="transformerFlow"/>
+                     <Action id="Select_Employee_ID..._2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+                             name="Select Employee ID"
+                             traceName="transformerFlow"/>
+                     <Action alias="SQLAlias"
+                             id="Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+                             name="Execute SQL"
+                             traceName="SQLAdapter"/>
+                     <Action id="Get_Address_from_Employee..._2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                             name="Get Address from Employee"
+                             traceName="transformerFlow"/>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167" name="sqlAdapter"/>
+</InspectionList>

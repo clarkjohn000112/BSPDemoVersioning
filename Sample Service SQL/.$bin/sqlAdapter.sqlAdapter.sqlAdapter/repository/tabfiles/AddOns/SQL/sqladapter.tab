@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQLAdapter xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <SQLAdapter Name="Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328">
+      <Adapter>Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328</Adapter>
+      <ConnName>SQLAlias</ConnName>
+      <ItemName/>
+      <SingleItem/>
+      <Codepage>utf-8</Codepage>
+      <Prefetch>1</Prefetch>
+      <Template>INSERT INTO CCASIN_TEST (fld_address,&#xD;
+	fld_age,&#xD;
+	fld_employeeid,&#xD;
+	fld_name)&#xD;
+VALUES (:$::2.2:/$:,&#xD;
+	:$::2.3:/$:,&#xD;
+	:$::2.0:/$:,&#xD;
+	:$::2.1:/$:)&#xD;
+</Template>
+   </SQLAdapter>
+   <SQLAdapter Name="Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329">
+      <Adapter>Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329</Adapter>
+      <ConnName>SQLAlias</ConnName>
+      <ItemName>urn:Services.NameOfService1.Classes.employee</ItemName>
+      <SingleItem>false</SingleItem>
+      <Codepage>utf-8</Codepage>
+      <Prefetch>10</Prefetch>
+      <Template>SELECT fld_address,&#xD;
+	fld_age,&#xD;
+	fld_employeeid,&#xD;
+	fld_name&#xD;
+FROM CCASIN_TEST&#xD;
+</Template>
+   </SQLAdapter>
+   <SQLAdapter Name="Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335">
+      <Adapter>Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335</Adapter>
+      <ConnName>SQLAlias</ConnName>
+      <ItemName>urn:Services.NameOfService1.Classes.employee</ItemName>
+      <SingleItem>false</SingleItem>
+      <Codepage>utf-8</Codepage>
+      <Prefetch>10</Prefetch>
+      <Template/>
+   </SQLAdapter>
+</SQLAdapter>

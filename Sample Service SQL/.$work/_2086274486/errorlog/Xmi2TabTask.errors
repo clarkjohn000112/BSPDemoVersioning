@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Errorlist>
+   <Error code="EXMISCHE01" type="ch.e2e.builder.base.error.XSLTWarning">
+      <Parameter name="1" value="SQLScheduler"/>
+      <Parameter name="0" value="SQLAdapter"/>
+      <Location>_2086274486|ROOT_MODEL_XMI.ID~_2086274486|_18_0_7_57601ee_1695420130460_20437_13859~_2086274486|_18_0_7_57601ee_1695420130458_386812_13831~_2086274486|_18_0_7_57601ee_1695420130459_678549_13849~_2086274486|_18_0_7_57601ee_1695422788616_646092_14277</Location>
+   </Error>
+</Errorlist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testcase operation="operation1" porttype="SMTPExercise" service="SchedulerService">
+   <System>
+      <location>http://localhost:51901/SchedulerService/SMTPExercise</location>
+      <documentStyle>rpc</documentStyle>
+      <soapAction/>
+      <namespaces>
+         <SOAPNamespace>http://schemas.xmlsoap.org/wsdl/soap/</SOAPNamespace>
+         <SOAPNamespacePrefix>soap</SOAPNamespacePrefix>
+         <EnvelopeNamespace>http://schemas.xmlsoap.org/soap/envelope/</EnvelopeNamespace>
+         <EnvelopeNamespacePrefix>env</EnvelopeNamespacePrefix>
+         <EncodingNamespace>http://schemas.xmlsoap.org/soap/encoding/</EncodingNamespace>
+         <EncodingNamespacePrefix>soapenc</EncodingNamespacePrefix>
+      </namespaces>
+      <control>http://localhost:21901</control>
+   </System>
+   <Request name="operation1" namespace="urn:Services.SMTPService.SMTPService.SMTPExercise"
+            prefix="ns2">
+      <Parameter/>
+   </Request>
+</Testcase>

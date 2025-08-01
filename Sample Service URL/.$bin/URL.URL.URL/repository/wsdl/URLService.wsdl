@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:stns1="urn:Services.FTPService.Classes"
+                  xmlns:tns="urn:URLService"
+                  xmlns:http="http://schemas.xmlsoap.org/soap/http"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+                  name="URLService"
+                  targetNamespace="urn:URLService">
+   <wsdl:types>
+      <xs:schema targetNamespace="urn:Services.FTPService.Classes">
+         <xs:complexType name="URLParam">
+            <xs:sequence>
+               <xs:element name="user" type="xs:string"/>
+               <xs:element name="path" type="xs:string"/>
+               <xs:element name="password" type="xs:string"/>
+               <xs:element name="port" type="xs:string"/>
+               <xs:element name="host" type="xs:string"/>
+               <xs:element name="method" type="xs:string"/>
+               <xs:element name="fileName" type="xs:string"/>
+               <xs:element name="protocol" type="xs:string"/>
+               <xs:element name="uploadFile" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>
+   </wsdl:types>
+   <wsdl:message name="FTPUrlService_operation1_Request">
+      <wsdl:part name="inputParam" type="stns1:URLParam"/>
+   </wsdl:message>
+   <wsdl:message name="FTPUrlService_operation1_Response">
+      <wsdl:part name="outputString" type="xs:string"/>
+   </wsdl:message>
+   <wsdl:portType name="FTPUrlService">
+      <wsdl:documentation>[Add documentation here]</wsdl:documentation>
+      <wsdl:operation name="operation1">
+         <wsdl:documentation>[Add documentation here]</wsdl:documentation>
+         <wsdl:input message="tns:FTPUrlService_operation1_Request"/>
+         <wsdl:output message="tns:FTPUrlService_operation1_Response"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="FTPUrlService_SOAPBinding" type="tns:FTPUrlService">
+      <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsdl:operation name="operation1">
+         <soap:operation soapAction=""/>
+         <wsdl:input>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FTPService.FTPUrl.FTPUrlService"
+                       use="encoded"/>
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FTPService.FTPUrl.FTPUrlService"
+                       use="encoded"/>
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="URLService">
+      <wsdl:port binding="tns:FTPUrlService_SOAPBinding" name="FTPUrlService">
+         <soap:address location="http://localhost:12937/URLService/FTPUrlService"/>
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

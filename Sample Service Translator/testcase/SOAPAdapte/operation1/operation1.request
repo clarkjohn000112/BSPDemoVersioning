@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="operation1"
+         namespace="urn:Services.SOAPDateTranslator.DateTranslator.DateTranslatorPortType"
+         prefix="ns0">
+   <Parameter>
+      <input namespace="urn:Services.SOAPDateTranslator.Classes" nil="true" prefix="ns1"
+             type="inputData"/>
+   </Parameter>
+</Request>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="iteration2"
+         namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+         prefix="ns0">
+   <Parameter>
+      <inputParam arrayType="inputData" namespace="urn:Services.SOAPDateTranslator.Classes"
+                  prefix="ns1"
+                  type="Base Types.Array">
+         <item namespace="urn:Services.SOAPDateTranslator.Classes" prefix="ns1"
+               type="inputData">
+            <id type="Base Types.Integer">123</id>
+            <name type="Base Types.String">Clark John Casin</name>
+            <age type="Base Types.String">24</age>
+            <address type="Base Types.String">Manila</address>
+            <birthdate type="Base Types.String">12/01/2000</birthdate>
+            <company type="Base Types.String">Onetool</company>
+            <salary type="Base Types.Float">1</salary>
+            <years_hired type="Base Types.Integer">1</years_hired>
+            <language type="Base Types.String">PH</language>
+         </item>
+      </inputParam>
+   </Parameter>
+</Request>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="iteration2"
+         namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+         prefix="ns0">
+   <Parameter>
+      <inputParam arrayType="inputData" namespace="urn:Services.SOAPDateTranslator.Classes"
+                  nil="true"
+                  prefix="ns1"
+                  type="Base Types.Array"/>
+   </Parameter>
+</Request>

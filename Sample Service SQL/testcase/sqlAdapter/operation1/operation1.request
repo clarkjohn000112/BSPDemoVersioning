@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="operation1"
+         namespace="urn:Services.NameOfService1.SQLAdapter.SQLScheduler"
+         prefix="ns0">
+   <Parameter>
+      <empClass namespace="urn:Services.NameOfService1.Classes" prefix="ns1" type="employee">
+         <fld_employeeid type="Base Types.Integer">2</fld_employeeid>
+         <fld_name type="Base Types.String">clark</fld_name>
+         <fld_address type="Base Types.String">turbina</fld_address>
+         <fld_age type="Base Types.Integer">24</fld_age>
+      </empClass>
+   </Parameter>
+</Request>

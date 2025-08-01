@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="iteration"
+         namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+         prefix="ns0">
+   <Parameter>
+      <inputParam arrayType="inputClass" namespace="urn:Services.NumberTranslator.Classes"
+                  nil="true"
+                  prefix="ns1"
+                  type="Base Types.Array">
+         <item namespace="urn:Services.NumberTranslator.Classes" nil="true" prefix="ns2"
+               type="inputClass">
+            <age nil="true" type="Base Types.String"/>
+            <name nil="true" type="Base Types.String"/>
+            <id nil="true" type="Base Types.Integer"/>
+            <address nil="true" type="Base Types.String"/>
+            <birthdate nil="true" type="Base Types.String"/>
+            <company nil="true" type="Base Types.String"/>
+            <salary nil="true" type="Base Types.Float"/>
+            <years_hired nil="true" type="Base Types.Integer"/>
+            <language nil="true" type="Base Types.String"/>
+         </item>
+      </inputParam>
+   </Parameter>
+</Request>

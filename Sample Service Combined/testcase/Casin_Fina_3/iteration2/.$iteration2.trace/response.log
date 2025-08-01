@@ -1,0 +1,34 @@
+Server: E2E-Bridge/2019.3
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1686
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:bridge="http://e2e.ch/bridge/error"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		    <SOAP-ENV:Fault>
+			      <faultcode>bridge:Internal/SOAPADSM/10</faultcode>
+			      <faultstring>URL connector subsystem error in URL "http://ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:11922/SOAPAdapterDateTranslatorService/DateTranslatorPortType": 0 Failed to connect to ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com port 11922: Connection refused. Error description: Couldn't connect to server</faultstring>
+			      <detail>
+				        <message>
+					          <category>Internal</category>
+					          <domain>SOAPADSM</domain>
+					          <code>10</code>
+					          <description>URL connector subsystem error in URL "http://ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:11922/SOAPAdapterDateTranslatorService/DateTranslatorPortType": 0 Failed to connect to ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com port 11922: Connection refused. Error description: Couldn't connect to server</description>
+					          <details>logs/error/error-2025-01-30_00-29-01_UTC-2.xml</details>
+					          <callstack>
+						            <call>iteration2</call>
+						            <call>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2</call>
+						            <call>birthdate_translator</call>
+						            <call>operation1</call>
+					          </callstack>
+				        </message>
+			      </detail>
+		    </SOAP-ENV:Fault>
+	  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,9 @@
+id;2;Numeric;employee id
+name;50;String;employee name
+age;2;integer;employee age
+address;59;String;employee address
+birthdate;11;String;employee birthdate
+company;50;String;employee company
+salary;6;Numeric;employee salary
+years_hired;2;Numeric;employee hired year
+language;2;String;employee language

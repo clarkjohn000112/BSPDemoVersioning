@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP_Composer xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <MessageSet>
+      <Name>mset_2086274486h1319755073</Name>
+      <Encoding>SOAP</Encoding>
+      <Message>urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1</Message>
+   </MessageSet>
+   <Message>
+      <Name>urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1</Name>
+      <Operation>operation1Response</Operation>
+      <OperationNamespace>urn:Services.NameOfService1.SQLAdapter.SQLScheduler</OperationNamespace>
+      <DataItem>omsg_2086274486h1205944935</DataItem>
+   </Message>
+</SOAP_Composer>

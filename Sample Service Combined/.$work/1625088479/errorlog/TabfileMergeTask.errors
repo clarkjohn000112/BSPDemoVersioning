@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Errorlist>
+   <Error code="BEACGEAI04" type="ch.e2e.builder.base.error.XSLTWarning">
+      <Parameter name="1" value="urn:Services.SOAPDateTranslator.Classes"/>
+      <Parameter name="0" value="inputData"/>
+      <Location>_1497419020|WSDL_IMPORT_SOAPAdapterDateTranslatorService.wsdl_-909047575~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-493552702~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-1229485416~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-1096532400~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_154818808~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-1822866016~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Class_-1092459311</Location>
+   </Error>
+   <Error code="BEGLVAWF01" type="ch.e2e.builder.base.error.XSLTWarning">
+      <Parameter name="4"
+                 value="C:\E2E Documentation\Sample Service Combined\uml\imports\SOAPAdapterDateTranslatorService.wsdl.import.xml"/>
+      <Parameter name="3"
+                 value="C:\E2E Documentation\Sample Service Combined\uml\imports\SOAPAdapterDateTranslator.wsdl.import.xml"/>
+      <Parameter name="2" value="input"/>
+      <Parameter name="1" value="input"/>
+      <Parameter name="0" value="Services.SOAPDateTranslator.Classes::inputData"/>
+      <Location>1625088479|ROOT_MODEL_XMI.ID~1625088479|_18_0_7_57601ee_1695845740872_439313_13804~1625088479|_18_0_7_57601ee_1695845740872_689415_13852~1625088479|_18_0_7_57601ee_1695845740872_194061_13823~1625088479|_18_0_7_57601ee_1695845740872_172016_13807~1625088479|_18_0_7_57601ee_1695919411053_440718_14728~1625088479|_18_0_7_57601ee_1695919541385_726606_14796~1625088479|_18_0_7_57601ee_1738197917721_919651_15004</Location>
+   </Error>
+   <Error code="BEGLVAWF01" type="ch.e2e.builder.base.error.XSLTWarning">
+      <Parameter name="4"
+                 value="C:\E2E Documentation\Sample Service Combined\uml\imports\SOAPAdapterDateTranslator.wsdl.import.xml"/>
+      <Parameter name="3"
+                 value="C:\E2E Documentation\Sample Service Combined\uml\imports\SOAPAdapterDateTranslatorService.wsdl.import.xml"/>
+      <Parameter name="2" value="output"/>
+      <Parameter name="1" value="output"/>
+      <Parameter name="0" value="Services.SOAPDateTranslator.Classes::outputData"/>
+      <Location>1625088479|ROOT_MODEL_XMI.ID~1625088479|_18_0_7_57601ee_1695845740872_439313_13804~1625088479|_18_0_7_57601ee_1695845740872_689415_13852~1625088479|_18_0_7_57601ee_1695845740872_194061_13823~1625088479|_18_0_7_57601ee_1695845740872_172016_13807~1625088479|_18_0_7_57601ee_1695919411053_440718_14728~1625088479|_18_0_7_57601ee_1695919541385_726606_14796~1625088479|_18_0_7_57601ee_1738197917721_919651_15004</Location>
+   </Error>
+   <Error code="BEACGEAI04" type="ch.e2e.builder.base.error.XSLTWarning">
+      <Parameter name="1" value="urn:Services.SOAPDateTranslator.Classes"/>
+      <Parameter name="0" value="outputData"/>
+      <Location>_1497419020|WSDL_IMPORT_SOAPAdapterDateTranslatorService.wsdl_-909047575~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-493552702~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-1229485416~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-1096532400~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_154818808~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Package_-1822866016~_1497419020|SOAPAdapterDateTranslatorService.wsdl_Class_-2142028370</Location>
+   </Error>
+</Errorlist>

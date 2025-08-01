@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Breakpoints>
+   <Exception code="*" documentId="1625088479" domain="*" enabled="true"/>
+   <Exception code="10" documentId="1625088479" domain="SOAPADSM" enabled="true"/>
+</Breakpoints>

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         descriptor="yes"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="722895999"
+         xmi:version="2.1"
+         xmifile.id="722895999">
+   <xmi:Documentation>
+      <xmi:exporter>MagicDraw UML</xmi:exporter>
+      <xmi:exporterVersion>18.0</xmi:exporterVersion>
+   </xmi:Documentation>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              xmi:id="722895999|ROOT_MODEL_XMI.ID"
+              xmi:type="uml:Model">
+      <ownedComment body="&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;h2&gt;Change Log&lt;/h2&gt;&#xA;&lt;table class=&#34;table&#34;&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;th&gt;Date&lt;/th&gt;&#xA;        &lt;th&gt;Author&lt;/th&gt;&#xA;        &lt;th&gt;Version&lt;/th&gt;&#xA;        &lt;th&gt;Implementation&lt;/th&gt;&#xA;        &lt;th&gt;Note&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;"/>
+      <ownedMember name="Services" xmi:id="722895999|_18_0_7_57601ee_1695656155530_506793_13825"
+                   xmi:type="uml:Package">
+         <ownedMember name="SMTPService"
+                      xmi:id="722895999|_18_0_7_57601ee_1695656155529_709351_13820"
+                      xmi:type="uml:Package">
+            <ownedMember name="Classes" xmi:id="722895999|_18_0_7_57601ee_1695656155525_363819_13808"
+                         xmi:type="uml:Package">
+               <ownedMember name="email" xmi:id="722895999|_18_0_7_57601ee_1695673590388_557540_13866"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.SMTPService.Classes"/>
+                  <ownedAttribute name="f_name"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695673613628_496741_13867"
+                                  xmi:type="uml:Property"/>
+                  <ownedAttribute name="l_name"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695673625385_600298_13868"
+                                  xmi:type="uml:Property"/>
+                  <ownedAttribute name="email"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695673638681_284651_13869"
+                                  xmi:type="uml:Property"/>
+                  <ownedAttribute name="content"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695673648356_575678_13870"
+                                  xmi:type="uml:Property"/>
+               </ownedMember>
+            </ownedMember>
+            <ownedMember name="SMTPService"
+                         xmi:id="722895999|_18_0_7_57601ee_1695656155530_908778_13837"
+                         xmi:type="uml:Package">
+               <ownedMember classifierBehavior="_18_0_7_57601ee_1695658670560_624140_14121"
+                            name="SMTPExercise"
+                            xmi:id="722895999|_18_0_7_57601ee_1695658624301_283222_14105"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.SMTPService.SMTPService"/>
+                  <ebp:E2EScheduler allowParallelExecutions="true"
+                                    base_Class="722895999|_18_0_7_57601ee_1695658624301_283222_14105"
+                                    days="*"
+                                    hours="*"
+                                    minutes="*"
+                                    months="*"
+                                    weekdays="*"
+                                    xmi:id="722895999|_18_0_7_57601ee_1695658624301_915005_14106"
+                                    years="*"/>
+                  <ownedBehavior isReentrant="false" name="SMTPService"
+                                 specification="722895999|_18_0_7_57601ee_1695658670570_167481_14122"
+                                 xmi:id="722895999|_18_0_7_57601ee_1695658670560_624140_14121"
+                                 xmi:type="uml:Activity">
+                     <ownedParameter direction="out" name="response"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="722895999|_18_0_7_57601ee_1695658670570_973904_14123"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter name="inputData" type="722895999|_18_0_7_57601ee_1695673590388_557540_13866"
+                                     visibility="public"
+                                     xmi:id="722895999|_18_0_7_57601ee_1695673673486_528188_13872"
+                                     xmi:type="uml:Parameter"/>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670597_853016_14145"
+                           target="722895999|_18_0_7_57601ee_1695673702657_751106_13886"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_771023_14153"
+                           xmi:type="uml:ControlFlow"/>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           target="722895999|_18_0_7_57601ee_1695658670600_307528_14148"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_287559_14154"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_37821_14184"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_307528_14148"
+                           target="722895999|_18_0_7_57601ee_1695658670600_854810_14149"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_607436_14155"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_820131_14185"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           target="722895999|_18_0_7_57601ee_1695658670608_812284_14180"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_517283_14156"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_804093_14186"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           target="722895999|_18_0_7_57601ee_1695658670608_141268_14178"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_873179_14157"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_283868_14187"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           target="722895999|_18_0_7_57601ee_1695658670607_585376_14174"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_166364_14158"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_641279_14188"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           target="722895999|_18_0_7_57601ee_1695658670608_230404_14177"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_583920_14159"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_813278_14189"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           target="722895999|_18_0_7_57601ee_1695658670608_178213_14176"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_586193_14160"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_302875_14190"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_854810_14149"
+                           target="722895999|_18_0_7_57601ee_1695658670600_230803_14152"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_195262_14161"
+                           xmi:type="uml:ControlFlow">
+                        <guard xmi:id="722895999|_18_0_7_57601ee_1695658670608_986962_14192"
+                               xmi:type="uml:OpaqueExpression">
+                           <EALScript>
+                              <EALStatement>
+                                 <Accessor>
+                                    <AccessorPart>
+                                       <EALName value="else"/>
+                                    </AccessorPart>
+                                 </Accessor>
+                              </EALStatement>
+                           </EALScript>
+                        </guard>
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_458884_14191"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_854810_14149"
+                           target="722895999|_18_0_7_57601ee_1695658670600_556738_14150"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_123764_14162"
+                           xmi:type="uml:ControlFlow">
+                        <guard xmi:id="722895999|_18_0_7_57601ee_1695658670608_531500_14194"
+                               xmi:type="uml:OpaqueExpression">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <CatchStatement start="1" startLine="1">
+                                    <ErrorCode start="7" startLine="1">
+                                       <To start="17" startLine="1">
+                                          <EALString id="f722895999h-1130968098.0_1" start="19" startLine="1" value="&#34;*&#34;"/>
+                                       </To>
+                                    </ErrorCode>
+                                    <ErrorType start="23" startLine="1">
+                                       <To start="33" startLine="1">
+                                          <EALString id="f722895999h-1130968098.1_1" start="35" startLine="1" value="&#34;*&#34;"/>
+                                       </To>
+                                    </ErrorType>
+                                 </CatchStatement>
+                              </EALStatement>
+                           </EALScript>
+                        </guard>
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_798498_14193"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_556738_14150"
+                           target="722895999|_18_0_7_57601ee_1695658670600_921956_14151"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_474567_14163"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_312037_14195"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_230803_14152"
+                           target="722895999|_18_0_7_57601ee_1695658670600_65304_14146"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_437859_14164"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_696343_14196"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_230803_14152"
+                           target="722895999|_18_0_7_57601ee_1695658670600_921956_14151"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_923869_14165"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695658670608_236531_14197"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695658670600_556738_14150"
+                           target="722895999|_18_0_7_57601ee_1695658670600_65304_14146"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695659119316_496325_14540"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695659119316_904203_14541"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695673702657_751106_13886"
+                           target="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695673704053_915536_13898"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695673704055_481692_13899"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695673673492_205686_13873"
+                           target="722895999|_18_0_7_57601ee_1695673702657_751106_13886"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695673825249_46595_13930"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695673825249_588248_13931"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695673702657_751106_13886"
+                           target="722895999|_18_0_7_57601ee_1695673858659_843049_13935"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695673858675_750933_13938"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695673858675_562168_13939"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="722895999|_18_0_7_57601ee_1695673858659_843049_13935"
+                           target="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695674297474_256302_14145"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="722895999|_18_0_7_57601ee_1695674297474_632912_14146"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <node name="Start" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670597_853016_14145"
+                           xmi:type="uml:InitialNode">
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_771023_14153"/>
+                     </node>
+                     <node name="End" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_65304_14146"
+                           xmi:type="uml:ActivityFinalNode">
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_437859_14164"/>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695659119316_496325_14540"/>
+                     </node>
+                     <node name="set email values" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_766205_14147"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:ActionScript base_Action="722895999|_18_0_7_57601ee_1695658670600_766205_14147">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <CreateStatement id="f722895999h-325708389.0_1" start="1" startLine="1">
+                                    <EALName value="recipients"/>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="2" start="1" startLine="2">
+                                 <CreateStatement id="f722895999h-325708389.1_1" start="1" startLine="2">
+                                    <EALName value="headerParameters"/>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="3" start="1" startLine="5">
+                                 <CreateStatement id="f722895999h-325708389.2_1" isLocal="true" start="1" startLine="5">
+                                    <EALName local="lheaderParameters" value="lheaderParameters...-33589980"/>
+                                    <Dependency start="38" startLine="5">
+                                       <EALName start="38" startLine="5" value="mIMEHeaderFieldReference"/>
+                                    </Dependency>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="4" start="1" startLine="6">
+                                 <AssignmentStatement start="1" startLine="6">
+                                    <Set start="1" startLine="6">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lheaderParameters" value="lheaderParameters...-33589980"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="23" startLine="6">
+                                             <EALName start="23" startLine="6" value="name"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="28" startLine="6">
+                                       <EALString id="f722895999h-325708389.3_1" start="30" startLine="6" value="&#34;subject&#34;"/>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="5" start="1" startLine="7">
+                                 <AssignmentStatement start="1" startLine="7">
+                                    <Set start="1" startLine="7">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lheaderParameters" value="lheaderParameters...-33589980"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="23" startLine="7">
+                                             <EALName start="23" startLine="7" value="value"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="29" startLine="7">
+                                       <EALString id="f722895999h-325708389.4_1" start="31" startLine="7"
+                                                  value="&#34;SMTP Exercise | &lt;name&gt;&#34;"/>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="6" start="1" startLine="9">
+                                 <AssignmentStatement isLocal="true" start="1" startLine="9">
+                                    <Set>
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="text" value="text...-33589980"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="12" startLine="9">
+                                       <Call hasTarget="true" id="f722895999h-325708389.5_2">
+                                          <EALName value="getAt"/>
+                                          <ParameterList>
+                                             <Parameter>
+                                                <Call hasTarget="true" id="f722895999h-325708389.6_1">
+                                                   <EALName value="getAt"/>
+                                                   <ParameterList>
+                                                      <Parameter>
+                                                         <Accessor>
+                                                            <AccessorPart start="14" startLine="9">
+                                                               <EALName start="14" startLine="9" value="dataArray"/>
+                                                            </AccessorPart>
+                                                         </Accessor>
+                                                      </Parameter>
+                                                      <Parameter>
+                                                         <EALInteger id="f722895999h-325708389.7_1" start="24" startLine="9" value="0"/>
+                                                      </Parameter>
+                                                   </ParameterList>
+                                                </Call>
+                                             </Parameter>
+                                             <Parameter>
+                                                <Call id="f722895999h-325708389.8_1">
+                                                   <EALName value="indexMacro"/>
+                                                   <ParameterList>
+                                                      <Parameter>
+                                                         <Accessor>
+                                                            <AccessorPart>
+                                                               <EALName value="dataArray"/>
+                                                            </AccessorPart>
+                                                            <AccessorPart>
+                                                               <EALName value="content"/>
+                                                            </AccessorPart>
+                                                         </Accessor>
+                                                      </Parameter>
+                                                   </ParameterList>
+                                                </Call>
+                                             </Parameter>
+                                          </ParameterList>
+                                       </Call>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="7" start="1" startLine="11">
+                                 <AppendStatement start="1" startLine="11">
+                                    <Append start="1" startLine="11">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lheaderParameters" value="lheaderParameters...-33589980"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Append>
+                                    <ToTarget start="26" startLine="11">
+                                       <Accessor start="29" startLine="11">
+                                          <AccessorPart start="29" startLine="11">
+                                             <EALName start="29" startLine="11" value="headerParameters"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </ToTarget>
+                                 </AppendStatement>
+                              </EALStatement>
+                              <EALStatement at="8" start="1" startLine="13">
+                                 <AssignmentStatement start="1" startLine="13">
+                                    <Set start="1" startLine="13">
+                                       <Accessor start="5" startLine="13">
+                                          <AccessorPart start="5" startLine="13">
+                                             <EALName start="5" startLine="13" value="sender"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="12" startLine="13">
+                                       <EALString id="f722895999h-325708389.9_1" start="14" startLine="13"
+                                                  value="&#34;clark@gmail.com&#34;"/>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="9" start="1" startLine="14">
+                                 <AssignmentStatement start="1" startLine="14">
+                                    <Set start="1" startLine="14">
+                                       <Accessor start="5" startLine="14">
+                                          <AccessorPart start="5" startLine="14">
+                                             <EALName start="5" startLine="14" value="content"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="13" startLine="14">
+                                       <Call id="f722895999h-325708389.10_1" start="15" startLine="14">
+                                          <EALName start="15" startLine="14" value="transcodeToBlob"/>
+                                          <ParameterList start="31" startLine="14">
+                                             <Parameter start="31" startLine="14">
+                                                <Accessor>
+                                                   <AccessorPart>
+                                                      <EALName local="text" value="text...-33589980"/>
+                                                   </AccessorPart>
+                                                </Accessor>
+                                             </Parameter>
+                                             <Parameter start="37" startLine="14">
+                                                <EALString id="f722895999h-325708389.11_1" start="37" startLine="14" value="&#34;UTF-8&#34;"/>
+                                             </Parameter>
+                                          </ParameterList>
+                                       </Call>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="10" start="1" startLine="15">
+                                 <AssignmentStatement start="1" startLine="15">
+                                    <Set start="1" startLine="15">
+                                       <Accessor start="5" startLine="15">
+                                          <AccessorPart start="5" startLine="15">
+                                             <EALName start="5" startLine="15" value="domainName"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="16" startLine="15">
+                                       <EALString id="f722895999h-325708389.12_1" start="18" startLine="15"
+                                                  value="&#34;smtp.servicehoster.ch&#34;"/>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="11" start="1" startLine="17">
+                                 <AssignmentStatement isLocal="true" start="1" startLine="17">
+                                    <Set>
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lrecipients" value="lrecipients...-33589980"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="19" startLine="17">
+                                       <Call hasTarget="true" id="f722895999h-325708389.13_2">
+                                          <EALName value="getAt"/>
+                                          <ParameterList>
+                                             <Parameter>
+                                                <Call hasTarget="true" id="f722895999h-325708389.14_1">
+                                                   <EALName value="getAt"/>
+                                                   <ParameterList>
+                                                      <Parameter>
+                                                         <Accessor>
+                                                            <AccessorPart start="21" startLine="17">
+                                                               <EALName start="21" startLine="17" value="dataArray"/>
+                                                            </AccessorPart>
+                                                         </Accessor>
+                                                      </Parameter>
+                                                      <Parameter>
+                                                         <EALInteger id="f722895999h-325708389.15_1" start="31" startLine="17" value="0"/>
+                                                      </Parameter>
+                                                   </ParameterList>
+                                                </Call>
+                                             </Parameter>
+                                             <Parameter>
+                                                <Call id="f722895999h-325708389.16_1">
+                                                   <EALName value="indexMacro"/>
+                                                   <ParameterList>
+                                                      <Parameter>
+                                                         <Accessor>
+                                                            <AccessorPart>
+                                                               <EALName value="dataArray"/>
+                                                            </AccessorPart>
+                                                            <AccessorPart>
+                                                               <EALName value="email"/>
+                                                            </AccessorPart>
+                                                         </Accessor>
+                                                      </Parameter>
+                                                   </ParameterList>
+                                                </Call>
+                                             </Parameter>
+                                          </ParameterList>
+                                       </Call>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="12" start="1" startLine="18">
+                                 <AppendStatement start="1" startLine="18">
+                                    <Append start="1" startLine="18">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lrecipients" value="lrecipients...-33589980"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Append>
+                                    <ToTarget start="20" startLine="18">
+                                       <Accessor start="23" startLine="18">
+                                          <AccessorPart start="23" startLine="18">
+                                             <EALName start="23" startLine="18" value="recipients"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </ToTarget>
+                                 </AppendStatement>
+                              </EALStatement>
+                           </EALScript>
+                        </ebp:ActionScript>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695673704053_915536_13898"/>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695674297474_256302_14145"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_287559_14154"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_517283_14156"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_873179_14157"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_166364_14158"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_583920_14159"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_586193_14160"/>
+                     </node>
+                     <node name="send email" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_307528_14148"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:SMTPAdapter action="send" alias="722895999|_18_0_7_57601ee_1695658150500_480997_13910"
+                                         base_Action="722895999|_18_0_7_57601ee_1695658670600_307528_14148"
+                                         xmi:id="722895999|_18_0_7_57601ee_1695658670608_720897_14181"/>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_287559_14154"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_607436_14155"/>
+                        <argument name="server"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670605_357783_14172"
+                                  xmi:type="uml:InputPin"/>
+                        <argument name="password"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670605_704711_14173"
+                                  xmi:type="uml:InputPin"/>
+                        <argument name="headerParameters"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670607_585376_14174"
+                                  xmi:type="uml:InputPin">
+                           <ebp:E2EArray arrayElement="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1131342021937_889423_4"
+                                         base_ObjectNode="722895999|_18_0_7_57601ee_1695658670607_585376_14174"
+                                         xmi:id="722895999|_18_0_7_57601ee_1695658670610_825195_14203"/>
+                           <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_166364_14158"/>
+                        </argument>
+                        <argument name="port"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670608_619594_14175"
+                                  xmi:type="uml:InputPin"/>
+                        <argument name="sender"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670608_178213_14176"
+                                  xmi:type="uml:InputPin">
+                           <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_586193_14160"/>
+                        </argument>
+                        <argument name="recipients"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670608_230404_14177"
+                                  xmi:type="uml:InputPin">
+                           <ebp:E2EArray arrayElement="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                         base_ObjectNode="722895999|_18_0_7_57601ee_1695658670608_230404_14177"
+                                         xmi:id="722895999|_18_0_7_57601ee_1695658670610_13074_14204"/>
+                           <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_583920_14159"/>
+                        </argument>
+                        <argument name="domainName"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670608_141268_14178"
+                                  xmi:type="uml:InputPin">
+                           <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_873179_14157"/>
+                        </argument>
+                        <argument name="user"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670608_787354_14179"
+                                  xmi:type="uml:InputPin"/>
+                        <argument name="content"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Blob"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670608_812284_14180"
+                                  xmi:type="uml:InputPin">
+                           <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_517283_14156"/>
+                        </argument>
+                     </node>
+                     <node visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_854810_14149"
+                           xmi:type="uml:DecisionNode">
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_607436_14155"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_195262_14161"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_123764_14162"/>
+                     </node>
+                     <node name="log error" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_556738_14150"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:ActionScript base_Action="722895999|_18_0_7_57601ee_1695658670600_556738_14150">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <AssignmentStatement isLocal="true" start="1" startLine="1">
+                                    <Set>
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lerr" value="lerr...478348844"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="12" startLine="1">
+                                       <Call id="f722895999h-2073613382.0_1" start="14" startLine="1">
+                                          <EALName start="14" startLine="1" value="getError"/>
+                                       </Call>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="2" start="1" startLine="3">
+                                 <AssignmentStatement start="1" startLine="3">
+                                    <Set start="1" startLine="3">
+                                       <Accessor start="5" startLine="3">
+                                          <AccessorPart start="5" startLine="3">
+                                             <EALName start="5" startLine="3" value="response"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="14" startLine="3">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lerr" value="lerr...478348844"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="21" startLine="3">
+                                             <EALName start="21" startLine="3" value="description"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="3" start="1" startLine="4">
+                                 <Call id="f722895999h-2073613382.1_1" start="1" startLine="4">
+                                    <EALName start="1" startLine="4" value="log"/>
+                                    <ParameterList start="5" startLine="4">
+                                       <Parameter start="5" startLine="4">
+                                          <EALString id="f722895999h-2073613382.2_1" start="5" startLine="4" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="8" startLine="4">
+                                          <EALString id="f722895999h-2073613382.3_1" start="8" startLine="4" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="11" startLine="4">
+                                          <EALString id="f722895999h-2073613382.4_1" start="11" startLine="4" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="14" startLine="4">
+                                          <Accessor>
+                                             <AccessorPart>
+                                                <EALName local="lerr" value="lerr...478348844"/>
+                                             </AccessorPart>
+                                             <AccessorPart start="19" startLine="4">
+                                                <EALName start="19" startLine="4" value="description"/>
+                                             </AccessorPart>
+                                          </Accessor>
+                                       </Parameter>
+                                    </ParameterList>
+                                 </Call>
+                              </EALStatement>
+                           </EALScript>
+                        </ebp:ActionScript>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_123764_14162"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_474567_14163"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695659119316_496325_14540"/>
+                     </node>
+                     <node name="response"
+                           parameter="722895999|_18_0_7_57601ee_1695658670570_973904_14123"
+                           type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_921956_14151"
+                           xmi:type="uml:ActivityParameterNode">
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_474567_14163"/>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_923869_14165"/>
+                     </node>
+                     <node name="log successful" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658670600_230803_14152"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:ActionScript base_Action="722895999|_18_0_7_57601ee_1695658670600_230803_14152">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <Call id="f722895999h-1799371523.0_1" start="1" startLine="1">
+                                    <EALName start="1" startLine="1" value="log"/>
+                                    <ParameterList start="5" startLine="1">
+                                       <Parameter start="5" startLine="1">
+                                          <EALString id="f722895999h-1799371523.1_1" start="5" startLine="1" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="8" startLine="1">
+                                          <EALString id="f722895999h-1799371523.2_1" start="8" startLine="1" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="11" startLine="1">
+                                          <EALString id="f722895999h-1799371523.3_1" start="11" startLine="1" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="15" startLine="1">
+                                          <EALString id="f722895999h-1799371523.4_1" start="15" startLine="1" value="&#34;Successful!&#34;"/>
+                                       </Parameter>
+                                    </ParameterList>
+                                 </Call>
+                              </EALStatement>
+                              <EALStatement at="2" start="1" startLine="2">
+                                 <AssignmentStatement start="1" startLine="2">
+                                    <Set start="1" startLine="2">
+                                       <Accessor start="5" startLine="2">
+                                          <AccessorPart start="5" startLine="2">
+                                             <EALName start="5" startLine="2" value="response"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="14" startLine="2">
+                                       <EALString id="f722895999h-1799371523.5_1" start="16" startLine="2" value="&#34;Successful&#34;"/>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                           </EALScript>
+                        </ebp:ActionScript>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_195262_14161"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_437859_14164"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695658670600_923869_14165"/>
+                     </node>
+                     <node name="inputData"
+                           parameter="722895999|_18_0_7_57601ee_1695673673486_528188_13872"
+                           type="722895999|_18_0_7_57601ee_1695673590388_557540_13866"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695673673492_205686_13873"
+                           xmi:type="uml:ActivityParameterNode">
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695673825249_46595_13930"/>
+                     </node>
+                     <node name="select all from table" visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695673702657_751106_13886"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:SQLAdapter action="execute" alias="722895999|_18_0_7_57601ee_1695673819128_704269_13903"
+                                        base_Action="722895999|_18_0_7_57601ee_1695673702657_751106_13886"
+                                        dbType="SQLServer"
+                                        prefetchedRecords="10"
+                                        xmi:id="722895999|_18_0_7_57601ee_1695673819124_55353_13902">
+                           <ebp:SQLStatement>SELECT <output name="content"/>,&#xD;
+	<output name="email"/>,&#xD;
+	<output name="f_name"/>,&#xD;
+	<output name="l_name"/>&#xD;
+FROM TEST_EMAIL_CASIN&#xD;
+WHERE f_name = <input>
+                                 <Accessor start="1" startLine="1">
+                                    <AccessorPart start="1" startLine="1">
+                                       <EALName start="1" startLine="1" value="inputData"/>
+                                    </AccessorPart>
+                                    <AccessorPart start="11" startLine="1">
+                                       <EALName start="11" startLine="1" value="f_name"/>
+                                    </AccessorPart>
+                                 </Accessor>
+                              </input>
+                           </ebp:SQLStatement>
+                        </ebp:SQLAdapter>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695658670600_771023_14153"/>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695673825249_46595_13930"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695673704053_915536_13898"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695673858675_750933_13938"/>
+                        <argument name="sql"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695673819169_501090_13926"
+                                  xmi:type="uml:InputPin"/>
+                        <result name="affectedRows"
+                                type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                visibility="public"
+                                xmi:id="722895999|_18_0_7_57601ee_1695673819169_824283_13925"
+                                xmi:type="uml:OutputPin"/>
+                     </node>
+                     <node name="dataArray"
+                           type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"
+                           visibility="public"
+                           xmi:id="722895999|_18_0_7_57601ee_1695673858659_843049_13935"
+                           xmi:type="uml:CentralBufferNode">
+                        <ebp:E2EArray arrayElement="722895999|_18_0_7_57601ee_1695673590388_557540_13866"
+                                      base_ObjectNode="722895999|_18_0_7_57601ee_1695673858659_843049_13935"
+                                      xmi:id="722895999|_18_0_7_57601ee_1695673888766_687180_13940"/>
+                        <incoming xmi:idref="722895999|_18_0_7_57601ee_1695673858675_750933_13938"/>
+                        <outgoing xmi:idref="722895999|_18_0_7_57601ee_1695674297474_256302_14145"/>
+                     </node>
+                  </ownedBehavior>
+                  <ownedOperation isStatic="true" name="operation1" visibility="public"
+                                  xmi:id="722895999|_18_0_7_57601ee_1695658670570_167481_14122"
+                                  xmi:type="uml:Operation">
+                     <method xmi:idref="722895999|_18_0_7_57601ee_1695658670560_624140_14121"/>
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedParameter direction="out" name="response"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="722895999|_18_0_7_57601ee_1695658670600_564526_14166"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter name="inputData" type="722895999|_18_0_7_57601ee_1695673590388_557540_13866"
+                                     visibility="public"
+                                     xmi:id="722895999|_18_0_7_57601ee_1695673673476_925536_13871"
+                                     xmi:type="uml:Parameter"/>
+                  </ownedOperation>
+               </ownedMember>
+               <ownedMember name="mIMEHeaderFieldReference"
+                            supplier="E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_24400562_1131342021937_889423_4"
+                            xmi:id="722895999|_18_0_7_57601ee_1695658822719_666641_14530"
+                            xmi:type="uml:Usage">
+                  <client xmi:idref="722895999|_18_0_7_57601ee_1695658624301_283222_14105"/>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Aliases" xmi:id="722895999|_18_0_7_57601ee_1695656155525_583414_13810"
+                   xmi:type="uml:Package">
+         <ownedMember name="SMTPAlias" xmi:id="722895999|_18_0_7_57601ee_1695658150500_480997_13910"
+                      xmi:type="uml:Artifact">
+            <ebp:SMTPAlias base_Artifact="722895999|_18_0_7_57601ee_1695658150500_480997_13910"
+                           host="smtp.servicehoster.ch"
+                           port="465"
+                           user="pas@connectix-gmbh.com/0NEtool321!"
+                           xmi:id="722895999|_18_0_7_57601ee_1695658150505_985801_13911"/>
+         </ownedMember>
+         <ownedMember name="SQLAlias" xmi:id="722895999|_18_0_7_57601ee_1695673819128_704269_13903"
+                      xmi:type="uml:Artifact">
+            <ebp:SQLAlias base_Artifact="722895999|_18_0_7_57601ee_1695673819128_704269_13903"
+                          charset="utf-8"
+                          connectionPooling="true"
+                          dbConnectionString="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com@TestDB"
+                          dbType="SQLServer"
+                          unicodeMode="Platform default"
+                          user="sa/Asdf!234"
+                          xmi:id="722895999|_18_0_7_57601ee_1695673819136_231736_13904"/>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Component View"
+                   xmi:id="722895999|_18_0_7_57601ee_1695658735740_698723_14384"
+                   xmi:type="uml:Package">
+         <ownedMember name="Composites" xmi:id="722895999|_18_0_7_57601ee_1695658735756_441901_14418"
+                      xmi:type="uml:Package">
+            <ownedMember name="CCASIN_SMTP_SQL"
+                         xmi:id="722895999|_18_0_7_57601ee_1695674107684_546765_13998"
+                         xmi:type="uml:Component">
+               <ebp:E2EConfiguration base_Component="722895999|_18_0_7_57601ee_1695674107684_546765_13998"
+                                     category="Training"
+                                     classToXMLDefaultRootName="Default"
+                                     controlPort="21902"
+                                     killJVMThreadsOnShutdown="true"
+                                     version="1.0"
+                                     wsdlPerService="true"
+                                     xmi:id="722895999|_18_0_7_57601ee_1695674107687_17665_13999"/>
+               <ownedMember name="SchedulerService"
+                            xmi:id="722895999|_18_0_7_57601ee_1695674107687_638751_14012"
+                            xmi:type="uml:Component">
+                  <ebp:E2ESchedulerService base_Component="722895999|_18_0_7_57601ee_1695674107687_638751_14012"
+                                           xmi:id="722895999|_18_0_7_57601ee_1695674107687_455482_14013"/>
+                  <realization realizingClassifier="722895999|_18_0_7_57601ee_1695658624301_283222_14105"
+                               xmi:id="722895999|_18_0_7_57601ee_1695674107687_614034_14014"
+                               xmi:type="uml:ComponentRealization">
+                     <client xmi:idref="722895999|_18_0_7_57601ee_1695658624301_283222_14105"/>
+                     <supplier xmi:idref="722895999|_18_0_7_57601ee_1695674107687_638751_14012"/>
+                     <realizingClassifier xmi:idref="722895999|_18_0_7_57601ee_1695658624301_283222_14105"/>
+                  </realization>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember xmi:id="722895999|_18_0_7_57601ee_1695674107866_202045_14121"
+                      xmi:type="uml:Dependency">
+            <client xmi:idref="722895999|_18_0_7_57601ee_1695674107684_546765_13998"/>
+            <supplier xmi:idref="722895999|_18_0_7_57601ee_1695673819128_704269_13903"/>
+         </ownedMember>
+         <ownedMember xmi:id="722895999|_18_0_7_57601ee_1695674107879_692857_14122"
+                      xmi:type="uml:Dependency">
+            <client xmi:idref="722895999|_18_0_7_57601ee_1695674107684_546765_13998"/>
+            <supplier xmi:idref="722895999|_18_0_7_57601ee_1695658150500_480997_13910"/>
+         </ownedMember>
+      </ownedMember>
+   </uml:Model>
+</xmi:XMI>

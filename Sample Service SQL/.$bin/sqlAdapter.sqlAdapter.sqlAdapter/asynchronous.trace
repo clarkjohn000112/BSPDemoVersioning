@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><AsynchronousTrace controlPort="${global_e2e_configuration_controller_Port}" host="localhost">
+   <Service>
+      <Name>SchedulerService</Name>
+      <Stereotype>E2ESchedulerService</Stereotype>
+      <Class>
+         <Name>SQLScheduler</Name>
+         <Stereotype>E2EScheduler</Stereotype>
+         <Operation>
+            <Name>operation1</Name>
+            <Namespace>urn:Services.NameOfService1.SQLAdapter.SQLScheduler</Namespace>
+            <Type>urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1</Type>
+         </Operation>
+      </Class>
+   </Service>
+</AsynchronousTrace>

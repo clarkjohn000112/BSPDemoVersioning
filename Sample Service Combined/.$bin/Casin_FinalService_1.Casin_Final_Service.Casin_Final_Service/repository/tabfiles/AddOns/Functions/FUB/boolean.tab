@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Functions xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Function>
+      <ID>and...f1625088479h-279778059.4_1</ID>
+      <AndOrExpression>compareGe...f1625088479h-279778059.5_1;compareLe...f1625088479h-279778059.7_2</AndOrExpression>
+   </Function>
+   <Function>
+      <ID>and...f1625088479h-279778059.13_1</ID>
+      <AndOrExpression>compareGe...f1625088479h-279778059.14_1;compareLe...f1625088479h-279778059.16_2</AndOrExpression>
+   </Function>
+</Functions>

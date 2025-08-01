@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><DeploymentDescriptor xmlns="http://e2e.ch/bridge" version="3.0">
+   <Documentation indexDocument="sqlAdapter__2086274486.html" location="documentation"/>
+   <RepositoryConfiguration>
+      <RepositoryEntries>
+         <RepositoryEntry path="tabfiles"/>
+         <RepositoryEntry path="wsdl/"/>
+         <RepositoryEntry path="java"/>
+         <RepositoryEntry path="xslt/"/>
+         <RepositoryEntry path="resources"/>
+         <RepositoryEntry path="htdocs/"/>
+         <RepositoryEntry path="documentation/"/>
+         <RepositoryEntry path="swagger/"/>
+      </RepositoryEntries>
+   </RepositoryConfiguration>
+   <RuntimeConstraints/>
+   <BridgeConfiguration category="Training" classToXMLDefaultRootName="Default" classifierID="_2086274486|_18_0_7_57601ee_1695422856208_578342_14743" classifierName="sqlAdapter" control="21900" host="localhost" id="_2086274486|_18_0_7_57601ee_1695422856208_578342_14743" name="sqlAdapter" trace="true" umlLocation="_2086274486|ROOT_MODEL_XMI.ID~_2086274486|_18_0_7_57601ee_1695422856202_919281_14710~_2086274486|_18_0_7_57601ee_1695422856208_340289_14744~_2086274486|_18_0_7_57601ee_1695422856208_578342_14743" version="0.0.1">
+      <Services>
+         <Service instanceName="SchedulerService" label="SchedulerService" name="SchedulerService" namespace="urn:Component_View.Composites" package="Component_View.Composites.sqlAdapter" stereotype="E2ESchedulerService" umlLocation="_2086274486|ROOT_MODEL_XMI.ID~_2086274486|_18_0_7_57601ee_1695422856202_919281_14710~_2086274486|_18_0_7_57601ee_1695422856208_340289_14744~_2086274486|_18_0_7_57601ee_1695422856208_578342_14743~_2086274486|_18_0_7_57601ee_1695422856209_26464_14759" wsdl="false">
+               <Documentation/>
+               <SchedulerClasses>
+                  <SchedulerClass label="Scheduler: minutes=&#34;*&#34; hours=&#34;*&#34; days=&#34;*&#34; months=&#34;*&#34; years=&#34;*&#34; weekdays=&#34;*&#34;" name="SQLScheduler" package="Services.NameOfService1.SQLAdapter"/>
+               </SchedulerClasses>
+            </Service>
+         <Service externalURL="http://${wsdl_host_urn:Component_View.Composites.sqlAdapter.SchedulerService}:51900" id="_2086274486|_18_0_7_57601ee_1695422856209_26464_14759" instanceName="SchedulerService" label="SchedulerService:SchedulerService" name="SchedulerService" namespace="urn:Component_View.Composites" package="Component_View.Composites.sqlAdapter" port="51900" protocol="http" shadow="true" stereotype="E2ESOAPService" umlLocation="_2086274486|ROOT_MODEL_XMI.ID~_2086274486|_18_0_7_57601ee_1695422856202_919281_14710~_2086274486|_18_0_7_57601ee_1695422856208_340289_14744~_2086274486|_18_0_7_57601ee_1695422856208_578342_14743~_2086274486|_18_0_7_57601ee_1695422856209_26464_14759" url="http://NoHostInfo:51900" wsdl="true" wsdlServicePath="/SchedulerService" wsdlURI="http://${server_hostname}:51900/SchedulerService?wsdl">
+               <Documentation>Generated "shadow" service to expose Scheduler activities as SOAP service for trace purposes.</Documentation>
+               <Ports>
+                  <Port enabledID="addOn_SchedulerService.SQLScheduler_Enabled" escapedPath="/SchedulerService/SQLScheduler" instanceName="SQLScheduler" name="SQLScheduler" package="Services.NameOfService1.SQLAdapter" path="/SchedulerService/SQLScheduler"/>
+               </Ports>
+            </Service>
+      </Services>
+      <UIDeployments/>
+   </BridgeConfiguration>
+   <ProxyConfiguration/>
+</DeploymentDescriptor>

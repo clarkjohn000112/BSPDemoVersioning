@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><SEI_HTTP_Service xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Request>
+      <Name enabled="true">mset_2086274486h1319755073</Name>
+      <URI>/SchedulerService/SQLScheduler</URI>
+   </Request>
+</SEI_HTTP_Service>

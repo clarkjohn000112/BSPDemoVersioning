@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Functions xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Function>
+      <ID>create...f547668728h-1668408751.0_1</ID>
+      <Source/>
+      <TargetIndex/>
+      <ObjectType>Record</ObjectType>
+      <DataItemID>urn:Base_Components.Add_Ons.URL.HeaderField</DataItemID>
+   </Function>
+   <Function>
+      <ID>create...f547668728h-1668408751.1_1</ID>
+      <Source/>
+      <TargetIndex/>
+      <ObjectType>Record</ObjectType>
+      <DataItemID>urn:Base_Components.Add_Ons.URL.HeaderField</DataItemID>
+   </Function>
+   <Function>
+      <ID>create...f547668728h-1668408751.2_1</ID>
+      <Source/>
+      <TargetIndex/>
+      <ObjectType>Record</ObjectType>
+      <DataItemID>urn:Base_Components.Add_Ons.URL.Authentication</DataItemID>
+   </Function>
+   <Function>
+      <ID>create...f547668728h2015002593.0_1</ID>
+      <Source/>
+      <TargetIndex/>
+      <ObjectType>Array</ObjectType>
+      <DataItemID>urn:Base_Types.Array</DataItemID>
+   </Function>
+</Functions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:ns0="urn:Services.NameOfService1.SQLAdapter.SQLScheduler"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		    <ns0:operation1Response>
+			      <empAge namespace="http://www.w3.org/2001/XMLSchema" xsi:type="Base Types.Integer">RESPONSE1</empAge>
+			      <empAddress namespace="http://www.w3.org/2001/XMLSchema" xsi:type="Base Types.String">RESPONSE2</empAddress>
+		    </ns0:operation1Response>
+	  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Backend_Components xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Component>
+      <Name>urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1</Name>
+      <Type>FLOW_GENERIC</Type>
+      <Operation isStatic="true">operation1</Operation>
+      <XmiID>_2086274486|_18_0_7_57601ee_1695422810235_474007_14294</XmiID>
+   </Component>
+   <Component>
+      <Name>Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328</Name>
+      <Type>SQL_QUERY</Type>
+   </Component>
+   <Component>
+      <Name>Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329</Name>
+      <Type>SQL_QUERY</Type>
+   </Component>
+   <Component>
+      <Name>Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335</Name>
+      <Type>SQL_QUERY</Type>
+   </Component>
+   <Component>
+      <Name>ADOP_log...f_2086274486h565686020.4_1</Name>
+      <Type>LOG_LOG</Type>
+   </Component>
+   <Component>
+      <Name>ADOP_log...f_2086274486h565686020.8_1</Name>
+      <Type>LOG_LOG</Type>
+   </Component>
+</Backend_Components>

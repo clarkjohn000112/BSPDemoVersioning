@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><SOAP_AddOn xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Request>
+      <Name>Date_Translator...1625088479|_18_0_7_57601ee_1738197917721_919651_15004</Name>
+      <SOAPAction>""</SOAPAction>
+      <OutputMessageSet>soap-msgset1625088479h-1193100274</OutputMessageSet>
+      <OutputMessage>soap-msg1625088479h-1193100274</OutputMessage>
+      <InputMessageSet>soap-msgset1625088479h-1193100274</InputMessageSet>
+      <URL>http://ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:11922/SOAPAdapterDateTranslatorService/DateTranslatorPortType</URL>
+      <MessageFormat>Linebreaks</MessageFormat>
+   </Request>
+</SOAP_AddOn>

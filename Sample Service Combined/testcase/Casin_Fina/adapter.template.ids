@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="279118238" name="parse file"
+             original="parse_file..._1907779984|_18_0_7_57601ee_1695848477951_20769_14922"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="FlatFileAdapter"/>
+</UniqueIds>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="operation1" namespace="urn:Services.FTPService.FTPUrl.FTPUrlService"
+         prefix="ns0">
+   <Parameter>
+      <inputParam namespace="urn:Services.FTPService.Classes" prefix="ns1" type="URLParam">
+         <user type="Base Types.String">demo</user>
+         <path type="Base Types.String">/upload</path>
+         <password type="Base Types.String">demo</password>
+         <port type="Base Types.String">21</port>
+         <host type="Base Types.String">demo.wftpserver.com</host>
+         <method type="Base Types.String">POST</method>
+         <fileName type="Base Types.String">sample.txt</fileName>
+         <protocol type="Base Types.String">ftp</protocol>
+         <uploadFile type="Base Types.String">C:\Users\rlami\OneDrive\Documents\Training\sample.txt</uploadFile>
+      </inputParam>
+   </Parameter>
+</Request>

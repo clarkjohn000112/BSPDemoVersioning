@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DebuggerMessage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns0="urn:Services.SOAPDateTranslator.Classes">
+	<Session>
+		<TransactionID>00000003b4b1e92700006a3400004540d6f6c17d</TransactionID>
+		<SessionID>6</SessionID>
+	</Session>
+	<Exception>
+		<category>Internal</category>
+		<domain>SOAPADSM</domain>
+		<code>10</code>
+		<description>URL connector subsystem error in URL &quot;http://ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:11922/SOAPAdapterDateTranslatorService/DateTranslatorPortType&quot;: 0 Failed to connect to ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com port 11922: Connection refused. Error description: Couldn't connect to server</description>
+	</Exception>
+	<Activity name="urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2" node="create_new_input_array...1625088479|_18_0_7_57601ee_1695918519317_323354_14483">
+			<Context>
+				<inputParam xsi:type="SOAP-ENC:Array" SOAP-ENC:arrayType="ns0:inputData[9]">
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+					<item xsi:type="ns0:inputData" xsi:nil="true"/>
+				</inputParam>
+			</Context>
+	</Activity>
+	<CallStack>
+		<Call name="urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters" id="1625088479|_18_0_7_57601ee_1695845740872_363152_13842"/>
+		<Call name="calling" id="calling...1625088479|_18_0_7_57601ee_1695921153196_480238_15100"/>
+		<Call name="urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2" id="1625088479|_18_0_7_57601ee_1695919411053_440718_14728"/>
+		<Call name="birthdate_translator" id="birthdate_translator...1625088479|_18_0_7_57601ee_1695919541385_726606_14796"/>
+		<Call name="Date_Translator" id="Date_Translator...1625088479|_18_0_7_57601ee_1738197917721_919651_15004"/>
+	</CallStack>
+</DebuggerMessage>

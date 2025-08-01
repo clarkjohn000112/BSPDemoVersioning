@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <generic>
+      <author type="java.lang.String">Clark</author>
+      <name type="java.lang.String">Sample Service SQL</name>
+      <description type="java.lang.String"/>
+      <repository type="java.io.File">repository</repository>
+   </generic>
+   <compiler prefix="ch.e2e.builder.compiler.">
+      <uml type="java.io.File">uml</uml>
+      <optimize.java.script type="java.lang.Boolean">false</optimize.java.script>
+      <import.module.folder type="java.io.File">C:/Users/rlami/Downloads/SQLAdapter_Lem/SOAPStep1/repository/BuilderUML</import.module.folder>
+   </compiler>
+</project>

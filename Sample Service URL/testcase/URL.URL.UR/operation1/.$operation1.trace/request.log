@@ -1,0 +1,37 @@
+POST /URLService/FTPUrlService HTTP/1.0
+X-Bridge: NoErrorReturn
+Request-ID: operation1_1753931290416
+SOAPAction: 
+User-Agent: SOAPTestTool/1.0 (Java HotSpot(TM) 64-Bit Server VM/25.92-b14)
+Host: localhost:12937
+Content-Length: 1107
+Content-Type: text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+              xmlns:ns0="urn:Services.FTPService.FTPUrl.FTPUrlService"
+              xmlns:bridge="http://e2e.ch/bridge"
+              xmlns:ns1="urn:Services.FTPService.Classes"
+              xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              env:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <env:Header>
+      <bridge:Trace level="None" maxSize="10"/>
+   </env:Header>
+   <env:Body>
+      <ns0:operation1>
+         <inputParam xsi:type="ns1:URLParam">
+            <user xsi:type="xsd:string">demo</user>
+            <path xsi:type="xsd:string">/upload</path>
+            <password xsi:type="xsd:string">demo</password>
+            <port xsi:type="xsd:string">21</port>
+            <host xsi:type="xsd:string">demo.wftpserver.com</host>
+            <method xsi:type="xsd:string">POST</method>
+            <fileName xsi:type="xsd:string">sample.txt</fileName>
+            <protocol xsi:type="xsd:string">ftp</protocol>
+            <uploadFile xsi:type="xsd:string">C:\Users\rlami\OneDrive\Documents\Training\sample.txt</uploadFile>
+         </inputParam>
+      </ns0:operation1>
+   </env:Body>
+</env:Envelope>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testcase operation="operation1" porttype="SQLScheduler" service="SchedulerService">
+   <System>
+      <location>http://localhost:51900/SchedulerService/SQLScheduler</location>
+      <documentStyle>rpc</documentStyle>
+      <soapAction/>
+      <namespaces>
+         <SOAPNamespace>http://schemas.xmlsoap.org/wsdl/soap/</SOAPNamespace>
+         <SOAPNamespacePrefix>soap</SOAPNamespacePrefix>
+         <EnvelopeNamespace>http://schemas.xmlsoap.org/soap/envelope/</EnvelopeNamespace>
+         <EnvelopeNamespacePrefix>env</EnvelopeNamespacePrefix>
+         <EncodingNamespace>http://schemas.xmlsoap.org/soap/encoding/</EncodingNamespace>
+         <EncodingNamespacePrefix>soapenc</EncodingNamespacePrefix>
+      </namespaces>
+      <control>http://localhost:21900</control>
+   </System>
+   <Request name="operation1"
+            namespace="urn:Services.NameOfService1.SQLAdapter.SQLScheduler"
+            prefix="ns3">
+      <Parameter>
+         <empClass namespace="urn:Services.NameOfService1.Classes" nil="true" prefix="ns2"
+                   type="employee">
+            <fld_employeeid nil="true" type="Base Types.Integer"/>
+            <fld_name nil="true" type="Base Types.String"/>
+            <fld_address nil="true" type="Base Types.String"/>
+            <fld_age nil="true" type="Base Types.Integer"/>
+         </empClass>
+      </Parameter>
+   </Request>
+</Testcase>

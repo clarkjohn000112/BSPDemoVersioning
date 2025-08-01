@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><SEI_HTTP_Service xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Request>
+      <Name enabled="true">mset1625088479h1630480374</Name>
+      <URI>/Casin_Final_ServiceService/FinalService</URI>
+      <AuthMode>None</AuthMode>
+   </Request>
+</SEI_HTTP_Service>

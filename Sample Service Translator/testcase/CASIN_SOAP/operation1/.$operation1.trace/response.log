@@ -1,0 +1,29 @@
+Server: E2E-Bridge/2019.3
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1094
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:ns0="urn:Services.SOAPDateTranslator.DateTranslator.DateTranslatorPortType"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:ns1="urn:Services.SOAPDateTranslator.Classes"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		    <ns0:operation1Response>
+			      <output xsi:type="ns1:outputData">
+				        <id xsi:type="xsd:int">2</id>
+				        <name xsi:type="xsd:string">Clark</name>
+				        <age xsi:type="xsd:string">23</age>
+				        <address xsi:type="xsd:string">Laguna</address>
+				        <birthdate xsi:type="xsd:string">Ika 1, ng Disyembre Taon 2000</birthdate>
+				        <company xsi:type="xsd:string">OneToolPH</company>
+				        <salary xsi:type="xsd:float">10000</salary>
+				        <years_hired xsi:type="xsd:int">4</years_hired>
+				        <language xsi:type="xsd:string">PH</language>
+			      </output>
+		    </ns0:operation1Response>
+	  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

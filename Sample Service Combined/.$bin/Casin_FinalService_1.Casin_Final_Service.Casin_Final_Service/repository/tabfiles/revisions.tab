@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Revision>
+      <XMI fileName="TranslatorLibrary" version="2.1"/>
+      <UML version="2.0"/>
+      <LibraryComponent killJVMThreadsOnShutdown="true" name="TranslatorLibrary" version="1.0"/>
+      <CompilerInformation>
+         <BuildTime millis="1695853632766">Thu, Sep 28, 2023, 06:27:12 SGT</BuildTime>
+         <Compiler version="7.4.0"/>
+         <Builder runtime="2019.3" version="7.4.0"/>
+      </CompilerInformation>
+   </Revision>
+   <Revision>
+      <XMI fileName="Casin_FinalService_1" version="2.1"/>
+      <UML version="2.0"/>
+      <Composite name="Casin_Final_Service" version="1.0"/>
+      <CompilerInformation>
+         <BuildTime millis="1738198339882">Thu, Jan 30, 2025, 08:52:19 SGT</BuildTime>
+         <Compiler version="7.4.0"/>
+         <Builder runtime="2019.3" version="7.4.0"/>
+      </CompilerInformation>
+   </Revision>
+   <Revision>
+      <XMI fileName="SOAPAdapterDateTranslatorService.wsdl.import" version="2.5"/>
+      <UML version="2.0"/>
+      <CompilerInformation>
+         <BuildTime millis="1738196887629">Thu, Jan 30, 2025, 08:28:07 SGT</BuildTime>
+         <Compiler version="7.4.0"/>
+         <Builder runtime="2019.3" version="7.4.0"/>
+      </CompilerInformation>
+   </Revision>
+   <Revision>
+      <XMI fileName="SOAPAdapterDateTranslator.wsdl.import" version="2.5"/>
+      <UML version="2.0"/>
+      <CompilerInformation>
+         <BuildTime millis="1738198332477">Thu, Jan 30, 2025, 08:52:12 SGT</BuildTime>
+         <Compiler version="7.4.0"/>
+         <Builder runtime="2019.3" version="7.4.0"/>
+      </CompilerInformation>
+   </Revision>
+   <Revision>
+      <XMI fileName="TranslatorLibrary.import" version="2.5"/>
+      <UML version="2.0"/>
+      <CompilerInformation>
+         <BuildTime millis="1738196887629">Thu, Jan 30, 2025, 08:28:07 SGT</BuildTime>
+         <Compiler version="7.4.0"/>
+         <Builder runtime="2019.3" version="7.4.0"/>
+      </CompilerInformation>
+   </Revision>
+</table>

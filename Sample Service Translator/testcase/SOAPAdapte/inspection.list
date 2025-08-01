@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InspectionList xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Model id="_2015442443|ROOT_MODEL_XMI.ID" name="SOAPAdapterDateTranslator">
+      <Package name="Services">
+         <Package name="SOAPDateTranslator">
+            <Package name="DateTranslator">
+               <Class name="DateTranslatorPortType">
+                  <Activity name="DateTranslatorActivity">
+                     <Action id="englsih_translator..._2015442443|_18_0_7_57601ee_1695915326130_892692_13939"
+                             name="englsih translator"
+                             traceName="transformerFlow"/>
+                     <Action id="invalid_language..._2015442443|_18_0_7_57601ee_1695915334750_43220_13958"
+                             name="invalid language"
+                             traceName="transformerFlow"/>
+                     <Action id="tagalog_translator..._2015442443|_18_0_7_57601ee_1695915367520_234230_13991"
+                             name="tagalog translator"
+                             traceName="transformerFlow"/>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167"
+          name="SOAPAdapterDateTranslator"/>
+</InspectionList>

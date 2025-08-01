@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><FlatFileAddOn xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <ComposeEmptyAttributes>true</ComposeEmptyAttributes>
+   <Parser>
+      <DateParserVersion version="2"/>
+      <Trace>false</Trace>
+      <Name>parse_file...1625088479|_18_0_7_57601ee_1695848477951_20769_14922</Name>
+      <DataItemType>urn:finalflatfile_format.finalflatfile_format</DataItemType>
+      <ComposeEmptyAttributes>true</ComposeEmptyAttributes>
+      <FileName>C:\E2E Documentation\Sample Service Combined\resources\finalflatfile.txt</FileName>
+      <Encoding>utf-8</Encoding>
+   </Parser>
+</FlatFileAddOn>

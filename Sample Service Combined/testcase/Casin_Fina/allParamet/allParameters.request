@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="allParameters"
+         namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+         prefix="ns0">
+   <Parameter>
+      <name type="Base Types.String">C:/E2E Documentation/Final Exercise/resources/finalflatfile.txt</name>
+   </Parameter>
+</Request>

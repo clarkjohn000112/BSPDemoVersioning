@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="1625088479" original="Casin_FinalService_1.xml"/>
+   <UniqueId id="_2065702340" original="imports/TranslatorLibrary.import.xml"/>
+   <UniqueId id="_1947112555" original="imports/SOAPAdapterDateTranslator.wsdl.import.xml"/>
+   <UniqueId id="E2E_PROCESS_TRACING"
+             original="C:\Program Files\MagicDraw\modelLibraries\E2E Process Tracing.xml"/>
+   <UniqueId id="_1497419020"
+             original="imports/SOAPAdapterDateTranslatorService.wsdl.import.xml"/>
+   <UniqueId id="820620946"
+             original="../../../Program Files/MagicDraw/profiles/UML_Standard_Profile.mdzip"/>
+   <UniqueId id="E2E_BRIDGE_BASE_COMPONENTS"
+             original="C:\Program Files\MagicDraw\modelLibraries\E2E Bridge Base.xml"/>
+   <UniqueId id="564060739" original="Casin_Final_Service.mdzip"/>
+   <UniqueId id="E2E_BRIDGE_PROFILE"
+             original="C:\Program Files\MagicDraw\profiles\E2E Bridge Profile.xml"/>
+</UniqueIds>

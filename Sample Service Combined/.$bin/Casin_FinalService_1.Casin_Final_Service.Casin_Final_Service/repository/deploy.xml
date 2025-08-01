@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><DeploymentDescriptor xmlns="http://e2e.ch/bridge" version="3.0">
+   <Documentation indexDocument="Casin_FinalService_1_1625088479.html" location="documentation"/>
+   <RepositoryConfiguration>
+      <RepositoryEntries>
+         <RepositoryEntry path="tabfiles"/>
+         <RepositoryEntry path="wsdl/"/>
+         <RepositoryEntry path="java"/>
+         <RepositoryEntry path="xslt/"/>
+         <RepositoryEntry path="resources"/>
+         <RepositoryEntry path="htdocs/"/>
+         <RepositoryEntry path="documentation/"/>
+         <RepositoryEntry path="swagger/"/>
+      </RepositoryEntries>
+   </RepositoryConfiguration>
+   <RuntimeConstraints/>
+   <BridgeConfiguration category="Training" classToXMLDefaultRootName="Default" classifierID="1625088479|_18_0_7_57601ee_1695849592326_182919_15084" classifierName="Casin_Final_Service" control="21924" host="localhost" id="1625088479|_18_0_7_57601ee_1695849592326_182919_15084" name="Casin_Final_Service" trace="true" umlLocation="1625088479|ROOT_MODEL_XMI.ID~1625088479|_18_0_7_57601ee_1695849592321_464684_15051~1625088479|_18_0_7_57601ee_1695849592326_594424_15085~1625088479|_18_0_7_57601ee_1695849592326_182919_15084" version="1.0">
+      <Services>
+         <Service authenticationMode="None" externalURL="http://${wsdl_host_urn:Component_View.Composites.Casin_Final_Service.Casin_Final_ServiceService}:11924" id="1625088479|_18_0_7_57601ee_1695849592326_906453_15100" instanceName="Casin_Final_ServiceService" label="Casin_Final_ServiceService:Casin_Final_ServiceService" name="Casin_Final_ServiceService" namespace="urn:Component_View.Composites" package="Component_View.Composites.Casin_Final_Service" port="11924" protocol="http" stereotype="E2ESOAPService" umlLocation="1625088479|ROOT_MODEL_XMI.ID~1625088479|_18_0_7_57601ee_1695849592321_464684_15051~1625088479|_18_0_7_57601ee_1695849592326_594424_15085~1625088479|_18_0_7_57601ee_1695849592326_182919_15084~1625088479|_18_0_7_57601ee_1695849592326_906453_15100" url="http://NoHostInfo:11924" wsdl="true" wsdlServicePath="/Casin_Final_ServiceService" wsdlURI="http://${server_hostname}:11924/Casin_Final_ServiceService?wsdl">
+               <Documentation/>
+               <Ports>
+                  <Port enabledID="addOn_Casin_Final_ServiceService.FinalService_Enabled" escapedPath="/Casin_Final_ServiceService/FinalService" instanceName="FinalService" name="FinalService" package="Services.FinalExercise.FinalExerciseService" path="/Casin_Final_ServiceService/FinalService"/>
+               </Ports>
+            </Service>
+      </Services>
+      <UIDeployments/>
+   </BridgeConfiguration>
+   <ProxyConfiguration/>
+</DeploymentDescriptor>

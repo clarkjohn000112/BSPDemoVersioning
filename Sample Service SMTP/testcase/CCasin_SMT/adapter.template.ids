@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="_381276297" name="send email"
+             original="send_email...722895999|_18_0_7_57601ee_1695658670600_307528_14148"
+             package="Services.SMTPService.SMTPService.SMTPExercise"
+             type="SMTPAdapter"/>
+</UniqueIds>

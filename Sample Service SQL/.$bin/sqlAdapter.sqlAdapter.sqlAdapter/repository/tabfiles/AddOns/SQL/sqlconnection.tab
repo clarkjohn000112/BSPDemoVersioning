@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><SQLConnections xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Connection id="SQLAlias">
+      <ConnName>SQLAlias</ConnName>
+      <DBType>SQLServer</DBType>
+      <DBName>ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com@TestDB</DBName>
+      <UnicodeMode>Platform default</UnicodeMode>
+      <ConnectionPooling>true</ConnectionPooling>
+      <MaxConnectionReuse>1000</MaxConnectionReuse>
+      <MaxConnectionAge>15</MaxConnectionAge>
+      <MaxConnectionIdleTime>60</MaxConnectionIdleTime>
+   </Connection>
+</SQLConnections>

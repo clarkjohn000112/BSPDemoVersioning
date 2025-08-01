@@ -1,0 +1,46 @@
+[2025-01-30 08:52:20 +0800][0000000000][Info][Internal][SRVLM][2][Starting up. Runtime "2019.3" (win32-64), IP "172.20.15.7", Host "DESKTOP-0BOPAP5", Process ID "27188".]
+[2025-01-30 08:52:20 +0800][0000000000][Info][Internal][LCELM][15][Using valid license.]
+[2025-01-30 08:52:20 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "Flows" successfully.]
+[2025-01-30 08:52:20 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "Functions" successfully.]
+[2025-01-30 08:52:20 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "XML_Function" successfully.]
+[2025-01-30 08:52:21 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "SOAP_AddOn" successfully.]
+[2025-01-30 08:52:21 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "FlatFile_AddOn" successfully.]
+[2025-01-30 08:52:21 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "SQL_AddOn" successfully.]
+[2025-01-30 08:52:21 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "LOG_AddOn" successfully.]
+[2025-01-30 08:52:21 +0800][0000000000][Info][Internal][ADDLM][5][Loaded addon "JSON_AddOn" successfully.]
+[2025-01-30 08:52:21 +0800][0000000000][Info][Internal][SRVLM][3][Startup done.]
+[2025-01-30 08:52:26 +0800][0000000000][Info][User][][][[
+   {"id":1,
+    "name":"CLARK",
+    "age":"22",
+    "address":"LAGUNA",
+    "birthdate":"12/01/2000",
+    "company":"ONETOOLPH",
+    "salary":10000,
+    "years_hired":1,
+    "language":"PH"},
+   {"id":2,
+    "name":"MARK",
+    "age":"29",
+    "address":"MAKATI",
+    "birthdate":"12/27/1998",
+    "company":"ONETOOLPH",
+    "salary":20000,
+    "years_hired":2,
+    "language":"KJ"},
+   {"id":3,
+    "name":"HENRY",
+    "age":"32",
+    "address":"MANILA",
+    "birthdate":"12/19/2001",
+    "company":"ONETOOLPH",
+    "salary":30000,
+    "years_hired":6,
+    "language":"EN"}]]
+[2025-01-30 08:52:29 +0800][0000000006][Error][Internal][SOAPADSM][10][URL connector subsystem error in URL "http://ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com:11922/SOAPAdapterDateTranslatorService/DateTranslatorPortType": 0 Failed to connect to ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com port 11922: Connection refused. Error description: Couldn't connect to server - Error Trace: logs/error/error-2025-01-30_00-52-26_UTC-2.xml - Callstack: allParameters > urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters > calling > urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2 > birthdate_translator > Date_Translator]
+[2025-01-30 08:53:41 +0800][0000000000][Info][Internal][SRVLM][5][Shutting down...]
+[2025-01-30 08:53:41 +0800][0000000000][Info][Internal][BELM][35][The "SOAPService" is shutting down ...]
+[2025-01-30 08:53:41 +0800][0000000000][Info][Internal][BELM][36][The "SOAPService" was shut down.]
+[2025-01-30 08:53:41 +0800][0000000000][Info][Internal][BELM][35][The "RESTService" is shutting down ...]
+[2025-01-30 08:53:41 +0800][0000000000][Info][Internal][BELM][36][The "RESTService" was shut down.]
+[2025-01-30 08:53:43 +0800][0000000000][Info][Internal][SRVLM][6][Shutdown complete.]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Functions xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Function>
+      <ID>compareEq...f_2086274486h-1327786813.3_2</ID>
+      <Left>0.1</Left>
+      <Op>EQ</Op>
+      <Right>1.0.1</Right>
+   </Function>
+   <Function>
+      <ID>compareEq...f_2086274486h565686020.3_2</ID>
+      <Left>0.0</Left>
+      <Op>EQ</Op>
+      <Right>1.0.0</Right>
+   </Function>
+</Functions>

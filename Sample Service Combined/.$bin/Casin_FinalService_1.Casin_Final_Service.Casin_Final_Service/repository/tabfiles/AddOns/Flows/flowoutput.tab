@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OutputMaps xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <OutputMap>
+      <Component>urn:Services.NumberTranslator.NumberTranslator.NumberTranslatorPortType.operation1</Component>
+      <Map>om_1914154550h237262099</Map>
+   </OutputMap>
+   <OutputMap>
+      <Component>urn:Services.FinalExercise.FinalExerciseService.FinalService.allParameters</Component>
+      <Map>om1625088479h-102515684</Map>
+   </OutputMap>
+   <OutputMap>
+      <Component>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration</Component>
+      <Map>om1625088479h1686563086</Map>
+   </OutputMap>
+   <OutputMap>
+      <Component>urn:Services.FinalExercise.FinalExerciseService.FinalService.iteration2</Component>
+      <Map>om1625088479h743848164</Map>
+   </OutputMap>
+</OutputMaps>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="_1947112555"
+         xmi:version="2.5"
+         xmifile.id="_1947112555">
+   <xmi:Documentation exporter="MagicDraw UML" exporterVersion="18.0"/>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              type="_1947112555|uml:Model"
+              xmi:id="_1947112555|WSDL_IMPORT_SOAPAdapterDateTranslator.wsdl_1945769542">
+      <ownedMember name="SOAPAdapterDateTranslator.wsdl" visibility="public"
+                   xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_-2117552755"
+                   xmi:type="uml:Package">
+         <ownedMember name="Types" visibility="public"
+                      xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_-54495925"
+                      xmi:type="uml:Package">
+            <ownedMember name="Services.SOAPDateTranslator.Classes" visibility="public"
+                         xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_-967242877"
+                         xmi:type="uml:Package">
+               <ownedMember name="Schema" visibility="public"
+                            xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_-1311712155"
+                            xmi:type="uml:Package">
+                  <ownedMember name="Types" visibility="public"
+                               xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_1237893965"
+                               xmi:type="uml:Package">
+                     <ownedMember isAbstract="false" name="inputData" visibility="public"
+                                  xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Class_-1067028930"
+                                  xmi:type="uml:Class">
+                        <ebp:umlNamespace value="urn:Services.SOAPDateTranslator.Classes"/>
+                        <ebp:xmlNamespace value="urn:Services.SOAPDateTranslator.Classes"/>
+                        <ebp:XML base_Class="_1947112555|SOAPAdapterDateTranslator.wsdl_Class_-1067028930"
+                                 namespace="urn:Services.SOAPDateTranslator.Classes"
+                                 xmi:id="_1947112555|119724483_typelink"
+                                 xmlNamespace="urn:Services.SOAPDateTranslator.Classes"/>
+                        <ownedAttribute name="id"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_1082385369"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="name"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_790403529"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="age"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-805799423"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="address"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-968733706"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="birthdate"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-1028807569"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="company"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_1129442431"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="salary"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-488304248"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="years_hired"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-223803063"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="language"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-360848490"
+                                        xmi:type="uml:Property"/>
+                     </ownedMember>
+                     <ownedMember isAbstract="false" name="outputData" visibility="public"
+                                  xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Class_-1353686559"
+                                  xmi:type="uml:Class">
+                        <ebp:umlNamespace value="urn:Services.SOAPDateTranslator.Classes"/>
+                        <ebp:xmlNamespace value="urn:Services.SOAPDateTranslator.Classes"/>
+                        <ebp:XML base_Class="_1947112555|SOAPAdapterDateTranslator.wsdl_Class_-1353686559"
+                                 namespace="urn:Services.SOAPDateTranslator.Classes"
+                                 xmi:id="_1947112555|-1828276696_typelink"
+                                 xmlNamespace="urn:Services.SOAPDateTranslator.Classes"/>
+                        <ownedAttribute name="id"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_482310844"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="name"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-355597332"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="age"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_2066726782"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="address"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-785347853"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="birthdate"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_-888661972"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="company"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_1312828284"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="salary"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Float"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_2011463403"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="years_hired"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_1312129478"
+                                        xmi:type="uml:Property"/>
+                        <ownedAttribute name="language"
+                                        type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Property_1029145657"
+                                        xmi:type="uml:Property"/>
+                     </ownedMember>
+                  </ownedMember>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember name="Services" visibility="public"
+                      xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_2064247372"
+                      xmi:type="uml:Package">
+            <ownedMember name="SOAPAdapterDateTranslatorService" visibility="public"
+                         xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_1470425064"
+                         xmi:type="uml:Package">
+               <ownedMember name="DateTranslatorPortType" visibility="public"
+                            xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_1604092924"
+                            xmi:type="uml:Package">
+                  <ownedMember isAbstract="false" name="DateTranslatorPortType" visibility="public"
+                               xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"
+                               xmi:type="uml:Interface">
+                     <ebp:umlNamespace value="urn:uml-interface:SOAPAdapterDateTranslator.wsdl.Services.SOAPAdapterDateTranslatorService.DateTranslatorPortType"/>
+                     <ebp:SOAPPortTypeInterface base_Interface="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"
+                                                xmi:id="_1947112555|533977638_typelink"/>
+                     <ownedComment body="Please enter documentation."/>
+                     <ownedOperation isStatic="true" name="operation1" visibility="public"
+                                     xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Operation_1980401196"
+                                     xmi:type="uml:Operation">
+                        <ebp:SOAPRPCOperation base_Operation="_1947112555|SOAPAdapterDateTranslator.wsdl_Operation_1980401196"
+                                              soapInputNamespace="urn:Services.SOAPDateTranslator.DateTranslator.DateTranslatorPortType"
+                                              soapOutputNamespace="urn:Services.SOAPDateTranslator.DateTranslator.DateTranslatorPortType"
+                                              xmi:id="_1947112555|-170741294_typelink"/>
+                        <ownedComment body="[Add documentation here]"/>
+                        <ownedParameter direction="in" name="input"
+                                        type="_1947112555|SOAPAdapterDateTranslator.wsdl_Class_-1067028930"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Parameter_100358090"
+                                        xmi:type="uml:Parameter"/>
+                        <ownedParameter direction="out" name="output"
+                                        type="_1947112555|SOAPAdapterDateTranslator.wsdl_Class_-1353686559"
+                                        visibility="public"
+                                        xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Parameter_-1005512447"
+                                        xmi:type="uml:Parameter"/>
+                     </ownedOperation>
+                  </ownedMember>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember name="Component View" visibility="public"
+                      xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_-566147210"
+                      xmi:type="uml:Package">
+            <ownedMember name="Backend Services" visibility="public"
+                         xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_514913075"
+                         xmi:type="uml:Package">
+               <ownedMember name="SOAPAdapterDateTranslatorServiceArtifact" visibility="public"
+                            xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_29392043"
+                            xmi:type="uml:Artifact">
+                  <ebp:SOAPServiceDeployment base_Artifact="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_29392043"
+                                             nodeType="E2EBridgeServerInstance"
+                                             xmi:id="_1947112555|1466607645_typelink"/>
+                  <nestedArtifact name="DateTranslatorPortTypeArtifact" visibility="public"
+                                  xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_-1999743392"
+                                  xmi:type="uml:Artifact">
+                     <ebp:SOAPPortTypeInterfaceDeployment base_Artifact="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_-1999743392"
+                                                          nodeType="BackendServerInstance"
+                                                          path="/ots/gateway/TrainingBSP/SOAPAdapterDateTranslator/1.0"
+                                                          protocol="https"
+                                                          xmi:id="_1947112555|1009296748_typelink"/>
+                     <manifestation utilizedElement="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"
+                                    visibility="public"
+                                    xmi:id="_1947112555|manifestation_SOAPAdapterDateTranslator.wsdl_Artifact_-1999743392"
+                                    xmi:type="uml:Manifestation">
+                        <supplier xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"/>
+                        <client xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_-1999743392"/>
+                     </manifestation>
+                  </nestedArtifact>
+                  <manifestation utilizedElement="_1947112555|SOAPAdapterDateTranslator.wsdl_Component_-256189511"
+                                 visibility="public"
+                                 xmi:id="_1947112555|manifestation_SOAPAdapterDateTranslator.wsdl_Artifact_29392043"
+                                 xmi:type="uml:Manifestation">
+                     <supplier xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Component_-256189511"/>
+                     <client xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_29392043"/>
+                  </manifestation>
+               </ownedMember>
+               <ownedMember isAbstract="false" name="SOAPAdapterDateTranslatorService" visibility="public"
+                            xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Component_-256189511"
+                            xmi:type="uml:Component">
+                  <ebp:SOAPService base_Component="_1947112555|SOAPAdapterDateTranslator.wsdl_Component_-256189511"
+                                   xmi:id="_1947112555|98136959_typelink"/>
+                  <realization realizingClassifier="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"
+                               visibility="private"
+                               xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Realization_381072732"
+                               xmi:type="uml:ComponentRealization">
+                     <supplier xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Component_-256189511"/>
+                     <client xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"/>
+                     <realizingClassifier xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Interface_381072732"/>
+                  </realization>
+               </ownedMember>
+            </ownedMember>
+            <ownedMember name="Templates" visibility="public"
+                         xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_193364144"
+                         xmi:type="uml:Package">
+               <ownedMember name="ec2-18-140-203-30.ap-southeast-1.compute.amazonaws.com"
+                            visibility="public"
+                            xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_-271414474"
+                            xmi:type="uml:InstanceSpecification">
+                  <ebp:BackendServerInstance base_InstanceSpecification="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_-271414474"
+                                             xmi:id="_1947112555|1730711249_typelink"/>
+                  <ebp:UserArtifactTemplate base_Artifact="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_-271414474"
+                                            xmi:id="_1947112555|-452987521_typelink"/>
+                  <deployment visibility="public"
+                              xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_1741339923Deployment"
+                              xmi:type="uml:Deployment">
+                     <supplier xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_1741339923"/>
+                     <client xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_-271414474"/>
+                     <deployedArtifact xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_1741339923"/>
+                  </deployment>
+                  <classifier xmi:idref="_1947112555|_12_1_c3202fe_1180009425873_874557_1396"/>
+               </ownedMember>
+               <ownedMember name="" visibility="public"
+                            xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_1741339923"
+                            xmi:type="uml:InstanceSpecification">
+                  <ebp:UserArtifactTemplate base_Artifact="_1947112555|SOAPAdapterDateTranslator.wsdl_InstanceSpecification_1741339923"
+                                            xmi:id="_1947112555|1648495818_typelink"/>
+                  <classifier xmi:idref="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_29392043"/>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember name="Aliases" visibility="public"
+                      xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Package_-892436656"
+                      xmi:type="uml:Package">
+            <ownedMember name="DateTranslatorPortTypeAliasTemplate" visibility="public"
+                         xmi:id="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_1774714090"
+                         xmi:type="uml:Artifact">
+               <ebp:E2EArtifactTemplate base_Artifact="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_1774714090"
+                                        xmi:id="_1947112555|-1990665486_typelink"/>
+               <ebp:SOAPAlias base_Artifact="_1947112555|SOAPAdapterDateTranslator.wsdl_Artifact_1774714090"
+                              host="ec2-18-140-203-30.ap-southeast-1.compute.amazonaws.com"
+                              messageFormat="Linebreaks"
+                              path="/ots/gateway/TrainingBSP/SOAPAdapterDateTranslator/1.0"
+                              protocol="https"
+                              xmi:id="_1947112555|1320522371_typelink"/>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+   </uml:Model>
+</xmi:XMI>

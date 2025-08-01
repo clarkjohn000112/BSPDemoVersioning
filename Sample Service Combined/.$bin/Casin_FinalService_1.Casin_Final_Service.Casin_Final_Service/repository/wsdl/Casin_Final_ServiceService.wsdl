@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:stns1="urn:Services.NumberTranslator.Classes"
+                  xmlns:stns2="urn:Services.SOAPDateTranslator.Classes"
+                  xmlns:tns="urn:Casin_Final_ServiceService"
+                  xmlns:http="http://schemas.xmlsoap.org/soap/http"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+                  name="Casin_Final_ServiceService"
+                  targetNamespace="urn:Casin_Final_ServiceService">
+   <wsdl:types>
+      <xs:schema targetNamespace="urn:Services.NumberTranslator.Classes">
+         <xs:complexType name="inputClass">
+            <xs:sequence>
+               <xs:element name="age" type="xs:string"/>
+               <xs:element name="name" type="xs:string"/>
+               <xs:element name="id" type="xs:integer"/>
+               <xs:element name="address" type="xs:string"/>
+               <xs:element name="birthdate" type="xs:string"/>
+               <xs:element name="company" type="xs:string"/>
+               <xs:element name="salary" type="xs:float"/>
+               <xs:element name="years_hired" type="xs:integer"/>
+               <xs:element name="language" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="outputClass">
+            <xs:sequence>
+               <xs:element name="age" type="xs:string"/>
+               <xs:element name="name" type="xs:string"/>
+               <xs:element name="id" type="xs:integer"/>
+               <xs:element name="address" type="xs:string"/>
+               <xs:element name="birthdate" type="xs:string"/>
+               <xs:element name="company" type="xs:string"/>
+               <xs:element name="salary" type="xs:float"/>
+               <xs:element name="years_hired" type="xs:integer"/>
+               <xs:element name="language" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="inputClassArray">
+            <xs:complexContent>
+               <xs:restriction base="soapenc:Array">
+                  <xs:attribute ref="soapenc:arrayType" wsdl:arrayType="stns1:inputClass[]"/>
+               </xs:restriction>
+            </xs:complexContent>
+         </xs:complexType>
+         <xs:complexType name="outputClassArray">
+            <xs:complexContent>
+               <xs:restriction base="soapenc:Array">
+                  <xs:attribute ref="soapenc:arrayType" wsdl:arrayType="stns1:outputClass[]"/>
+               </xs:restriction>
+            </xs:complexContent>
+         </xs:complexType>
+      </xs:schema>
+      <xs:schema targetNamespace="urn:Services.SOAPDateTranslator.Classes">
+         <xs:complexType name="inputData">
+            <xs:sequence>
+               <xs:element name="id" type="xs:integer"/>
+               <xs:element name="name" type="xs:string"/>
+               <xs:element name="age" type="xs:string"/>
+               <xs:element name="address" type="xs:string"/>
+               <xs:element name="birthdate" type="xs:string"/>
+               <xs:element name="company" type="xs:string"/>
+               <xs:element name="salary" type="xs:float"/>
+               <xs:element name="years_hired" type="xs:integer"/>
+               <xs:element name="language" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="outputData">
+            <xs:sequence>
+               <xs:element name="id" type="xs:integer"/>
+               <xs:element name="name" type="xs:string"/>
+               <xs:element name="age" type="xs:string"/>
+               <xs:element name="address" type="xs:string"/>
+               <xs:element name="birthdate" type="xs:string"/>
+               <xs:element name="company" type="xs:string"/>
+               <xs:element name="salary" type="xs:float"/>
+               <xs:element name="years_hired" type="xs:integer"/>
+               <xs:element name="language" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="inputDataArray">
+            <xs:complexContent>
+               <xs:restriction base="soapenc:Array">
+                  <xs:attribute ref="soapenc:arrayType" wsdl:arrayType="stns2:inputData[]"/>
+               </xs:restriction>
+            </xs:complexContent>
+         </xs:complexType>
+         <xs:complexType name="outputDataArray">
+            <xs:complexContent>
+               <xs:restriction base="soapenc:Array">
+                  <xs:attribute ref="soapenc:arrayType" wsdl:arrayType="stns2:outputData[]"/>
+               </xs:restriction>
+            </xs:complexContent>
+         </xs:complexType>
+      </xs:schema>
+   </wsdl:types>
+   <wsdl:message name="FinalService_allParameters_Request">
+      <wsdl:part name="name" type="xs:string"/>
+   </wsdl:message>
+   <wsdl:message name="FinalService_allParameters_Response">
+      <wsdl:part name="response" type="xs:string"/>
+   </wsdl:message>
+   <wsdl:message name="FinalService_iteration_Request">
+      <wsdl:part name="inputParam" type="stns1:inputClassArray"/>
+   </wsdl:message>
+   <wsdl:message name="FinalService_iteration_Response">
+      <wsdl:part name="outputParam" type="stns1:outputClassArray"/>
+   </wsdl:message>
+   <wsdl:message name="FinalService_iteration2_Request">
+      <wsdl:part name="inputParam" type="stns2:inputDataArray"/>
+   </wsdl:message>
+   <wsdl:message name="FinalService_iteration2_Response">
+      <wsdl:part name="outputParam" type="stns2:outputDataArray"/>
+   </wsdl:message>
+   <wsdl:portType name="FinalService">
+      <wsdl:documentation>[Add documentation here]</wsdl:documentation>
+      <wsdl:operation name="allParameters">
+         <wsdl:documentation>[Add documentation here]</wsdl:documentation>
+         <wsdl:input message="tns:FinalService_allParameters_Request"/>
+         <wsdl:output message="tns:FinalService_allParameters_Response"/>
+      </wsdl:operation>
+      <wsdl:operation name="iteration">
+         <wsdl:input message="tns:FinalService_iteration_Request"/>
+         <wsdl:output message="tns:FinalService_iteration_Response"/>
+      </wsdl:operation>
+      <wsdl:operation name="iteration2">
+         <wsdl:input message="tns:FinalService_iteration2_Request"/>
+         <wsdl:output message="tns:FinalService_iteration2_Response"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="FinalService_SOAPBinding" type="tns:FinalService">
+      <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsdl:operation name="allParameters">
+         <soap:operation soapAction=""/>
+         <wsdl:input>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+                       use="encoded"/>
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+                       use="encoded"/>
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="iteration">
+         <soap:operation soapAction=""/>
+         <wsdl:input>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+                       use="encoded"/>
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+                       use="encoded"/>
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="iteration2">
+         <soap:operation soapAction=""/>
+         <wsdl:input>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+                       use="encoded"/>
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                       namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+                       use="encoded"/>
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="Casin_Final_ServiceService">
+      <wsdl:port binding="tns:FinalService_SOAPBinding" name="FinalService">
+         <soap:address location="http://localhost:11924/Casin_Final_ServiceService/FinalService"/>
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

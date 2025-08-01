@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InspectionList xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Model id="_1914154550|ROOT_MODEL_XMI.ID" name="TranslatorLibrary">
+      <Package name="Services">
+         <Package name="NumberTranslator">
+            <Package name="NumberTranslator">
+               <Class name="NumberTranslatorPortType">
+                  <Activity name="TranslationProcessPort">
+                     <Action id="English..._1914154550|_18_0_7_57601ee_1695408314296_139161_14202"
+                             name="English"
+                             traceName="transformerFlow"/>
+                     <Action id="Tagalog..._1914154550|_18_0_7_57601ee_1695853320443_872617_13939"
+                             name="Tagalog"
+                             traceName="transformerFlow"/>
+                     <Action id="invalid_langauge..._1914154550|_18_0_7_57601ee_1695853371883_12731_13970"
+                             name="invalid langauge"
+                             traceName="transformerFlow"/>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="E2E_BRIDGE_BASE_COMPONENTS|GEN_1065094250389_956183_167"
+          name="TranslatorLibrary"/>
+   <Model id="_294670291|ROOT_MODEL_XMI.ID" name="Casin_Final_Service">
+      <Package name="Services">
+         <Package name="FinalExercise">
+            <Package name="FinalExerciseService">
+               <Class name="FinalService">
+                  <Activity name="AllAdapterIntegration">
+                     <Action alias="FileAlias"
+                             id="parse_file..._294670291|_18_0_7_57601ee_1695848477951_20769_14922"
+                             name="parse file"
+                             traceName="FlatFileAdapter"/>
+                     <Action id="set_array..._294670291|_18_0_7_57601ee_1695849369568_831394_14992"
+                             name="set array"
+                             traceName="transformerFlow"/>
+                     <IterationAction id="flatfile_to_array..._294670291|_18_0_7_57601ee_1695849981475_761457_15217"
+                                      name="flatfile to array">
+                        <Action id="convert_flatfile_to_array..._294670291|_18_0_7_57601ee_1695850154794_469087_15237"
+                                name="convert flatfile to array"
+                                traceName="transformerFlow"/>
+                     </IterationAction>
+                     <Action id="calling..._294670291|_18_0_7_57601ee_1695857572268_351428_16319"/>
+                     <IterationAction id="salary_iteration..._294670291|_18_0_7_57601ee_1695857911222_28253_16390"
+                                      name="salary iteration">
+                        <Action id="adjust_salary..._294670291|_18_0_7_57601ee_1695857920052_443176_16410"
+                                name="adjust salary"
+                                traceName="transformerFlow"/>
+                     </IterationAction>
+                     <IterationAction id="sql_iteration..._294670291|_18_0_7_57601ee_1695914479590_165783_14184"
+                                      name="sql iteration">
+                        <Action id="create_new_input_array..._294670291|_18_0_7_57601ee_1695918519317_323354_14483"
+                                name="create new input array"
+                                traceName="transformerFlow"/>
+                     </IterationAction>
+                     <Action id="calling..._294670291|_18_0_7_57601ee_1695921153196_480238_15100"/>
+                     <Action id="log_array..._294670291|_18_0_7_57601ee_1695921494167_860106_15256"
+                             name="log array"
+                             traceName="transformerFlow"/>
+                     <IterationAction id="insert_record..._294670291|_18_0_7_57601ee_1695921670278_577497_15283"
+                                      name="insert record">
+                        <Action alias="SQLAlias"
+                                id="sql_insert..._294670291|_18_0_7_57601ee_1695921772814_19580_15316"
+                                name="sql insert"
+                                traceName="SQLAdapter"/>
+                     </IterationAction>
+                     <Action alias="SQLAlias1"
+                             id="output_SQL..._294670291|_18_0_7_57601ee_1695922268212_503572_15409"
+                             name="output SQL"
+                             traceName="SQLAdapter"/>
+                  </Activity>
+                  <Activity name="IterationActivity">
+                     <IterationAction id="soap..._294670291|_18_0_7_57601ee_1695857263234_522902_16117" name="soap">
+                        <Action id="operation1..._294670291|_18_0_7_57601ee_1695857270787_716533_16153"/>
+                     </IterationAction>
+                  </Activity>
+                  <Activity name="IterationActivity2">
+                     <IterationAction id="birthdate_translator..._294670291|_18_0_7_57601ee_1695919541385_726606_14796"
+                                      name="birthdate translator">
+                        <Action alias="DateTranslatorPortTypeAlias"
+                                id="operation1..._294670291|_18_0_7_57601ee_1695919652242_638730_14892"
+                                traceName="SOAPAdapter"/>
+                     </IterationAction>
+                  </Activity>
+               </Class>
+            </Package>
+         </Package>
+      </Package>
+   </Model>
+   <Model id="_1497419020|WSDL_IMPORT_SOAPAdapterDateTranslatorService.wsdl_-909047575"
+          name="Casin_Final_Service"/>
+   <Model id="_2065702340|LIBRARY_IMPORT_TranslatorLibrary_2096173345"
+          name="Casin_Final_Service"/>
+</InspectionList>

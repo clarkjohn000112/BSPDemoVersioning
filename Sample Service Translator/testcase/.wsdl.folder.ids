@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="CASIN_SOAP"
+             original="SOAPAdapterDateTranslator.CASIN_SOAPAdapterDateTranslator.CASIN_SOAPAdapterDateTranslator"/>
+   <UniqueId id="SOAPAdapte"
+             original="SOAPAdapterDateTranslator.SOAPAdapterDateTranslator.SOAPAdapterDateTranslator"/>
+</UniqueIds>

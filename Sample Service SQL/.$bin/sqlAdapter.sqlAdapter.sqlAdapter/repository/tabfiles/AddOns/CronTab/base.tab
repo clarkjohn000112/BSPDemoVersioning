@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><CronTab_AddOn>
+   <Event>
+      <AllowParallelExecution>true</AllowParallelExecution>
+      <Day>*</Day>
+      <Hour>*</Hour>
+      <Minute>*</Minute>
+      <Month>*</Month>
+      <RequestName>urn:Services.NameOfService1.SQLAdapter.SQLScheduler.operation1</RequestName>
+      <WeekDay>*</WeekDay>
+      <Year>*</Year>
+   </Event>
+   <SwitchedOff>false</SwitchedOff>
+</CronTab_AddOn>

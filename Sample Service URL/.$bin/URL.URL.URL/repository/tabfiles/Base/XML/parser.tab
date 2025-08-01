@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_Parser xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Message>
+      <Name>urn:Services.FTPService.FTPUrl.FTPUrlService.operation1</Name>
+      <NoRootElement>true</NoRootElement>
+      <DataItem>imsg547668728h-2119115971</DataItem>
+   </Message>
+</XML_Parser>

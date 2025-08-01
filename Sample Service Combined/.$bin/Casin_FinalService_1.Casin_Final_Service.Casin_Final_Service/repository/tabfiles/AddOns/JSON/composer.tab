@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Functions xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <ClassToJSON>
+      <Name>classToJSON...f1625088479h699628973.4_1</Name>
+      <DataItem>urn:Services.SOAPDateTranslator.Classes.outputData</DataItem>
+      <Accessor>13</Accessor>
+      <Type>Array</Type>
+   </ClassToJSON>
+   <ClassToJSON>
+      <Name>classToJSON...f1625088479h1274074929.4_1</Name>
+      <DataItem>urn:finalflatfile_format.finalflatfile_format_Record</DataItem>
+      <Accessor>2.0</Accessor>
+      <Type>Array</Type>
+   </ClassToJSON>
+</Functions>

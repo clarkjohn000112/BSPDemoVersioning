@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><URL_AddOn xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <Request Name="FTP_Adapter...547668728|_18_0_7_57601ee_1738125845735_33289_13936">
+      <URL>https://ec2-18-140-203-30.ap-southeast-1.compute.amazonaws.com:443</URL>
+      <Method>GET</Method>
+      <SSL>
+                     <VerifyPeer>Off</VerifyPeer>
+                  </SSL>
+   </Request>
+</URL_AddOn>

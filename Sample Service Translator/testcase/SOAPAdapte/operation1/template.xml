@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testcase operation="operation1" porttype="DateTranslatorPortType"
+          service="SOAPAdapterDateTranslatorService">
+   <System>
+      <location>http://localhost:11111/SOAPAdapterDateTranslatorService/DateTranslatorPortType</location>
+      <documentStyle>rpc</documentStyle>
+      <soapAction/>
+      <namespaces>
+         <SOAPNamespace>http://schemas.xmlsoap.org/wsdl/soap/</SOAPNamespace>
+         <SOAPNamespacePrefix>soap</SOAPNamespacePrefix>
+         <EnvelopeNamespace>http://schemas.xmlsoap.org/soap/envelope/</EnvelopeNamespace>
+         <EnvelopeNamespacePrefix>env</EnvelopeNamespacePrefix>
+         <EncodingNamespace>http://schemas.xmlsoap.org/soap/encoding/</EncodingNamespace>
+         <EncodingNamespacePrefix>soapenc</EncodingNamespacePrefix>
+      </namespaces>
+      <control>http://localhost:21111</control>
+   </System>
+   <Request name="operation1"
+            namespace="urn:Services.SOAPDateTranslator.DateTranslator.DateTranslatorPortType"
+            prefix="ns3">
+      <Parameter>
+         <input namespace="urn:Services.SOAPDateTranslator.Classes" nil="true" prefix="ns2"
+                type="inputData">
+            <id nil="true" type="Base Types.Integer"/>
+            <name nil="true" type="Base Types.String"/>
+            <age nil="true" type="Base Types.String"/>
+            <address nil="true" type="Base Types.String"/>
+            <birthdate nil="true" type="Base Types.String"/>
+            <company nil="true" type="Base Types.String"/>
+            <salary nil="true" type="Base Types.Float"/>
+            <years_hired nil="true" type="Base Types.Integer"/>
+            <language nil="true" type="Base Types.String"/>
+         </input>
+      </Parameter>
+   </Request>
+</Testcase>

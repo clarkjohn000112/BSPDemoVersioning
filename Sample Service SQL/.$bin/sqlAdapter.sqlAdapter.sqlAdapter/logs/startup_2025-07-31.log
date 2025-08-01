@@ -1,0 +1,18 @@
+========================================================================
+C:\E2E Documentation\Sample Service SQL\.$bin\sqlAdapter.sqlAdapter.sqlAdapter
+
+PATH             = C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\tools;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\rlami\AppData\Local\Microsoft\WindowsApps;C:\Users\rlami\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MongoDB\Server\7.0\bin;C:\Program Files (x86)\Nmap;C:\Users\rlami\AppData\Local\GitHubDesktop\bin;C:\Users\rlami\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\rlami\AppData\Roaming\npm;C:\Program Files\Java\jdk-21\bin\;C:\Program Files\Maven\bin;;C:\Program Files\MagicDraw\jre\bin;C:\Program Files\MagicDraw\jre\bin\dtplugin;C:\Program Files\MagicDraw\jre\bin\plugin2;C:\Program Files\MagicDraw\jre\bin\server
+
+BRIDGESERVER_BIN = C:\Program Files\MagicDraw\plugins\ch.e2e.builder.plugin.magicdraw\bin\runtime\win\bin
+INSTANCES_HOME   = C:\E2E Documentation\Sample Service SQL\.$bin
+INSTANCE_HOME    = C:\E2E Documentation\Sample Service SQL\.$bin\sqlAdapter.sqlAdapter.sqlAdapter
+========================================================================
+========================================================================
+C:\E2E Documentation\Sample Service SQL\.$bin\sqlAdapter.sqlAdapter.sqlAdapter
+
+PATH             = C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\tools;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\rlami\AppData\Local\Microsoft\WindowsApps;C:\Users\rlami\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MongoDB\Server\7.0\bin;C:\Program Files (x86)\Nmap;C:\Users\rlami\AppData\Local\GitHubDesktop\bin;C:\Users\rlami\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\rlami\AppData\Roaming\npm;C:\Program Files\Java\jdk-21\bin\;C:\Program Files\Maven\bin;;C:\Program Files\MagicDraw\jre\bin;C:\Program Files\MagicDraw\jre\bin\dtplugin;C:\Program Files\MagicDraw\jre\bin\plugin2;C:\Program Files\MagicDraw\jre\bin\server
+
+BRIDGESERVER_BIN = C:\Program Files\MagicDraw\plugins\ch.e2e.builder.plugin.magicdraw\bin\runtime\win\bin
+INSTANCES_HOME   = C:\E2E Documentation\Sample Service SQL\.$bin
+INSTANCE_HOME    = C:\E2E Documentation\Sample Service SQL\.$bin\sqlAdapter.sqlAdapter.sqlAdapter
+========================================================================

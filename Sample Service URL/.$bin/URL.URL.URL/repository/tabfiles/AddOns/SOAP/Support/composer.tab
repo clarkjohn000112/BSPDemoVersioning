@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP_Composer xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <MessageSet>
+      <Name>mset547668728h235058679</Name>
+      <Encoding>SOAP</Encoding>
+      <Message>urn:Services.FTPService.FTPUrl.FTPUrlService.operation1</Message>
+   </MessageSet>
+   <Message>
+      <Name>urn:Services.FTPService.FTPUrl.FTPUrlService.operation1</Name>
+      <Operation>operation1Response</Operation>
+      <OperationNamespace>urn:Services.FTPService.FTPUrl.FTPUrlService</OperationNamespace>
+      <DataItem>omsg547668728h-2119115971</DataItem>
+   </Message>
+</SOAP_Composer>

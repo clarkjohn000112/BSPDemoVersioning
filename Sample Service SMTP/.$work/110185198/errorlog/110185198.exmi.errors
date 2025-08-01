@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Errorlist>
+   <Error code="EXMISCHE01" type="ch.e2e.builder.base.error.XSLTWarning">
+      <Parameter name="1" value="SMTPExercise"/>
+      <Parameter name="0" value="SMTPService"/>
+      <Location>110185198|ROOT_MODEL_XMI.ID~110185198|_18_0_7_57601ee_1695656155530_506793_13825~110185198|_18_0_7_57601ee_1695656155529_709351_13820~110185198|_18_0_7_57601ee_1695656155530_908778_13837~110185198|_18_0_7_57601ee_1695658624301_283222_14105</Location>
+   </Error>
+</Errorlist>

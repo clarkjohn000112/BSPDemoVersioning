@@ -1,0 +1,19 @@
+Server: E2E-Bridge/2019.3
+Pragma: no-cache
+Cache-control: no-cache
+Content-Type: text/xml; charset=utf-8
+Content-Length: 617
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:ns0="urn:Services.NameOfService1.SQLAdapter.SQLScheduler"
+                   xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		    <ns0:operation1Response>
+			      <empAge xsi:type="xsd:int">24</empAge>
+			      <empAddress xsi:type="xsd:string">Makati</empAddress>
+		    </ns0:operation1Response>
+	  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

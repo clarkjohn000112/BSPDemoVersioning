@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <generic/>
+   <compiler>
+      <wsdl.import.ignore.order type="java.lang.Boolean">false</wsdl.import.ignore.order>
+      <flatfile.definition.import type="java.io.File">resources</flatfile.definition.import>
+      <wsdl.import.url type="java.lang.String">file:/C:/Users/rlami/Downloads/SOAPAdapterDateTranslator.wsdl</wsdl.import.url>
+      <wsdl.import type="java.io.File">../../Users/rlami/Downloads</wsdl.import>
+      <import.module.folder type="java.io.File">../TranslatorLibrary/repository/TranslatorLibrary</import.module.folder>
+      <webapp.overwrite type="java.lang.Boolean">true</webapp.overwrite>
+      <webapp.admin.host type="java.lang.String">localhost</webapp.admin.host>
+      <webapp.admin.user type="java.lang.String"/>
+      <plugin.magicdraw.lastproject type="java.io.File">uml/Casin_FinalService_1.xml</plugin.magicdraw.lastproject>
+      <webapp.startup type="java.lang.Boolean">true</webapp.startup>
+      <webapp.admin.port type="java.lang.Integer">8080</webapp.admin.port>
+   </compiler>
+</project>

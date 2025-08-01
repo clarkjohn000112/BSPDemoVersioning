@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><SQLAuthorization xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+   <AuthorizationRecord>
+      <ConnName>SQLAlias</ConnName>
+      <User>*</User>
+      <DBUser>sa</DBUser>
+      <DBPassword>Asdf!234</DBPassword>
+   </AuthorizationRecord>
+</SQLAuthorization>

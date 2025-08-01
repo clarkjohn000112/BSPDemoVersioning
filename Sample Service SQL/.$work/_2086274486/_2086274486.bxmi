@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         descriptor="yes"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="_2086274486"
+         xmi:version="2.1"
+         xmifile.id="_2086274486">
+   <xmi:Documentation>
+      <xmi:exporter>MagicDraw UML</xmi:exporter>
+      <xmi:exporterVersion>18.0</xmi:exporterVersion>
+   </xmi:Documentation>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              xmi:id="_2086274486|ROOT_MODEL_XMI.ID"
+              xmi:type="uml:Model">
+      <ownedComment body="&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;h2&gt;Change Log&lt;/h2&gt;&#xA;&lt;table class=&#34;table&#34;&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;th&gt;Date&lt;/th&gt;&#xA;        &lt;th&gt;Author&lt;/th&gt;&#xA;        &lt;th&gt;Version&lt;/th&gt;&#xA;        &lt;th&gt;Implementation&lt;/th&gt;&#xA;        &lt;th&gt;Note&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;"/>
+      <ownedMember name="Services" xmi:id="_2086274486|_18_0_7_57601ee_1695420130460_20437_13859"
+                   xmi:type="uml:Package">
+         <ownedMember name="NameOfService1"
+                      xmi:id="_2086274486|_18_0_7_57601ee_1695420130458_386812_13831"
+                      xmi:type="uml:Package">
+            <ownedMember name="Classes" xmi:id="_2086274486|_18_0_7_57601ee_1695420130456_766362_13812"
+                         xmi:type="uml:Package">
+               <ownedMember name="employee" xmi:id="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.Classes"/>
+                  <ownedAttribute name="fld_employeeid"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                  visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1695420190662_57556_13872"
+                                  xmi:type="uml:Property"/>
+                  <ownedAttribute name="fld_name"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1695420206960_38120_13873"
+                                  xmi:type="uml:Property"/>
+                  <ownedAttribute name="fld_address"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1695420230259_293333_13874"
+                                  xmi:type="uml:Property"/>
+                  <ownedAttribute name="fld_age"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                  visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1695420243150_839712_13875"
+                                  xmi:type="uml:Property"/>
+               </ownedMember>
+            </ownedMember>
+            <ownedMember name="SQLAdapter"
+                         xmi:id="_2086274486|_18_0_7_57601ee_1695420130459_678549_13849"
+                         xmi:type="uml:Package">
+               <ownedMember name="Setting" xmi:id="_2086274486|_18_0_7_57601ee_1695421135366_45809_14075"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.SQLAdapter"/>
+               </ownedMember>
+               <ownedMember classifierBehavior="_18_0_7_57601ee_1695422810235_474007_14294"
+                            name="SQLScheduler"
+                            xmi:id="_2086274486|_18_0_7_57601ee_1695422788616_646092_14277"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.SQLAdapter"/>
+                  <ebp:E2EScheduler allowParallelExecutions="true"
+                                    base_Class="_2086274486|_18_0_7_57601ee_1695422788616_646092_14277"
+                                    days="*"
+                                    hours="*"
+                                    minutes="*"
+                                    months="*"
+                                    weekdays="*"
+                                    xmi:id="_2086274486|_18_0_7_57601ee_1695422788617_978498_14278"
+                                    years="*"/>
+                  <ownedBehavior isReentrant="false" name="SQLAdapter"
+                                 specification="_2086274486|_18_0_7_57601ee_1695422810233_625362_14293"
+                                 xmi:id="_2086274486|_18_0_7_57601ee_1695422810235_474007_14294"
+                                 xmi:type="uml:Activity">
+                     <ownedParameter name="empClass" type="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                                     visibility="public"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422810239_26091_14299"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="out" name="empAddress"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422810240_646765_14300"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="out" name="empAge"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                     visibility="public"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422810240_591200_14301"
+                                     xmi:type="uml:Parameter"/>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810263_222356_14323"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_814543_14338"
+                           xmi:type="uml:ControlFlow"/>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_775168_14339"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_743531_14371"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810263_509608_14325"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_755228_14340"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_32420_14372"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_602992_14330"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_225492_14341"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_845962_14373"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_725761_14342"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_896654_14374"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_644682_14343"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_43944_14375"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_195071_14344"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_138857_14376"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_376588_14345"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_55610_14377"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810263_509608_14325"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_463429_14346"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_622789_14378"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_602992_14330"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_689619_14347"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_312849_14379"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_294933_14331"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_800340_14348"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_483889_14380"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_888059_14332"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_84295_14349"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_322999_14381"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_997531_14327"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_998252_14350"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_472031_14382"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_64245_14336"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_326624_14351"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_49340_14383"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+                           target="_2086274486|_18_0_7_57601ee_1695422810267_658987_14367"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_585280_14352"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_725207_14384"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810263_509608_14325"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_882482_14353"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_765895_14385"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           target="_2086274486|_18_0_7_57601ee_1754026824489_411969_14164"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_573798_14354"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_442313_14386"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810263_509608_14325"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_998241_14355"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_631847_14387"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           target="_2086274486|_18_0_7_57601ee_1695422810263_676852_14326"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_782718_14356"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_655541_14388"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_64245_14336"
+                           target="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810265_776652_14357"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1695422810268_819997_14389"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           target="_2086274486|_18_0_7_57601ee_1737686369425_335548_14032"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1737686369433_359491_14035"
+                           xmi:type="uml:ObjectFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1737686369433_58955_14036"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <edge source="_2086274486|_18_0_7_57601ee_1754026824489_411969_14164"
+                           target="_2086274486|_18_0_7_57601ee_1695422810263_285498_14324"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1754026830064_83096_14213"
+                           xmi:type="uml:ControlFlow">
+                        <weight value="1" xmi:id="_2086274486|_18_0_7_57601ee_1754026830065_561002_14214"
+                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                     </edge>
+                     <node name="Start" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810263_222356_14323"
+                           xmi:type="uml:InitialNode">
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810264_814543_14338"/>
+                     </node>
+                     <node name="End" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810263_285498_14324"
+                           xmi:type="uml:ActivityFinalNode">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1754026830064_83096_14213"/>
+                     </node>
+                     <node name="empClass"
+                           parameter="_2086274486|_18_0_7_57601ee_1695422810239_26091_14299"
+                           type="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810263_509608_14325"
+                           xmi:type="uml:ActivityParameterNode">
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_755228_14340"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_463429_14346"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_882482_14353"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_998241_14355"/>
+                     </node>
+                     <node name="empAddress"
+                           parameter="_2086274486|_18_0_7_57601ee_1695422810240_646765_14300"
+                           type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810263_676852_14326"
+                           xmi:type="uml:ActivityParameterNode">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_782718_14356"/>
+                     </node>
+                     <node name="empAge"
+                           parameter="_2086274486|_18_0_7_57601ee_1695422810240_591200_14301"
+                           type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_997531_14327"
+                           xmi:type="uml:ActivityParameterNode">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_998252_14350"/>
+                     </node>
+                     <node name="Insert Record" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:SQLAdapter action="execute" alias="_2086274486|_18_0_7_57601ee_1695420590493_265938_13936"
+                                        base_Action="_2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+                                        dbType="SQLServer"
+                                        prefetchedRecords="10"
+                                        xmi:id="_2086274486|_18_0_7_57601ee_1695422810267_811470_14362">
+                           <ebp:SQLStatement>INSERT INTO CCASIN_TEST (fld_address,&#xD;
+	fld_age,&#xD;
+	fld_employeeid,&#xD;
+	fld_name)&#xD;
+VALUES (<input>
+                                 <Accessor start="1" startLine="1">
+                                    <AccessorPart start="1" startLine="1">
+                                       <EALName start="1" startLine="1" value="empClass"/>
+                                    </AccessorPart>
+                                    <AccessorPart start="10" startLine="1">
+                                       <EALName start="10" startLine="1" value="fld_address"/>
+                                    </AccessorPart>
+                                 </Accessor>
+                              </input>,&#xD;
+	<input>
+                                 <Accessor start="1" startLine="1">
+                                    <AccessorPart start="1" startLine="1">
+                                       <EALName start="1" startLine="1" value="empClass"/>
+                                    </AccessorPart>
+                                    <AccessorPart start="10" startLine="1">
+                                       <EALName start="10" startLine="1" value="fld_age"/>
+                                    </AccessorPart>
+                                 </Accessor>
+                              </input>,&#xD;
+	<input>
+                                 <Accessor start="1" startLine="1">
+                                    <AccessorPart start="1" startLine="1">
+                                       <EALName start="1" startLine="1" value="empClass"/>
+                                    </AccessorPart>
+                                    <AccessorPart start="10" startLine="1">
+                                       <EALName start="10" startLine="1" value="fld_employeeid"/>
+                                    </AccessorPart>
+                                 </Accessor>
+                              </input>,&#xD;
+	<input>
+                                 <Accessor start="1" startLine="1">
+                                    <AccessorPart start="1" startLine="1">
+                                       <EALName start="1" startLine="1" value="empClass"/>
+                                    </AccessorPart>
+                                    <AccessorPart start="10" startLine="1">
+                                       <EALName start="10" startLine="1" value="fld_name"/>
+                                    </AccessorPart>
+                                 </Accessor>
+                              </input>)&#xD;
+</ebp:SQLStatement>
+                        </ebp:SQLAdapter>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810264_814543_14338"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_755228_14340"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810264_775168_14339"/>
+                     </node>
+                     <node name="Select All" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:SQLAdapter action="execute" alias="_2086274486|_18_0_7_57601ee_1695420590493_265938_13936"
+                                        base_Action="_2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+                                        dbType="SQLServer"
+                                        prefetchedRecords="10"
+                                        xmi:id="_2086274486|_18_0_7_57601ee_1695422810267_312924_14363">
+                           <ebp:SQLStatement>SELECT <output name="fld_address"/>,&#xD;
+	<output name="fld_age"/>,&#xD;
+	<output name="fld_employeeid"/>,&#xD;
+	<output name="fld_name"/>&#xD;
+FROM CCASIN_TEST&#xD;
+</ebp:SQLStatement>
+                        </ebp:SQLAdapter>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810264_775168_14339"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_225492_14341"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_725761_14342"/>
+                     </node>
+                     <node name="empArray"
+                           type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_602992_14330"
+                           xmi:type="uml:CentralBufferNode">
+                        <ebp:E2EArray arrayElement="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                                      base_ObjectNode="_2086274486|_18_0_7_57601ee_1695422810264_602992_14330"
+                                      xmi:id="_2086274486|_18_0_7_57601ee_1695422810267_209657_14364"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_225492_14341"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_689619_14347"/>
+                     </node>
+                     <node name="empWorkArea"
+                           type="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_294933_14331"
+                           xmi:type="uml:CentralBufferNode">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_800340_14348"/>
+                     </node>
+                     <node name="settingsObj" type="_2086274486|_18_0_7_57601ee_1695421135366_45809_14075"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_888059_14332"
+                           xmi:type="uml:CentralBufferNode">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_84295_14349"/>
+                     </node>
+                     <node name="Get from employee" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:ActionScript base_Action="_2086274486|_18_0_7_57601ee_1695422810264_663009_14333">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <CreateStatement id="f_2086274486h-1327786813.0_1" start="1" startLine="1">
+                                    <EALName value="empWorkArea"/>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="2" start="1" startLine="2">
+                                 <CreateStatement id="f_2086274486h-1327786813.1_1" start="1" startLine="2">
+                                    <EALName value="settingsObj"/>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="3" start="1" startLine="3">
+                                 <AssignmentStatement start="1" startLine="3">
+                                    <Set start="1" startLine="3">
+                                       <Accessor start="5" startLine="3">
+                                          <AccessorPart start="5" startLine="3">
+                                             <EALName start="5" startLine="3" value="empWorkArea"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="17" startLine="3">
+                                       <Select firstOnly="true" id="f_2086274486h-1327786813.2_1" start="19" startLine="3">
+                                          <Accessor start="37" startLine="3">
+                                             <AccessorPart start="37" startLine="3">
+                                                <EALName start="37" startLine="3" value="empArray"/>
+                                             </AccessorPart>
+                                          </Accessor>
+                                          <RelationalExpression id="f_2086274486h-1327786813.3_2" start="52" startLine="3">
+                                             <Accessor start="52" startLine="3">
+                                                <AccessorPart start="52" startLine="3">
+                                                   <EALName start="52" startLine="3" value="element"/>
+                                                </AccessorPart>
+                                                <AccessorPart start="60" startLine="3">
+                                                   <EALName start="60" startLine="3" value="fld_name"/>
+                                                </AccessorPart>
+                                             </Accessor>
+                                             <Eq start="69" startLine="3"/>
+                                             <Accessor start="71" startLine="3">
+                                                <AccessorPart start="71" startLine="3">
+                                                   <EALName start="71" startLine="3" value="empClass"/>
+                                                </AccessorPart>
+                                                <AccessorPart start="80" startLine="3">
+                                                   <EALName start="80" startLine="3" value="fld_name"/>
+                                                </AccessorPart>
+                                             </Accessor>
+                                          </RelationalExpression>
+                                       </Select>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="4" start="1" startLine="4">
+                                 <AssignmentStatement start="1" startLine="4">
+                                    <Set start="1" startLine="4">
+                                       <Accessor start="5" startLine="4">
+                                          <AccessorPart start="5" startLine="4">
+                                             <EALName start="5" startLine="4" value="empAge"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="12" startLine="4">
+                                       <Accessor start="14" startLine="4">
+                                          <AccessorPart start="14" startLine="4">
+                                             <EALName start="14" startLine="4" value="empWorkArea"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="26" startLine="4">
+                                             <EALName start="26" startLine="4" value="fld_age"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                           </EALScript>
+                        </ebp:ActionScript>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_725761_14342"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_463429_14346"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_689619_14347"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_644682_14343"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_800340_14348"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_84295_14349"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_998252_14350"/>
+                     </node>
+                     <node name="Select Employee ID" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_83565_14334"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:ActionScript base_Action="_2086274486|_18_0_7_57601ee_1695422810264_83565_14334">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <CreateStatement id="f_2086274486h-307521328.0_1" isLocal="true" start="1" startLine="1">
+                                    <EALName local="inputId" value="inputId...665362089"/>
+                                    <Dependency start="28" startLine="1">
+                                       <EALName start="28" startLine="1" value="employeeReference"/>
+                                    </Dependency>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="2" start="1" startLine="2">
+                                 <AssignmentStatement start="1" startLine="2">
+                                    <Set start="1" startLine="2">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="inputId" value="inputId...665362089"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="13" startLine="2">
+                                             <EALName start="13" startLine="2" value="fld_employeeid"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="28" startLine="2">
+                                       <EALInteger id="f_2086274486h-307521328.1_1" start="30" startLine="2" value="1"/>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="3" start="1" startLine="3">
+                                 <AssignmentStatement start="1" startLine="3">
+                                    <Set start="1" startLine="3">
+                                       <Accessor start="5" startLine="3">
+                                          <AccessorPart start="5" startLine="3">
+                                             <EALName start="5" startLine="3" value="empClass"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="14" startLine="3">
+                                             <EALName start="14" startLine="3" value="fld_employeeid"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="29" startLine="3">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="inputId" value="inputId...665362089"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="39" startLine="3">
+                                             <EALName start="39" startLine="3" value="fld_employeeid"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="4" start="1" startLine="7">
+                                 <AssignmentStatement start="1" startLine="7">
+                                    <Set start="1" startLine="7">
+                                       <Accessor start="5" startLine="7">
+                                          <AccessorPart start="5" startLine="7">
+                                             <EALName start="5" startLine="7" value="sql"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="9" startLine="7">
+                                       <Call id="f_2086274486h-307521328.2_1" start="11" startLine="7">
+                                          <EALName start="11" startLine="7" value="concat"/>
+                                          <ParameterList start="18" startLine="7">
+                                             <Parameter start="18" startLine="7">
+                                                <EALString id="f_2086274486h-307521328.3_1" start="18" startLine="7"
+                                                           value="&#34;SELECT * FROM CCASIN_TEST WHERE fld_employeeid =&#34;"/>
+                                             </Parameter>
+                                             <Parameter start="69" startLine="7">
+                                                <Call hasTarget="true" id="f_2086274486h-307521328.4_1">
+                                                   <EALName value="convertToString"/>
+                                                   <ParameterList>
+                                                      <Parameter>
+                                                         <Accessor>
+                                                            <AccessorPart start="69" startLine="7">
+                                                               <EALName start="69" startLine="7" value="empClass"/>
+                                                            </AccessorPart>
+                                                            <AccessorPart start="78" startLine="7">
+                                                               <EALName start="78" startLine="7" value="fld_employeeid"/>
+                                                            </AccessorPart>
+                                                         </Accessor>
+                                                      </Parameter>
+                                                   </ParameterList>
+                                                </Call>
+                                             </Parameter>
+                                          </ParameterList>
+                                       </Call>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                           </EALScript>
+                        </ebp:ActionScript>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_644682_14343"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_882482_14353"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_195071_14344"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_585280_14352"/>
+                     </node>
+                     <node name="Execute SQL" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:SQLAdapter action="execute" alias="_2086274486|_18_0_7_57601ee_1695420590493_265938_13936"
+                                        base_Action="_2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+                                        dbType="SQLServer"
+                                        prefetchedRecords="10"
+                                        xmi:id="_2086274486|_18_0_7_57601ee_1695422810267_373061_14368"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_195071_14344"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_376588_14345"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_326624_14351"/>
+                        <argument name="sql"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1695422810267_658987_14367"
+                                  xmi:type="uml:InputPin">
+                           <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_585280_14352"/>
+                        </argument>
+                     </node>
+                     <node name="empArray2"
+                           type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_64245_14336"
+                           xmi:type="uml:CentralBufferNode">
+                        <ebp:E2EArray arrayElement="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                                      base_ObjectNode="_2086274486|_18_0_7_57601ee_1695422810264_64245_14336"
+                                      xmi:id="_2086274486|_18_0_7_57601ee_1695422810267_683034_14369"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_326624_14351"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_776652_14357"/>
+                     </node>
+                     <node name="Get Address from Employee" visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337"
+                           xmi:type="uml:CallBehaviorAction">
+                        <ebp:ActionScript base_Action="_2086274486|_18_0_7_57601ee_1695422810264_162580_14337">
+                           <EALScript>
+                              <EALStatement at="1" start="1" startLine="1">
+                                 <CreateStatement id="f_2086274486h565686020.0_1" start="1" startLine="1">
+                                    <EALName value="settingObj"/>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="2" start="1" startLine="2">
+                                 <CreateStatement id="f_2086274486h565686020.1_1" isLocal="true" start="1" startLine="2">
+                                    <EALName local="lWorkArea" value="lWorkArea...-1360677426"/>
+                                    <Dependency start="30" startLine="2">
+                                       <EALName start="30" startLine="2" value="employeeReference"/>
+                                    </Dependency>
+                                 </CreateStatement>
+                              </EALStatement>
+                              <EALStatement at="3" start="1" startLine="3">
+                                 <AssignmentStatement start="1" startLine="3">
+                                    <Set start="1" startLine="3">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lWorkArea" value="lWorkArea...-1360677426"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="15" startLine="3">
+                                       <Select firstOnly="true" id="f_2086274486h565686020.2_1" start="17" startLine="3">
+                                          <Accessor start="35" startLine="3">
+                                             <AccessorPart start="35" startLine="3">
+                                                <EALName start="35" startLine="3" value="empArray2"/>
+                                             </AccessorPart>
+                                          </Accessor>
+                                          <RelationalExpression id="f_2086274486h565686020.3_2" start="51" startLine="3">
+                                             <Accessor start="51" startLine="3">
+                                                <AccessorPart start="51" startLine="3">
+                                                   <EALName start="51" startLine="3" value="element"/>
+                                                </AccessorPart>
+                                                <AccessorPart start="59" startLine="3">
+                                                   <EALName start="59" startLine="3" value="fld_employeeid"/>
+                                                </AccessorPart>
+                                             </Accessor>
+                                             <Eq start="74" startLine="3"/>
+                                             <Accessor start="76" startLine="3">
+                                                <AccessorPart start="76" startLine="3">
+                                                   <EALName start="76" startLine="3" value="empClass"/>
+                                                </AccessorPart>
+                                                <AccessorPart start="85" startLine="3">
+                                                   <EALName start="85" startLine="3" value="fld_employeeid"/>
+                                                </AccessorPart>
+                                             </Accessor>
+                                          </RelationalExpression>
+                                       </Select>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="4" start="1" startLine="4">
+                                 <AssignmentStatement start="1" startLine="4">
+                                    <Set start="1" startLine="4">
+                                       <Accessor start="5" startLine="4">
+                                          <AccessorPart start="5" startLine="4">
+                                             <EALName start="5" startLine="4" value="empAddress"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </Set>
+                                    <To start="16" startLine="4">
+                                       <Accessor>
+                                          <AccessorPart>
+                                             <EALName local="lWorkArea" value="lWorkArea...-1360677426"/>
+                                          </AccessorPart>
+                                          <AccessorPart start="28" startLine="4">
+                                             <EALName start="28" startLine="4" value="fld_address"/>
+                                          </AccessorPart>
+                                       </Accessor>
+                                    </To>
+                                 </AssignmentStatement>
+                              </EALStatement>
+                              <EALStatement at="5" start="1" startLine="6">
+                                 <Call id="f_2086274486h565686020.4_1" start="1" startLine="6">
+                                    <EALName start="1" startLine="6" value="log"/>
+                                    <ParameterList start="5" startLine="6">
+                                       <Parameter start="5" startLine="6">
+                                          <EALString id="f_2086274486h565686020.5_1" start="5" startLine="6" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="8" startLine="6">
+                                          <EALString id="f_2086274486h565686020.6_1" start="8" startLine="6" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="11" startLine="6">
+                                          <EALString id="f_2086274486h565686020.7_1" start="11" startLine="6" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="15" startLine="6">
+                                          <Accessor start="15" startLine="6">
+                                             <AccessorPart start="15" startLine="6">
+                                                <EALName start="15" startLine="6" value="empAddress"/>
+                                             </AccessorPart>
+                                          </Accessor>
+                                       </Parameter>
+                                    </ParameterList>
+                                 </Call>
+                              </EALStatement>
+                              <EALStatement at="6" start="1" startLine="7">
+                                 <Call id="f_2086274486h565686020.8_1" start="1" startLine="7">
+                                    <EALName start="1" startLine="7" value="log"/>
+                                    <ParameterList start="5" startLine="7">
+                                       <Parameter start="5" startLine="7">
+                                          <EALString id="f_2086274486h565686020.9_1" start="5" startLine="7" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="9" startLine="7">
+                                          <EALString id="f_2086274486h565686020.10_1" start="9" startLine="7" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="13" startLine="7">
+                                          <EALString id="f_2086274486h565686020.11_1" start="13" startLine="7" value="&#34;&#34;"/>
+                                       </Parameter>
+                                       <Parameter start="17" startLine="7">
+                                          <EALString id="f_2086274486h565686020.12_1" start="17" startLine="7" value="&#34;TEST&#34;"/>
+                                       </Parameter>
+                                    </ParameterList>
+                                 </Call>
+                              </EALStatement>
+                           </EALScript>
+                        </ebp:ActionScript>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_376588_14345"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_998241_14355"/>
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_776652_14357"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_573798_14354"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_782718_14356"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1737686369433_359491_14035"/>
+                     </node>
+                     <node name="settingObj" type="_2086274486|_18_0_7_57601ee_1737686386645_59894_14037"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1737686369425_335548_14032"
+                           xmi:type="uml:CentralBufferNode">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1737686369433_359491_14035"/>
+                     </node>
+                     <node name="ppppppppppppp" operation="_1636720094|BuilderUML_Operation_1406090782"
+                           visibility="public"
+                           xmi:id="_2086274486|_18_0_7_57601ee_1754026824489_411969_14164"
+                           xmi:type="uml:CallOperationAction">
+                        <incoming xmi:idref="_2086274486|_18_0_7_57601ee_1695422810265_573798_14354"/>
+                        <outgoing xmi:idref="_2086274486|_18_0_7_57601ee_1754026830064_83096_14213"/>
+                        <argument name="inParam"
+                                  type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                  visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1754026824537_182396_14188"
+                                  xmi:type="uml:InputPin"/>
+                        <result name="outParam"
+                                type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                visibility="public"
+                                xmi:id="_2086274486|_18_0_7_57601ee_1754026824538_220071_14189"
+                                xmi:type="uml:OutputPin"/>
+                        <target name="target" visibility="public"
+                                xmi:id="_2086274486|_18_0_7_57601ee_1754026824490_294687_14165"
+                                xmi:type="uml:InputPin"/>
+                     </node>
+                  </ownedBehavior>
+                  <ownedOperation isStatic="true" name="operation1" visibility="public"
+                                  xmi:id="_2086274486|_18_0_7_57601ee_1695422810233_625362_14293"
+                                  xmi:type="uml:Operation">
+                     <method xmi:idref="_2086274486|_18_0_7_57601ee_1695422810235_474007_14294"/>
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedParameter name="empClass" type="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"
+                                     visibility="public"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422810239_635410_14295"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="out" name="empAge"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Integer"
+                                     visibility="public"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422810239_903784_14296"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="out" name="empAddress"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422810239_963103_14297"
+                                     xmi:type="uml:Parameter"/>
+                  </ownedOperation>
+               </ownedMember>
+               <ownedMember name="employeeReference"
+                            xmi:id="_2086274486|_18_0_7_57601ee_1695424159815_306159_15017"
+                            xmi:type="uml:Usage">
+                  <client xmi:idref="_2086274486|_18_0_7_57601ee_1695422788616_646092_14277"/>
+                  <supplier xmi:idref="_2086274486|_18_0_7_57601ee_1695420183397_284212_13871"/>
+               </ownedMember>
+               <ownedMember name="Settings" xmi:id="_2086274486|_18_0_7_57601ee_1737686386645_59894_14037"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.SQLAdapter"/>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Aliases" xmi:id="_2086274486|_18_0_7_57601ee_1695420130459_670664_13845"
+                   xmi:type="uml:Package">
+         <ownedMember name="SQLAlias" xmi:id="_2086274486|_18_0_7_57601ee_1695420590493_265938_13936"
+                      xmi:type="uml:Artifact">
+            <ebp:SQLAlias base_Artifact="_2086274486|_18_0_7_57601ee_1695420590493_265938_13936"
+                          charset="utf-8"
+                          connectionPooling="true"
+                          dbConnectionString="ec2-52-74-183-0.ap-southeast-1.compute.amazonaws.com@TestDB"
+                          dbType="SQLServer"
+                          unicodeMode="Platform default"
+                          user="sa/Asdf!234"
+                          xmi:id="_2086274486|_18_0_7_57601ee_1695420590494_958005_13937"/>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Component View"
+                   xmi:id="_2086274486|_18_0_7_57601ee_1695422856202_919281_14710"
+                   xmi:type="uml:Package">
+         <ownedMember name="Composites"
+                      xmi:id="_2086274486|_18_0_7_57601ee_1695422856208_340289_14744"
+                      xmi:type="uml:Package">
+            <ownedMember name="sqlAdapter"
+                         xmi:id="_2086274486|_18_0_7_57601ee_1695422856208_578342_14743"
+                         xmi:type="uml:Component">
+               <ebp:E2EConfiguration base_Component="_2086274486|_18_0_7_57601ee_1695422856208_578342_14743"
+                                     category="Training"
+                                     classToXMLDefaultRootName="Default"
+                                     controlPort="21900"
+                                     killJVMThreadsOnShutdown="true"
+                                     version="0.0.1"
+                                     wsdlPerService="true"
+                                     xmi:id="_2086274486|_18_0_7_57601ee_1695422856208_13172_14746"/>
+               <ownedMember name="SchedulerService"
+                            xmi:id="_2086274486|_18_0_7_57601ee_1695422856209_26464_14759"
+                            xmi:type="uml:Component">
+                  <ebp:E2ESchedulerService base_Component="_2086274486|_18_0_7_57601ee_1695422856209_26464_14759"
+                                           xmi:id="_2086274486|_18_0_7_57601ee_1695422856209_741801_14760"/>
+                  <realization realizingClassifier="_2086274486|_18_0_7_57601ee_1695422788616_646092_14277"
+                               xmi:id="_2086274486|_18_0_7_57601ee_1695422856210_268017_14761"
+                               xmi:type="uml:ComponentRealization">
+                     <client xmi:idref="_2086274486|_18_0_7_57601ee_1695422788616_646092_14277"/>
+                     <supplier xmi:idref="_2086274486|_18_0_7_57601ee_1695422856209_26464_14759"/>
+                     <realizingClassifier xmi:idref="_2086274486|_18_0_7_57601ee_1695422788616_646092_14277"/>
+                  </realization>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember xmi:id="_2086274486|_18_0_7_57601ee_1695423237481_619658_14854"
+                      xmi:type="uml:Dependency">
+            <client xmi:idref="_2086274486|_18_0_7_57601ee_1695422856208_578342_14743"/>
+            <supplier xmi:idref="_2086274486|_18_0_7_57601ee_1695420590493_265938_13936"/>
+         </ownedMember>
+      </ownedMember>
+   </uml:Model>
+</xmi:XMI>

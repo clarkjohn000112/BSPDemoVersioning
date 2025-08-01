@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request name="operation1" namespace="urn:Services.SMTPService.SMTPService.SMTPExercise"
+         prefix="ns0">
+   <Parameter>
+      <inputData namespace="urn:Services.SMTPService.Classes" prefix="ns1" type="email">
+         <f_name type="Base Types.String">Clark</f_name>
+         <l_name type="Base Types.String">Casin</l_name>
+         <email type="Base Types.String">ccasin@onetool.ph</email>
+         <content type="Base Types.String">Sample Content</content>
+      </inputData>
+   </Parameter>
+</Request>

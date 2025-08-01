@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="634416258" name="sql insert"
+             original="sql_insert...737156613|_18_0_7_57601ee_1695921772814_19580_15316"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="SQLAdapter"/>
+   <UniqueId id="706978677" name="parse file"
+             original="parse_file...737156613|_18_0_7_57601ee_1695848477951_20769_14922"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="FlatFileAdapter"/>
+   <UniqueId id="353075267" name="operation1"
+             original="operation1...737156613|_18_0_7_57601ee_1695919652242_638730_14892"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="SOAPAdapter"/>
+   <UniqueId id="2037470733" name="output SQL"
+             original="output_SQL...737156613|_18_0_7_57601ee_1695922268212_503572_15409"
+             package="Services.FinalExercise.FinalExerciseService.FinalService"
+             type="SQLAdapter"/>
+</UniqueIds>

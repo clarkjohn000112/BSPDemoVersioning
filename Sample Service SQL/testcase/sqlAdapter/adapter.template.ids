@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniqueIds>
+   <UniqueId id="_661772948" name="Select All"
+             original="Select_All..._2086274486|_18_0_7_57601ee_1695422810264_997891_14329"
+             package="Services.NameOfService1.SQLAdapter.SQLScheduler"
+             type="SQLAdapter"/>
+   <UniqueId id="_560734859" name="Insert Record"
+             original="Insert_Record..._2086274486|_18_0_7_57601ee_1695422810264_512277_14328"
+             package="Services.NameOfService1.SQLAdapter.SQLScheduler"
+             type="SQLAdapter"/>
+   <UniqueId id="_488225824" name="Execute SQL"
+             original="Execute_SQL..._2086274486|_18_0_7_57601ee_1695422810264_611361_14335"
+             package="Services.NameOfService1.SQLAdapter.SQLScheduler"
+             type="SQLAdapter"/>
+</UniqueIds>

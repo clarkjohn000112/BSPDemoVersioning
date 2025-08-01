@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testcase operation="iteration" porttype="FinalService"
+          service="Casin_Final_ServiceService">
+   <System>
+      <location>http://localhost:11920/Casin_Final_ServiceService/FinalService</location>
+      <documentStyle>rpc</documentStyle>
+      <soapAction/>
+      <namespaces>
+         <SOAPNamespace>http://schemas.xmlsoap.org/wsdl/soap/</SOAPNamespace>
+         <SOAPNamespacePrefix>soap</SOAPNamespacePrefix>
+         <EnvelopeNamespace>http://schemas.xmlsoap.org/soap/envelope/</EnvelopeNamespace>
+         <EnvelopeNamespacePrefix>env</EnvelopeNamespacePrefix>
+         <EncodingNamespace>http://schemas.xmlsoap.org/soap/encoding/</EncodingNamespace>
+         <EncodingNamespacePrefix>soapenc</EncodingNamespacePrefix>
+      </namespaces>
+      <control>http://localhost:21920</control>
+   </System>
+   <Request name="iteration"
+            namespace="urn:Services.FinalExercise.FinalExerciseService.FinalService"
+            prefix="ns5">
+      <Parameter>
+         <inputParam arrayType="inputClass" namespace="urn:Services.NumberTranslator.Classes"
+                     nil="true"
+                     prefix="ns3"
+                     type="Base Types.Array">
+            <item namespace="urn:Services.NumberTranslator.Classes" nil="true" prefix="ns3"
+                  type="inputClass">
+               <age nil="true" type="Base Types.String"/>
+               <name nil="true" type="Base Types.String"/>
+               <id nil="true" type="Base Types.Integer"/>
+               <address nil="true" type="Base Types.String"/>
+               <birthdate nil="true" type="Base Types.String"/>
+               <company nil="true" type="Base Types.String"/>
+               <salary nil="true" type="Base Types.Float"/>
+               <years_hired nil="true" type="Base Types.Integer"/>
+               <language nil="true" type="Base Types.String"/>
+            </item>
+         </inputParam>
+      </Parameter>
+   </Request>
+</Testcase>
