@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="_676160643"
+         libraryImport="yes"
+         xmi:version="2.5"
+         xmifile.id="_676160643">
+   <xmi:Documentation exporter="MagicDraw UML" exporterVersion="18.0"/>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              type="_676160643|uml:Model"
+              xmi:id="_676160643|LIBRARY_IMPORT_libExcelGenerator_-266033215">
+      <ownedMember name="libExcelGenerator" visibility="public"
+                   xmi:id="_676160643|libExcelGenerator_Package_-398343910"
+                   xmi:type="uml:Package">
+         <ownedMember name="libExcelGenerator" visibility="public"
+                      xmi:id="_676160643|libExcelGenerator_Package_963535784"
+                      xmi:type="uml:Package">
+            <ownedMember name="Classes" visibility="public"
+                         xmi:id="_676160643|libExcelGenerator_Package_645604667"
+                         xmi:type="uml:Package">
+               <ownedMember isAbstract="false" name="ExcelGenerator" visibility="public"
+                            xmi:id="_676160643|libExcelGenerator_Class_728030430"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:libExcelGenerator.Classes"/>
+                  <ebp:E2EClassProxy base_Class="_676160643|libExcelGenerator_Class_728030430"
+                                     namespace="urn:libExcelGenerator.Classes"
+                                     xmi:id="_676160643|571491687_typelink"/>
+                  <ownedComment body="[Add documentation here]"/>
+                  <ownedOperation isStatic="true" name="generateExcel" visibility="public"
+                                  xmi:id="_676160643|libExcelGenerator_Operation_1523081987"
+                                  xmi:type="uml:Operation">
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedParameter direction="in" name="filename"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="_676160643|libExcelGenerator_Parameter_-734768633"
+                                     xmi:type="uml:Parameter"/>
+                     <ownedParameter direction="in" name="data"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/Array"
+                                     visibility="public"
+                                     xmi:id="_676160643|libExcelGenerator_Parameter_3076010"
+                                     xmi:type="uml:Parameter">
+                        <ebp:E2EArray arrayElement="_676160643|libExcelGenerator_Class_-392978201"
+                                      base_Parameter="_676160643|libExcelGenerator_Parameter_3076010"
+                                      xmi:id="_676160643|1173215035_typelink"/>
+                     </ownedParameter>
+                     <ownedParameter direction="in" name="templateFilename"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="_676160643|libExcelGenerator_Parameter_-530945887"
+                                     xmi:type="uml:Parameter"/>
+                  </ownedOperation>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember name="ch" visibility="public"
+                      xmi:id="_676160643|libExcelGenerator_Package_1117314910"
+                      xmi:type="uml:Package">
+            <ownedMember name="e2e" visibility="public"
+                         xmi:id="_676160643|libExcelGenerator_Package_694964925"
+                         xmi:type="uml:Package">
+               <ownedMember name="excelgenerator" visibility="public"
+                            xmi:id="_676160643|libExcelGenerator_Package_1935204736"
+                            xmi:type="uml:Package">
+                  <ownedMember name="ExcelGenerator" visibility="public"
+                               xmi:id="_676160643|libExcelGenerator_Package_1613893283"
+                               xmi:type="uml:Package">
+                     <ownedMember name="ch" visibility="public"
+                                  xmi:id="_676160643|libExcelGenerator_Package_-22790263"
+                                  xmi:type="uml:Package">
+                        <ownedMember name="e2e" visibility="public"
+                                     xmi:id="_676160643|libExcelGenerator_Package_858105192"
+                                     xmi:type="uml:Package">
+                           <ownedMember name="excelgenerator" visibility="public"
+                                        xmi:id="_676160643|libExcelGenerator_Package_100696949"
+                                        xmi:type="uml:Package">
+                              <ownedMember isAbstract="false" name="Row" visibility="public"
+                                           xmi:id="_676160643|libExcelGenerator_Class_-71661848"
+                                           xmi:type="uml:Class">
+                                 <ebp:umlNamespace value="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.excelgenerator"/>
+                                 <ebp:E2EClassProxy base_Class="_676160643|libExcelGenerator_Class_-71661848"
+                                                    namespace="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.excelgenerator"
+                                                    xmi:id="_676160643|-152695112_typelink"/>
+                                 <ownedAttribute name="cells" type="_676160643|libExcelGenerator_Class_2072993300"
+                                                 visibility="public"
+                                                 xmi:id="_676160643|libExcelGenerator_Property_-2089800343"
+                                                 xmi:type="uml:Property">
+                                    <ebp:E2EAttribute base_Property="_676160643|libExcelGenerator_Property_-2089800343" order="1.0"
+                                                      xmi:id="_676160643|987701786_typelink"/>
+                                    <upperValue value="-1" visibility="public"
+                                                xmi:id="_676160643|libExcelGenerator_Value_libExcelGenerator_Property_-2089800343_-1672716817"
+                                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                                    <lowerValue visibility="public"
+                                                xmi:id="_676160643|libExcelGenerator_Value_libExcelGenerator_Property_-2089800343_1218129648"
+                                                xmi:type="uml:LiteralInteger"/>
+                                 </ownedAttribute>
+                              </ownedMember>
+                              <ownedMember isAbstract="false" name="Cell" visibility="public"
+                                           xmi:id="_676160643|libExcelGenerator_Class_2072993300"
+                                           xmi:type="uml:Class">
+                                 <ebp:umlNamespace value="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.excelgenerator"/>
+                                 <ebp:E2EClassProxy base_Class="_676160643|libExcelGenerator_Class_2072993300"
+                                                    namespace="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.excelgenerator"
+                                                    xmi:id="_676160643|-2083062391_typelink"/>
+                                 <ownedAttribute name="value"
+                                                 type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                                 visibility="public"
+                                                 xmi:id="_676160643|libExcelGenerator_Property_-165093411"
+                                                 xmi:type="uml:Property">
+                                    <ebp:E2EAttribute base_Property="_676160643|libExcelGenerator_Property_-165093411" order="1.0"
+                                                      xmi:id="_676160643|1150401657_typelink"/>
+                                 </ownedAttribute>
+                              </ownedMember>
+                              <ownedMember isAbstract="false" name="Data" visibility="public"
+                                           xmi:id="_676160643|libExcelGenerator_Class_2073019484"
+                                           xmi:type="uml:Class">
+                                 <ebp:umlNamespace value="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.excelgenerator"/>
+                                 <ebp:E2EClassProxy base_Class="_676160643|libExcelGenerator_Class_2073019484"
+                                                    namespace="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.excelgenerator"
+                                                    xmi:id="_676160643|-1460429278_typelink"/>
+                                 <ownedAttribute name="types"
+                                                 type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                                 visibility="public"
+                                                 xmi:id="_676160643|libExcelGenerator_Property_2135158173"
+                                                 xmi:type="uml:Property">
+                                    <ebp:E2EAttribute base_Property="_676160643|libExcelGenerator_Property_2135158173" order="1.0"
+                                                      xmi:id="_676160643|-740548250_typelink"/>
+                                    <upperValue value="-1" visibility="public"
+                                                xmi:id="_676160643|libExcelGenerator_Value_libExcelGenerator_Property_2135158173_-1672716817"
+                                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                                    <lowerValue visibility="public"
+                                                xmi:id="_676160643|libExcelGenerator_Value_libExcelGenerator_Property_2135158173_1218129648"
+                                                xmi:type="uml:LiteralInteger"/>
+                                 </ownedAttribute>
+                                 <ownedAttribute name="rows" type="_676160643|libExcelGenerator_Class_-71661848"
+                                                 visibility="public"
+                                                 xmi:id="_676160643|libExcelGenerator_Property_-346834891"
+                                                 xmi:type="uml:Property">
+                                    <ebp:E2EAttribute base_Property="_676160643|libExcelGenerator_Property_-346834891" order="2.0"
+                                                      xmi:id="_676160643|-544130997_typelink"/>
+                                    <upperValue value="-1" visibility="public"
+                                                xmi:id="_676160643|libExcelGenerator_Value_libExcelGenerator_Property_-346834891_-1672716817"
+                                                xmi:type="uml:LiteralUnlimitedNatural"/>
+                                    <lowerValue visibility="public"
+                                                xmi:id="_676160643|libExcelGenerator_Value_libExcelGenerator_Property_-346834891_1218129648"
+                                                xmi:type="uml:LiteralInteger"/>
+                                 </ownedAttribute>
+                              </ownedMember>
+                           </ownedMember>
+                           <ownedMember name="bridge" visibility="public"
+                                        xmi:id="_676160643|libExcelGenerator_Package_460409346"
+                                        xmi:type="uml:Package">
+                              <ownedMember name="map" visibility="public"
+                                           xmi:id="_676160643|libExcelGenerator_Package_-913903651"
+                                           xmi:type="uml:Package">
+                                 <ownedMember isAbstract="false" name="StringData" visibility="public"
+                                              xmi:id="_676160643|libExcelGenerator_Class_-392978201"
+                                              xmi:type="uml:Class">
+                                    <ebp:umlNamespace value="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.bridge.map"/>
+                                    <ebp:E2EClassProxy base_Class="_676160643|libExcelGenerator_Class_-392978201"
+                                                       namespace="urn:ch.e2e.excelgenerator.ExcelGenerator.ch.e2e.bridge.map"
+                                                       xmi:id="_676160643|1256030664_typelink"/>
+                                    <ebp:MapEntry base_Class="_676160643|libExcelGenerator_Class_-392978201"
+                                                  package="ch.e2e.bridge.map"
+                                                  xmi:id="_676160643|-605070570_typelink"/>
+                                    <ownedAttribute name="key"
+                                                    type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                                    visibility="public"
+                                                    xmi:id="_676160643|libExcelGenerator_Property_867368984"
+                                                    xmi:type="uml:Property">
+                                       <ebp:E2EAttribute base_Property="_676160643|libExcelGenerator_Property_867368984" order="1.0"
+                                                         xmi:id="_676160643|-1341825331_typelink"/>
+                                    </ownedAttribute>
+                                    <ownedAttribute name="value" type="_676160643|libExcelGenerator_Class_2073019484"
+                                                    visibility="public"
+                                                    xmi:id="_676160643|libExcelGenerator_Property_327969002"
+                                                    xmi:type="uml:Property">
+                                       <ebp:E2EAttribute base_Property="_676160643|libExcelGenerator_Property_327969002" order="2.0"
+                                                         xmi:id="_676160643|896001442_typelink"/>
+                                    </ownedAttribute>
+                                 </ownedMember>
+                              </ownedMember>
+                           </ownedMember>
+                        </ownedMember>
+                     </ownedMember>
+                  </ownedMember>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+         <ownedMember name="Component View" visibility="public"
+                      xmi:id="_676160643|libExcelGenerator_Package_-1446114911"
+                      xmi:type="uml:Package">
+            <ownedMember name="Libraries" visibility="public"
+                         xmi:id="_676160643|libExcelGenerator_Package_-465192837"
+                         xmi:type="uml:Package">
+               <ownedMember name="libExcelGenerator" visibility="public"
+                            xmi:id="_676160643|libExcelGenerator_Artifact_-1170328743"
+                            xmi:type="uml:Artifact">
+                  <ebp:E2ELibraryProxyDeployment base_Artifact="_676160643|libExcelGenerator_Artifact_-1170328743"
+                                                 buildID="1576581959718"
+                                                 nodeType="E2EBridgeServerInstance"
+                                                 xmi:id="_676160643|560194645_typelink"/>
+                  <ownedComment body="Please insert documentation here."/>
+                  <manifestation utilizedElement="_676160643|libExcelGenerator_Component_-1170328743"
+                                 visibility="public"
+                                 xmi:id="_676160643|manifestation_libExcelGenerator_Artifact_-1170328743"
+                                 xmi:type="uml:Manifestation">
+                     <supplier xmi:idref="_676160643|libExcelGenerator_Component_-1170328743"/>
+                     <client xmi:idref="_676160643|libExcelGenerator_Artifact_-1170328743"/>
+                  </manifestation>
+               </ownedMember>
+               <ownedMember name="libExcelGenerator" visibility="public"
+                            xmi:id="_676160643|libExcelGenerator_Component_-1170328743"
+                            xmi:type="uml:Component">
+                  <ebp:E2ELibraryProxy base_Component="_676160643|libExcelGenerator_Component_-1170328743"
+                                       version="3.0"
+                                       xmi:id="_676160643|-537529220_typelink"/>
+                  <ownedComment body="Please enter documentation here"/>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+   </uml:Model>
+</xmi:XMI>
