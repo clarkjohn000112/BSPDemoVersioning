@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:ebp="http://e2e.ch/bridge/profile"
+         enforcedImport="E2E_BRIDGE_BASE_COMPONENTS|_16_9_1763043c_1334833506675_583751_11200 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1137677887489_628032_1 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119882133263_554201_141 E2E_BRIDGE_BASE_COMPONENTS|_9_0_2_24400562_1119864426430_621818_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1224514979328_116374_4927 E2E_BRIDGE_BASE_COMPONENTS|_9_5_1_be002f9_1135071988137_920600_2 E2E_BRIDGE_BASE_COMPONENTS|_14_0_1_32690623_1227865759515_297406_5256 E2E_BRIDGE_BASE_COMPONENTS|_14_0_b2002db_1195030989033_702066_2836 E2E_BRIDGE_BASE_COMPONENTS|_16_0_1_32690623_1238768448406_311491_4401 E2E_BRIDGE_BASE_COMPONENTS|_12_0_24400562_1172493862659_508204_814 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278243483_527883_14042 E2E_BRIDGE_BASE_COMPONENTS|_16_9_1c8504c0_1448278256610_632842_14047"
+         fileid="_1742750203"
+         xmi:version="2.1"
+         xmifile.id="_1742750203">
+   <xmi:Documentation>
+      <xmi:exporter>MagicDraw UML</xmi:exporter>
+      <xmi:exporterVersion>18.0</xmi:exporterVersion>
+   </xmi:Documentation>
+   <uml:Model xmlns:uml="http://schema.omg.org/spec/UML/2.0" name="Data"
+              xmi:id="_1742750203|ROOT_MODEL_XMI.ID"
+              xmi:type="uml:Model">
+      <ownedComment body="&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&lt;h2&gt;Change Log&lt;/h2&gt;&#xA;&lt;table class=&#34;table&#34;&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;th&gt;Date&lt;/th&gt;&#xA;        &lt;th&gt;Author&lt;/th&gt;&#xA;        &lt;th&gt;Version&lt;/th&gt;&#xA;        &lt;th&gt;Implementation&lt;/th&gt;&#xA;        &lt;th&gt;Note&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;        &lt;td&gt;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;&lt;/table&gt;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;"/>
+      <ownedMember name="Services" xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_707832_13852"
+                   xmi:type="uml:Package">
+         <ownedMember name="NameOfService1"
+                      xmi:id="_1742750203|_18_0_7_57601ee_1695851876072_938016_13833"
+                      xmi:type="uml:Package">
+            <ownedMember name="Classes" xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_941962_13859"
+                         xmi:type="uml:Package"/>
+            <ownedMember name="NameOfPortType1"
+                         xmi:id="_1742750203|_18_0_7_57601ee_1695851876067_625736_13818"
+                         xmi:type="uml:Package">
+               <ownedMember name="NameOfPortType1"
+                            xmi:id="_1742750203|_18_0_7_57601ee_1695851876072_872164_13828"
+                            xmi:type="uml:Class">
+                  <ebp:umlNamespace value="urn:Services.NameOfService1.NameOfPortType1"/>
+                  <ebp:E2ESOAPPortType base_Class="_1742750203|_18_0_7_57601ee_1695851876072_872164_13828"
+                                       xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_244375_13845"/>
+                  <ownedComment body="[Add documentation here]"/>
+                  <ownedBehavior isReentrant="false" name="Implementation of Operation 1"
+                                 specification="_1742750203|_18_0_7_57601ee_1695851876072_531020_13834"
+                                 xmi:id="_1742750203|_18_0_7_57601ee_1695851876067_353126_13817"
+                                 xmi:type="uml:Activity">
+                     <edge source="_1742750203|_18_0_7_57601ee_1695851876075_564307_13848"
+                           target="_1742750203|_18_0_7_57601ee_1695851876075_160337_13856"
+                           visibility="public"
+                           xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_231746_13857"
+                           xmi:type="uml:ControlFlow"/>
+                     <node name="Start" visibility="public"
+                           xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_564307_13848"
+                           xmi:type="uml:InitialNode">
+                        <outgoing xmi:idref="_1742750203|_18_0_7_57601ee_1695851876075_231746_13857"/>
+                     </node>
+                     <node name="End" visibility="public"
+                           xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_160337_13856"
+                           xmi:type="uml:ActivityFinalNode">
+                        <incoming xmi:idref="_1742750203|_18_0_7_57601ee_1695851876075_231746_13857"/>
+                     </node>
+                  </ownedBehavior>
+                  <ownedOperation isStatic="true" name="operation1" visibility="public"
+                                  xmi:id="_1742750203|_18_0_7_57601ee_1695851876072_531020_13834"
+                                  xmi:type="uml:Operation">
+                     <ebp:SOAPDocumentOperation base_Operation="_1742750203|_18_0_7_57601ee_1695851876072_531020_13834"
+                                                xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_609821_13847"/>
+                     <method xmi:idref="_1742750203|_18_0_7_57601ee_1695851876067_353126_13817"/>
+                     <ownedComment body="[Add documentation here]"/>
+                     <ownedParameter name="parameter1"
+                                     type="E2E_BRIDGE_BASE_COMPONENTS|http://www.e2e.ch/bridge/types/String"
+                                     visibility="public"
+                                     xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_97015_13853"
+                                     xmi:type="uml:Parameter"/>
+                  </ownedOperation>
+               </ownedMember>
+            </ownedMember>
+         </ownedMember>
+      </ownedMember>
+      <ownedMember name="Aliases" xmi:id="_1742750203|_18_0_7_57601ee_1695851876075_93011_13849"
+                   xmi:type="uml:Package"/>
+   </uml:Model>
+</xmi:XMI>
